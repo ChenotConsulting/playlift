@@ -1,0 +1,16 @@
+﻿@model List<DomainModel.Entities.Album>
+
+<ul id="artistAlbums_@ViewBag.ArtistId" class="artistAlbums">
+    @{foreach (var album in (List<DomainModel.Entities.Album>)Model)
+      {
+        <li>
+            <img class="albumThumbnail" src="@TRMAudiostem.AudiostemBase.StreamingUrl@album.AlbumCover" alt="album cover image" onclick="toggleContainer('albumSongs_@album.AlbumId', 'expandsongs_@album.AlbumId')" />
+            <span onclick="toggleContainer('albumSongs_@album.AlbumId', 'expandsongs_@album.AlbumId')">@album.AlbumTitle</span>
+            <img id="expandsongs_@album.AlbumId" src="~/Content/themes/cloudplayer/images/expand.png" title="Click to view songs" alt="View songs" class="expand" onclick="toggleContainer('albumSongs_@album.AlbumId', 'expandsongs_@album.AlbumId')" />
+            <br />
+            @Html.Action("_AlbumSongs", new { album = album, artistName = ViewBag.ArtistName })
+        </li>
+      }
+    }
+</ul>
+

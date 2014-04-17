@@ -1,0 +1,74 @@
+﻿@model TRMAudiostem.Models.ArtistAlbumModel
+
+@using (Html.BeginForm("EditAlbum", "Account", FormMethod.Post, new { enctype = "multipart/form-data", onload = "hideNewAlbum()" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    var TRMWCFWebServiceJson = new TRMWebService.TRMWCFWebServiceJson();
+    var genreList = TRMWCFWebServiceJson.GetAllGenres();
+    var albumCoverPath = string.Empty;
+    if (Model != null)
+    {
+        albumCoverPath = "https://s3-eu-west-1.amazonaws.com/trmmaster/" + Model.AlbumCoverPath;
+        
+        @Html.ActionLink("<-- Go back to albums page", "ArtistAlbums")
+        <input type="hidden" name="AlbumId" value="@Model.AlbumId" />   
+    }
+    
+<fieldset class="registrationForm">
+        <legend>Edit Albums</legend>
+            <ol>
+                <li>
+                    @Html.LabelFor(m => m.AlbumCoverPath)
+
+                    @{
+                        if (Model != null)
+                        {
+                            <img src="@albumCoverPath" alt="@Model.AlbumTitle  album cover" width="100" /> 
+                            <input type="hidden" name="AlbumCoverPath" value="@Model.AlbumCoverPath" />   
+                        }
+                    }
+                    <br />
+                    <input type="file" name="AlbumCover" />
+                </li>
+                <li>
+                    @Html.LabelFor(m => m.AlbumTitle)
+                    @Html.TextBoxFor(m => m.AlbumTitle)
+                </li>
+                <li>
+                    @Html.LabelFor(m => m.AlbumReleaseDate)
+                    @Html.TextBoxFor(m => m.AlbumReleaseDate)
+                </li>
+                <li>
+                    @Html.LabelFor(m => m.AlbumProducer)
+                    @Html.TextBoxFor(m => m.AlbumProducer)
+                </li>
+                <li>
+                    @Html.LabelFor(m => m.AlbumLabel)
+                    @Html.TextBoxFor(m => m.AlbumLabel)
+                </li>
+                <li>
+                    @{
+                        if (Model != null)
+                        {
+                            foreach (var albumGenre in Model.GenreCollection)
+                            {
+                                foreach (var genre in genreList)
+                                {
+                                    if (genre.GenreId == albumGenre.GenreId)
+                                    {
+                                        genre.Selected = true;
+                                    }
+                                }
+                            }
+                        }
+
+                        Html.RenderPartial("GenreList", genreList);
+                    }
+                </li>
+            </ol>
+            <input type="submit" value="Save Album Details" />
+    </fieldset>
+}
+

@@ -1,0 +1,19 @@
+﻿@model List<DomainModel.Entities.Album>
+
+<ol id="AlbumList">
+    @{
+        foreach(var album in Model)
+        {
+            <li>   
+                @album.AlbumTitle 
+                &nbsp;|&nbsp;
+                @Html.ActionLink("View Details", "ViewAlbum", "Account", album, new { target= "_blank" })          
+                @*&nbsp;|&nbsp;
+                @Html.ActionLink("Edit album", "EditAlbum", new { albumId = album.AlbumId })*@
+                &nbsp;|&nbsp;
+                @Html.ActionLink("Delete album", "DeleteAlbum", new { albumId = album.AlbumId }, new { onclick = "if(!confirm('Are you sure that you want to delete this album?')) return false;" })
+            </li>   
+        }
+    }
+</ol>
+

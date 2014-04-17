@@ -1,0 +1,15 @@
+﻿@model List<DomainModel.Entities.Album>
+
+<ol id="AlbumList">
+    @{
+        foreach(var album in Model)
+        {
+            <li>   
+                @album.AlbumTitle 
+                &nbsp;|&nbsp;
+                @Html.ActionLink("View Details", "ViewAlbum", "Admin", album, new { target= "_blank" })          
+            </li>   
+        }
+    }
+</ol>
+

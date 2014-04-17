@@ -1,0 +1,78 @@
+header {
+background-color: #222;
+background-image: url(images/rapture.jpg);
+background-size: cover;
+min-height: 500px;
+}
+/* user login / register */
+.user {
+  margin-top: 34px;
+}
+.user a{
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  display: inline-block;
+  color: #fff;
+  margin-right: 10px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+.user a:hover {
+  background: #fff;
+  color: #8bc53f;
+}
+
+.button a{
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 10px 15px;
+  border: 2px solid #7c7c7c;
+  display: inline-block;
+  color: #7c7c7c;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  min-width: 90px;
+}
+
+.button a:hover {
+  background: #fff;
+  color: #8bc53f;
+  border: 2px solid #8bc53f;  
+}
+
+
+/* header-description */
+.header-description {
+  margin: 130px 0 80px;
+  text-align: center;
+}
+.header-description h2 {  
+  font-weight: 100;
+  font-size: 93px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0px 12px rgba(36, 36, 36, 0.55);
+  padding: 0px 0 40px 0;
+}
+
+/* header button - call to action button */
+.header-btn {
+  color: #fff;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 20px 35px;
+  border: 2px solid #fff;
+  /*background: #8bc53f;*/
+  display: inline-block;
+  
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  line-height: 24px;
+}

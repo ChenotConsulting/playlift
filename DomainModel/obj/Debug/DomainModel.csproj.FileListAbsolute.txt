@@ -1,0 +1,9 @@
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Debug\DomainModel.dll.config
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Debug\DomainModel.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Debug\DomainModel.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\obj\Debug\DomainModel.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\obj\Debug\DomainModel.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Debug\EntityFramework.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Debug\EntityFramework.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Debug\Newtonsoft.Json.xml

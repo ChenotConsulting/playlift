@@ -1,0 +1,62 @@
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\TRMDomainModel.dll.config
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\TRMDomainModel.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\TRMDomainModel.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\EntityFramework.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\Newtonsoft.Json.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\EntityFramework.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\Newtonsoft.Json.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\obj\Release\TRMDomainModel.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\obj\Release\TRMDomainModel.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\obj\Release\TRMDomainModel.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\TRMDomainModel.dll.config
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\TRMDomainModel.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\EntityFramework.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\EntityFramework.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Release\Newtonsoft.Json.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\obj\Release\TRMDomainModel.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\obj\Release\TRMDomainModel.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\obj\Release\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\TRMDomainModel.dll.config
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\TRMDomainModel.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\EntityFramework.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\SprightlySoftAWS.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\FFmpegController.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\EntityFramework.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\Newtonsoft.Json.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\obj\Release\TRMDomainModel.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\obj\Release\TRMDomainModel.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\DomainModel\obj\Release\TRMDomainModel.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\TRMDomainModel.dll.config
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\TRMDomainModel.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\TRMDomainModel.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\EntityFramework.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\Newtonsoft.Json.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\TRMInfrastructure.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\SprightlySoftAWS.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\FFmpegController.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\TRMInfrastructure.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\EntityFramework.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\bin\Release\Newtonsoft.Json.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\obj\Release\TRMDomainModel.csprojResolveAssemblyReference.cache
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\obj\Release\TRMDomainModel.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\DomainModel\obj\Release\TRMDomainModel.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\TRMDomainModel.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\TRMDomainModel.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\TRMDomainModel.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\TRMInfrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\SprightlySoftAWS.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\FFmpegController.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\TRMInfrastructure.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\obj\Release\TRMDomainModel.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\obj\Release\TRMDomainModel.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\obj\Release\TRMDomainModel.pdb

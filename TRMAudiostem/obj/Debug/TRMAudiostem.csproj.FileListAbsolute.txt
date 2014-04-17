@@ -1,0 +1,480 @@
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\TRMAudiostem.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\TRMAudiostem.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Antlr3.Runtime.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.Core.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\EntityFramework.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Microsoft.Data.Edm.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Microsoft.Data.OData.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Net.Http.Formatting.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Spatial.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Helpers.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Http.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Http.OData.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Http.WebHost.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Mvc.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Optimization.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Razor.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Razor.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\WebGrease.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\WebMatrix.Data.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\WebMatrix.WebData.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\EntityFramework.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Newtonsoft.Json.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Net.Http.Formatting.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Helpers.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Http.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Http.WebHost.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Mvc.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Razor.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Razor.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\WebMatrix.Data.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\WebMatrix.WebData.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.Core.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Web.Http.OData.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Microsoft.Data.Edm.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\Microsoft.Data.OData.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\System.Spatial.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\de\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\es\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\fr\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\it\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\ja\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\ko\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\ru\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\TRMDomainModel.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\TRMWebService.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\SprightlySoftAWS.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\FFmpegController.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\TRMWebService.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\SprightlySoftAWS.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAudiostem\bin\FFmpegController.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMAudiostem.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMAudiostem.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Antlr3.Runtime.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.Core.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\EntityFramework.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.Edm.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.OData.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Net.Http.Formatting.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Spatial.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Helpers.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.OData.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.WebHost.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Mvc.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Optimization.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Razor.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Razor.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMDomainModel.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebHttpCors.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebService.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebGrease.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.Data.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.WebData.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\SprightlySoftAWS.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\FFmpegController.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebHttpCors.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebService.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\EntityFramework.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Newtonsoft.Json.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Net.Http.Formatting.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Helpers.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.WebHost.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Mvc.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Razor.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Razor.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.Data.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.WebData.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.Core.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.OData.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.Edm.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.OData.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Spatial.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\de\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\es\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\fr\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\it\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ja\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ko\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ru\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMAudiostem.dll.config
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMAudiostem.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMAudiostem.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Antlr3.Runtime.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.Core.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\EntityFramework.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.Edm.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.OData.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Newtonsoft.Json.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Net.Http.Formatting.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Spatial.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Helpers.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.OData.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.WebHost.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Mvc.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Optimization.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Razor.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Razor.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMDomainModel.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMInfrastructure.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebHttpCors.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebService.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebGrease.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.Data.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.WebData.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\SprightlySoftAWS.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\FFmpegController.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMDomainModel.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMInfrastructure.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebHttpCors.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebService.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\EntityFramework.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Newtonsoft.Json.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Net.Http.Formatting.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Helpers.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.WebHost.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Mvc.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Razor.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Razor.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.Data.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.WebData.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.Core.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.OData.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.Edm.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.OData.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Spatial.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\de\System.Spatial.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\es\System.Spatial.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\fr\System.Spatial.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\it\System.Spatial.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ja\System.Spatial.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ko\System.Spatial.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ru\System.Spatial.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.csprojResolveAssemblyReference.cache
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.pdb
+<<<<<<< HEAD
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMAudiostem.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMAudiostem.pdb
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Antlr3.Runtime.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.Core.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\EntityFramework.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.Edm.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.OData.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Newtonsoft.Json.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Net.Http.Formatting.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Spatial.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Helpers.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.OData.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.WebHost.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Mvc.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Optimization.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Razor.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Razor.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMDomainModel.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMInfrastructure.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebHttpCors.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebService.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebGrease.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.Data.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.WebData.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\SprightlySoftAWS.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\FFmpegController.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMDomainModel.pdb
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMInfrastructure.pdb
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebHttpCors.pdb
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\TRMWebService.pdb
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\EntityFramework.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Newtonsoft.Json.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Net.Http.Formatting.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Helpers.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.WebHost.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Mvc.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Razor.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Razor.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.Data.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\WebMatrix.WebData.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.Core.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Web.Http.OData.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.Edm.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\Microsoft.Data.OData.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\System.Spatial.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\de\System.Spatial.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\es\System.Spatial.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\fr\System.Spatial.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\it\System.Spatial.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ja\System.Spatial.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ko\System.Spatial.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\ru\System.Spatial.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.csprojResolveAssemblyReference.cache
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.pdb
+=======
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMAudiostem.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMAudiostem.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMAudiostem.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Microsoft.Data.Edm.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Microsoft.Data.OData.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Spatial.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Http.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Http.OData.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Razor.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMDomainModel.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMInfrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMWebHttpCors.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMWebService.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\WebGrease.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\WebMatrix.Data.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\WebMatrix.WebData.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\SprightlySoftAWS.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\FFmpegController.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMDomainModel.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMInfrastructure.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMWebHttpCors.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\TRMWebService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Http.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Razor.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\WebMatrix.Data.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\WebMatrix.WebData.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.Core.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Web.Http.OData.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Microsoft.Data.Edm.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\Microsoft.Data.OData.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\System.Spatial.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\de\System.Spatial.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\es\System.Spatial.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\fr\System.Spatial.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\it\System.Spatial.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\ja\System.Spatial.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\ko\System.Spatial.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\ru\System.Spatial.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMAudiostem\obj\Debug\TRMAudiostem.pdb
+>>>>>>> Added bio to the artist profile.

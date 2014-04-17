@@ -1,0 +1,25 @@
+﻿@model TRMAudiostem.Models.ArtistSongModel
+
+@{
+    ViewBag.Title = "Manage your songs";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<p class="message-success">@ViewBag.StatusMessage</p>
+@Html.ActionLink("<-- Go back to profile page", "ArtistProfile", new { userId = ViewBag.UserId })
+
+<nav>
+    <ul id="menu">
+        <li>@Html.ActionLink("Albums", "ArtistAlbums", "Admin", new { userId = ViewBag.UserId }, null)</li>
+        <li>@Html.ActionLink("Songs", "ArtistSongs", "Admin", new { userId = ViewBag.UserId }, null)</li>
+        <li>@Html.ActionLink("Personal Details", "ArtistDetails", "Admin", new { userId = ViewBag.UserId }, null)</li>
+    </ul>
+</nav>
+
+@Html.Partial("SongAlbumList")
+@Html.Partial("_BasicPlayer")
+<br />
+
+@section Scripts {
+    @Scripts.Render("~/bundles/trm/scripts")
+}

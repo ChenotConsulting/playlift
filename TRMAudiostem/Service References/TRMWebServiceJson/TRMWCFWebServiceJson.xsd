@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://wcf.totalresolutionmusic.com/TRMWCFWebServiceJson.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DomainModel.Entities" />
+  <xs:import schemaLocation="http://wcf.totalresolutionmusic.com/TRMWCFWebServiceJson.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Web" />
+  <xs:import schemaLocation="http://wcf.totalresolutionmusic.com/TRMWCFWebServiceJson.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/Message" />
+  <xs:element name="SaveUserAccount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="user" nillable="true" type="q1:User" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="accountType" type="q2:Account.AccountTypeList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveUserAccountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveUserAccountResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserAccount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="user" nillable="true" type="q3:User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserAccountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetUserAccountResult" nillable="true" type="q4:Account" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAccount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="user" nillable="true" type="q5:User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAccountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteAccountResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllArtists">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllArtistsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetAllArtistsResult" nillable="true" type="q6:ArrayOfArtist" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveArtistAlbum">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="album" nillable="true" type="q7:Album" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="artist" nillable="true" type="q8:Artist" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/System.Web" minOccurs="0" name="sourceFile" nillable="true" type="q9:HttpPostedFileBase" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveArtistAlbumResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveArtistAlbumResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArtistAlbums">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="artist" nillable="true" type="q10:Artist" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArtistAlbumsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetArtistAlbumsResult" nillable="true" type="q11:ArrayOfAlbum" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArtistAlbumDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="albumId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArtistAlbumDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetArtistAlbumDetailsResult" nillable="true" type="q12:Album" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteArtistAlbum">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="album" nillable="true" type="q13:Album" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="artist" nillable="true" type="q14:Artist" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteArtistAlbumResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteArtistAlbumResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateAlbumGenreCollection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="albumId" type="xs:int" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="genreCollection" nillable="true" type="q15:ArrayOfGenre" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateAlbumGenreCollectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateAlbumGenreCollectionResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UploadSong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="song" nillable="true" type="q16:Song" />
+        <xs:element minOccurs="0" name="filePath" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ext" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="folderName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UploadSongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UploadSongResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DownloadSongOnServer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="songId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DownloadSongOnServerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DownloadSongOnServerResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DownloadFile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="filePath" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DownloadFileResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.microsoft.com/Message" name="DownloadFileResult" type="q17:StreamBody" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllSongs">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllSongsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetAllSongsResult" nillable="true" type="q18:ArrayOfSong" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAlbumSongs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="albumId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAlbumSongsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetAlbumSongsResult" nillable="true" type="q19:ArrayOfSong" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArtistSongs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wordpressUserId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArtistSongsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetArtistSongsResult" nillable="true" type="q20:ArrayOfSong" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArtistSongDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="songId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArtistSongDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetArtistSongDetailsResult" nillable="true" type="q21:Song" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSongMediaAssets">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="songId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSongMediaAssetsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetSongMediaAssetsResult" nillable="true" type="q22:ArrayOfMediaAsset" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSongMediaAssetsForDownload">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="songId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSongMediaAssetsForDownloadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetSongMediaAssetsForDownloadResult" nillable="true" type="q23:ArrayOfMediaAsset" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteSong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="song" nillable="true" type="q24:Song" />
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="album" nillable="true" type="q25:Album" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteSongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteSongResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAlbumSong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="song" nillable="true" type="q26:Song" />
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="album" nillable="true" type="q27:Album" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAlbumSongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteAlbumSongResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllBusinesses">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllBusinessesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetAllBusinessesResult" nillable="true" type="q28:ArrayOfBusiness" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SavePlaylist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wordpressUserId" type="xs:int" />
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="playlist" nillable="true" type="q29:Playlist" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SavePlaylistResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SavePlaylistResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePlaylist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="playlistId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePlaylistResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeletePlaylistResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePlaylistSong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="songId" type="xs:int" />
+        <xs:element minOccurs="0" name="playlistId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePlaylistSongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeletePlaylistSongResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllBusinessTypes">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllBusinessTypesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetAllBusinessTypesResult" nillable="true" type="q30:ArrayOfBusinessType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllGenres">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllGenresResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetAllGenresResult" nillable="true" type="q31:ArrayOfGenre" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGenre">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="genreId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGenreResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetGenreResult" nillable="true" type="q32:Genre" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterAdmin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="user" nillable="true" type="q33:User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterAdminResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegisterAdminResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterArtist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="user" nillable="true" type="q34:Artist" />
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="genreCollection" nillable="true" type="q35:ArrayOfGenre" />
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/System.Web" minOccurs="0" name="sourceFile" nillable="true" type="q36:HttpPostedFileBase" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterArtistResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegisterArtistResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterBusiness">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="user" nillable="true" type="q37:User" />
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="businessType" nillable="true" type="q38:BusinessType" />
+        <xs:element minOccurs="0" name="latitude" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="longitude" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterBusinessResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegisterBusinessResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterCustomer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="user" nillable="true" type="q39:User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisterCustomerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegisterCustomerResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateBusinessUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="user" nillable="true" type="q40:User" />
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="businessType" nillable="true" type="q41:BusinessType" />
+        <xs:element minOccurs="0" name="latitude" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="longitude" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateBusinessUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateBusinessUserResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateArtistGenreCollection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userId" type="xs:int" />
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="genreCollection" nillable="true" type="q42:ArrayOfGenre" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateArtistGenreCollectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateArtistGenreCollectionResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserByUserId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserByUserIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetUserByUserIdResult" nillable="true" type="q43:User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdmin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wordpressUserId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdminResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetAdminResult" nillable="true" type="q44:Admin" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArtist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wordpressUserId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArtistResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetArtistResult" nillable="true" type="q45:Artist" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBusiness">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wordpressUserId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBusinessResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetBusinessResult" nillable="true" type="q46:Business" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wordpressUserId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="GetCustomerResult" nillable="true" type="q47:Customer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/DomainModel.Entities" minOccurs="0" name="user" nillable="true" type="q48:User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteUserResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

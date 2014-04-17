@@ -1,0 +1,59 @@
+﻿@model DomainModel.Entities.Artist
+
+@{
+    ViewBag.Title = "Manage your account";
+    var TrmWcfWebServiceJson = new TRMWebService.TRMWCFWebServiceJson();
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+<p class="message-success">@ViewBag.StatusMessage</p>
+
+<nav>
+    <ul id="menu">
+        <li>@Html.ActionLink("Albums", "ArtistAlbums", "Account")</li>
+        <li>@Html.ActionLink("Songs", "ArtistSongs", "Account")</li>
+        <li>@Html.ActionLink("Personal Details", "ArtistDetails", "Account")</li>
+        <li>@Html.ActionLink("Change Password", "PasswordChange", "Account")</li>
+    </ul>
+</nav>
+
+@if (ViewBag.ImagePath != TRMAudiostem.AudiostemBase.CloudfrontUrl)
+{
+    <img class="artist" src="@ViewBag.ImagePath" alt="@User.Identity.Name + 'profile image'" />
+}
+
+<fieldset>
+    <legend>@Model.ArtistName</legend>
+
+    <ol>
+        <li></li>
+        <li>@Model.ArtistName</li>
+        <li>@Model.Email</li>
+        <li><a href="@Model.Website" target="_blank">@Model.Website</a></li>
+        <li><a href="@Model.SoundCloud" target="_blank">@Model.SoundCloud</a></li>
+        <li><a href="@Model.Facebook" target="_blank">@Model.Facebook</a></li>
+        <li><a href="@Model.Twitter" target="_blank">@Model.Twitter</a></li>
+        <li><a href="@Model.MySpace" target="_blank">@Model.MySpace</a></li>
+    </ol>
+</fieldset>
+
+@if (Model.PRS)
+{
+	<img class="royalty" src="http://www.prsformusic.com/Style%20Library/Images/Logos/prsformusiclogo.jpg" alt="PRS for music" />
+}
+else if (Model.CreativeCommonsLicence)
+{
+    <img class="royalty" alt="Creative Commons License" style="border-width: 0" src="~/Content/themes/trm/images/cc_logo.gif" />
+}
+
+<div class="clear"><!-- --></div>
+
+<section id="externalLogins">
+    @Html.Action("RemoveExternalLogins")
+
+    @*<h3>Add an external login</h3>
+    @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })*@
+</section>

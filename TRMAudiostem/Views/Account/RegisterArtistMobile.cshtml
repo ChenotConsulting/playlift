@@ -1,0 +1,86 @@
+﻿@model TRMAudiostem.Models.ArtistRegisterModel
+@using TRMAudiostem.TRMWebServiceJson;
+@{
+    ViewBag.Title = "Register as an artist or a band";
+    Layout = "~/Views/Shared/_MobileLayout.cshtml";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Create a new account.</h2>
+</hgroup>
+
+@using (Html.BeginForm("RegisterArtist", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <fieldset class="registrationForm">
+        <legend>Registration Form</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.ProfileImage)
+                <input type="file" name="ProfileImage" />
+            </li>
+            <li>
+                @Html.LabelFor(m => m.ArtistName)
+                @Html.TextBoxFor(m => m.ArtistName)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.UserName)
+                @Html.TextBoxFor(m => m.UserName)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.ConfirmPassword)
+                @Html.PasswordFor(m => m.ConfirmPassword)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Email)
+                @Html.TextBoxFor(m => m.Email)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Website)
+                @Html.TextBoxFor(m => m.Website)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.SoundCloud)
+                @Html.TextBoxFor(m => m.SoundCloud)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Facebook)
+                @Html.TextBoxFor(m => m.Facebook)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Twitter)
+                @Html.TextBoxFor(m => m.Twitter)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.MySpace)
+                @Html.TextBoxFor(m => m.MySpace)
+            </li>            
+            <li>
+                @{
+                    var TRMWCFWebServiceJson = new TRMWebService.TRMWCFWebServiceJson();
+                    var genreList = TRMWCFWebServiceJson.GetAllGenres();
+
+                    Html.RenderPartial("GenreList", genreList);
+                }
+            </li>
+            <li>
+                @Html.LabelFor(m => m.TermsAndConditions)
+                @Html.CheckBoxFor(m => m.TermsAndConditions)
+                &nbsp;
+                I have read and agree to the @Html.ActionLink("terms and conditions", "TermsAndConditions", "Home", null, new { target= "_blank" }) and <a href="http://creativecommons.org/licenses/by/4.0/legalcode" target="_blank">Creative Commons Licence</a>.
+            </li>  
+        </ol>
+        <input type="submit" value="Register" />
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

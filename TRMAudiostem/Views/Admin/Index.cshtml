@@ -1,0 +1,30 @@
+﻿@model List<DomainModel.Entities.Artist>
+
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Dashboard</h2>
+
+<h3>Artists</h3>
+
+<dl>
+@{
+    foreach(var artist in Model)
+    {
+        <dt id="@artist.UserId">
+            @if(string.IsNullOrEmpty(artist.ArtistName)) {
+                @("User name: ") @artist.UserName 
+            }
+            else {
+                @("Artist name: ") @artist.ArtistName 
+            } |
+            <a href="@Url.Action("ArtistProfile", "Admin", new { userId = artist.UserId })">
+                <img width="16" src="~/Content/themes/trm/images/view.png" alt="Manage artist" title="Click to view artist details and edit artist" />
+            </a> | 
+            @Html.Partial("_ArtistActivation", artist)
+        </dt>
+    }
+}
+</dl>

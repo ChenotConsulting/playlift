@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TRMInfrastructure.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AWSAccessKeyId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AKIAJCHWEMYQ5UXHOWSQ</Value>
+    </Setting>
+    <Setting Name="AWSSecretAccessKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GLQ3fzqhpJmEvRf3J6SWquH1KbQdVEI+3tqqWGiy</Value>
+    </Setting>
+    <Setting Name="UploadFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UploadKeyName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UploadContentType" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UploadMakePublic" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DownloadKeyName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DownloadFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UploadBucketName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">trmstream</Value>
+    </Setting>
+    <Setting Name="UploadBucketNameTest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">trmstreamtest</Value>
+    </Setting>
+    <Setting Name="MasterBucketName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">trmmaster</Value>
+    </Setting>
+    <Setting Name="MasterBucketNameTest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">trmmastertest</Value>
+    </Setting>
+    <Setting Name="DownloadBucketName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">trmmaster</Value>
+    </Setting>
+    <Setting Name="DownloadBucketNameTest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">trmmastertest</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

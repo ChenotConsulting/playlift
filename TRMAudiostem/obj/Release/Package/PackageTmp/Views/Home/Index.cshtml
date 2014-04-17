@@ -1,0 +1,183 @@
+﻿@{
+    ViewBag.Title = "I am...";
+}
+
+<article>
+    <h3>I'm a musician/band. How do I upload my music?</h3>
+    <p>
+        First @Html.ActionLink("create a FREE profile", "RegisterArtist", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })
+        and from there upload your music directly onto Audiostem under the terms of the 
+        <a href="http://creativecommons.org/licenses/by/4.0/legalcode" target="_blank">Creative Commons Licence</a> or even if you are registered with PRS for music. 
+        You can easily register with your <strong>Facebook and Google</strong> account.
+        We will review the music to ensure that it is suitable for public broadcast and that it is of the correct sound quality. 
+        Once your music has been cleared for use we will send you a notification to let you know your music has become active on Audiostem.
+    </p>
+    <p>
+        What we will <strong>not</strong> do is exploit your music and tell you what you should and shouldn't upload, within reason. At TRM, 
+        we believe that artists should be free to express themselves, and this is something we abide by no matter what. 
+        <strong>Your content will always be your content</strong>; you are merely allowing us 
+        to use it for promotional and commercial purposes according to the
+        @Html.ActionLink("Terms and Conditions", "TermsAndConditions", "Home", null, new { target = "_blank" }) 
+        set out by us, and approved by you. 
+    </p>
+    <h3>What is the required bit rate when uploading music?</h3>
+    <p>
+        We require a bit rate equal to or superior to 128Kbps
+    </p>
+    <h3>What does Audiostem offer?</h3>
+    <p>
+        At the moment, you can upload whole albums and songs, that you can then listen back on our platform. Very soon you will be able to 
+        download your songs in a variety of popular formats such as mp3 or aac, at varying audio bit rates.
+    </p>
+    <p>
+        Ultimately you will be able to have a complete profile with bio, concert dates, ability to link and share all your social pages.
+        Audiostem will be your complete asset management system. And the best thing is that it will always be <b>FREE TO ALL ARTISTS</b>.
+    </p>
+    <p>
+        We are still working on it, but the artist <strong>dashboard</strong> will enable you to manage everything about your music in one 
+        simple page:
+    </p>
+    <ul>
+        <li>your albums</li>
+        <li>your songs</li>
+        <li>your social Media</li>
+        <li>your concerts</li>
+        <li>you account, including where is your music played, how many times it is downloaded and how much money you have earned through audiostem.</li>
+    </ul>
+    <h3>How do I get paid for my music?</h3>
+    <p>
+        When one of your songs is requested through the Audiostem app in a retail space, we will redistribute 20% of the subscriptions paid by 
+        businesses based on a ratio of your songs played. This only applies if you are not registered with PRS for Music. This is why we 
+        recommend that you cancel your PRS licence and register for a Creative Commons Licence instead.
+    </p>
+    <p>
+        Our system is more accurate, and the built-in dashboard allows you to stay on top of where your music is played, and how much money 
+        you are making through our system.
+    </p>
+    <p>
+        So the more your music is played, the more money you will receive.
+    </p>
+    <p>
+        When your music is downloaded, you will receive 70% of the fee (coming soon). We are working toward the artist getting 100%, but we are a way away from 
+
+        that at the moment. All in good time. 
+    </p>
+    <h3>What happens when I get a major record deal and need to join a royalties collection agency?</h3>
+    <p>
+        Congratulations! You've hit the big time! We'll be first in line to pat you on the back and 
+
+        pop the champagne with you. Of course we'll need to review our arrangement at this 
+
+        point. We manage our clients music catalogue on a quarterly basis so we would ask to 
+
+        have access to your current catalogue on the system until the end of the current quarter. 
+
+        This will give us time to manage our clients expectations and re-configure the system. 
+    </p>
+</article>
+
+<aside>
+    <hgroup class="title">
+        <h2>@ViewBag.Title</h2>
+    </hgroup>
+
+    <a href="/Home/Business">
+        <div class="user-type pad">
+            <img src="~/Content/themes/trm/images/business.png" alt="Business User" title="You are a business user. Click here to find out more..." />
+        </div>
+    </a>
+
+    <a href="/Home/User">
+        <div class="user-type">
+            <img src="~/Content/themes/trm/images/user.png" alt="Personal User" title="You are a personal user. Click here to find out more..." />
+        </div>
+    </a>
+    <br />
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+        <img alt="Creative Commons License" style="border-width: 0" src="~/Content/themes/trm/images/cc_logo.gif" />
+    </a>
+    <br />
+    <br />
+    <a href="http://www.prsformusic.com" target="_blank">
+        <img src="http://www.prsformusic.com/Style%20Library/Images/Logos/prsformusiclogo.jpg" alt="PRS for music" />
+    </a>
+</aside>
+
+<div class="clear">
+    <!-- -->
+</div>
+
+<hr />
+
+<div class="pull-left pad-right20">
+    <h3>Facebook Feed <small>official thread</small></h3>
+    <div id="facebook_box" style="border: 1px solid #e8e8e8; border-radius: 5px; overflow: auto; width: 100%;">
+        <div class="fb-like-box fb_iframe_widget" data-href="https://www.facebook.com/pages/Resolution-Music-Management/162796900470378" data-width="368" data-height="600" data-show-faces="true" data-stream="true" force_wall="true" show_border="false" data-show-border="true" data-header="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;force_wall=true&amp;header=true&amp;height=600&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FResolution-Music-Management%2F162796900470378&amp;locale=en_US&amp;sdk=joey&amp;show_border=false&amp;show_faces=true&amp;stream=true&amp;width=368">
+            <span style="vertical-align: bottom; width: 368px; height: 600px;">
+                <iframe name="f18ad619dc" width="368px" height="600px" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like_box Facebook Social Plugin" src="http://www.facebook.com/plugins/like_box.php?app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D40%23cb%3Df28f816504%26domain%3Dwww.audiostem.co.uk%26origin%3Dhttp%253A%252F%252Fwww.audiostem.co.uk%252Ff22d480bc8%26relation%3Dparent.parent&amp;force_wall=true&amp;header=true&amp;height=600&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FResolution-Music-Management%2F162796900470378&amp;locale=en_US&amp;sdk=joey&amp;show_border=false&amp;show_faces=true&amp;stream=true&amp;width=368" class="" style="border: none; visibility: visible; width: 368px; height: 600px;"></iframe>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div>
+    <h3>Twitter Feed <small>@("@")JohnstoneNathan | CEO</small></h3>
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/JohnstoneNathan" data-widget-id="438436455644286976">Tweets by @("@")JohnstoneNathan</a>
+    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+</div>
+
+<div class="clear">
+    <!-- -->
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+@*@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title</h1>
+            </hgroup>
+            
+            <a href="/Home/Artist">
+                <div class="user-type pad artist">
+                    <p>...an artist</p>
+                </div>
+            </a>
+            <a href="/Home/Business">
+                <div class="user-type pad business">
+                    <p>...a business</p>
+                </div>
+            </a>
+
+            <a href="/Home/User">
+                <div class="user-type user">
+                    <p>...a personal user</p>
+                </div>
+            </a>
+            
+            <div class="clear"><!-- --></div>
+        </div>
+    </section>
+}
+<h3>Get started with audiostem.music in 3 easy steps:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Register!</h5>
+        <br/>
+    </li>
+
+    <li class="two">
+        <h5>Update your profile!</h5>
+        <br/>
+    </li>
+
+    <li class="three">
+        <h5>Upload content or listen to music!</h5>
+        <br/>
+    </li>
+</ol>*@

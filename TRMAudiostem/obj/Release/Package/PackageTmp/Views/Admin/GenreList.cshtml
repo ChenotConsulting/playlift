@@ -1,0 +1,21 @@
+﻿@*@model IEnumerable<DomainModel.Entities.Genre>*@
+
+@Html.Label("Select one or more genre(s)")
+
+<ul id="genreList">
+@foreach (var genre in Model)
+{
+    var genreName = "genre_" + genre.GenreId + "_" + genre.GenreName;
+    
+    <li>
+        @if (genre.Selected)
+        {
+            <input type="checkbox" name="@genreName" checked="checked" /> @genre.GenreName
+        }
+        else
+        {
+            <input type="checkbox" name="@genreName" /> @genre.GenreName
+        }
+    </li>
+}
+</ul>

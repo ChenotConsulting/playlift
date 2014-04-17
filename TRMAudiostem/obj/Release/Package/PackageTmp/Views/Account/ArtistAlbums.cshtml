@@ -1,0 +1,29 @@
+﻿@model TRMAudiostem.Models.ArtistAlbumModel
+
+@{
+    ViewBag.Title = "Manage your albums";
+}
+
+<p class="message-success">@ViewBag.StatusMessage</p>
+@Html.ActionLink("<-- Go back to profile page", "ManageArtist")
+
+<nav>
+    <ul id="menu">
+        <li>@Html.ActionLink("Albums", "ArtistAlbums", "Account")</li>
+        <li>@Html.ActionLink("Songs", "ArtistSongs", "Account")</li>
+        <li>@Html.ActionLink("Personal Details", "ArtistDetails", "Account")</li>
+        <li>@Html.ActionLink("Change Password", "PasswordChange", "Account")</li>
+    </ul>
+</nav>
+
+@Html.Partial("ArtistAlbumList", (List<DomainModel.Entities.Album>)ViewBag.ArtistAlbums)
+
+<input type="button" id="ToggleNewAlbum" value="Add New Album" onclick="toggleContainer('NewAlbum')" />
+
+<div id="NewAlbum" style="display: none;">
+    @Html.Partial("EditAlbum")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/trm/scripts")
+}

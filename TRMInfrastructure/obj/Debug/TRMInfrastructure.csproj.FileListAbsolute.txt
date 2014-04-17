@@ -1,0 +1,47 @@
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll.config
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\FFmpegController.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\FFmpegController.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\SprightlySoftAWS.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\SprightlySoftAWS.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll.config
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\FFmpegController.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\SprightlySoftAWS.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\FFmpegController.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\bin\Debug\SprightlySoftAWS.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.csprojResolveAssemblyReference.cache
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll.config
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.csprojResolveAssemblyReference.cache
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll.config
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMInfrastructure\bin\Debug\TRMInfrastructure.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMInfrastructure\obj\Debug\TRMInfrastructure.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMInfrastructure\bin\Debug\TRMInfrastructure.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMInfrastructure\obj\Debug\TRMInfrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMInfrastructure\obj\Debug\TRMInfrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMInfrastructure\obj\Debug\TRMInfrastructure.pdb

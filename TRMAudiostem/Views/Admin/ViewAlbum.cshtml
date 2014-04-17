@@ -1,0 +1,67 @@
+﻿@model DomainModel.Entities.Album
+
+@{
+    ViewBag.Title = "ViewAlbum";
+    Layout = "~/Views/Shared/_Layout_min.cshtml";
+}
+
+<h2>@Model.AlbumTitle by @User.Identity.Name</h2>
+
+<img class="album" src="@ViewBag.AlbumCoverPath" alt="@Model.AlbumTitle + 'cover image'" />
+
+<fieldset>
+    <legend>@Model.AlbumTitle</legend>
+    <ol>
+        <li></li>
+        <li>Released on @Model.AlbumReleaseDate.ToString("dd MMM yyyy")</li>
+        <li>Produced by @Model.AlbumProducer</li>
+        <li>@Model.AlbumLabel</li>
+    </ol>
+</fieldset>
+
+<div class="clear"><!-- --></div>
+
+<h3>Song List for @Model.AlbumTitle | @Html.ActionLink("Add songs", "ArtistSongs")</h3>
+
+@*@{
+    var TRMService = new TRMWebService.TRMWCFWebServiceJson();
+    var songList = TRMService.GetAlbumSongs(Model.AlbumId);
+
+    Html.Partial("AlbumSongList", songList, new ViewDataDictionary {{ "albumId", Model.AlbumId }});
+}*@
+
+<ol id="AlbumList">
+    @{        
+        var albumId = Convert.ToInt32(ViewData["albumId"]);
+        var songModels = new List<TRMAudiostem.Models.ArtistSongModel>();
+        var trmservice = new TRMWebService.TRMWCFWebServiceJson();
+        var songList = trmservice.GetAlbumSongs(Model.AlbumId);
+
+        foreach (var song in songList)
+        {
+            songModels.Add(new TRMAudiostem.Models.ArtistSongModel
+            {
+                AlbumId = albumId,
+                MediaAssetPath = trmservice.GetSongMediaAssets(song.SongId).FirstOrDefault().MediaAssetLocation.Path,
+                SongComposer = song.SongComposer,
+                SongId = song.SongId,
+                SongReleaseDate = song.SongReleaseDate,
+                SongTitle = song.SongTitle
+            });
+        }
+
+        foreach (var song in songModels)
+        {
+            <li>
+                <img src="~/Content/themes/trm/images/play.png" class="play" onclick="playSong('@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath')" />
+                @song.SongTitle
+            </li>   
+        }
+    }
+</ol>
+
+@Html.Partial("_BasicPlayer")
+
+@section Scripts {
+    @Scripts.Render("~/bundles/trm/scripts")
+}

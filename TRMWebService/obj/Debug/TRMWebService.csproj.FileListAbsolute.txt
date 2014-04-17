@@ -1,0 +1,114 @@
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMWebService.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMWebService.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\obj\Debug\TRMWebService.csprojResolveAssemblyReference.cache
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\obj\Debug\TRMWebService.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\obj\Debug\TRMWebService.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\EntityFramework.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\Newtonsoft.Json.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\EntityFramework.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\Newtonsoft.Json.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\FFmpegController.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\FFmpegController.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMInfrastructure.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMInfrastructure.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMDomainModel.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMDomainModel.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMWebHttpCors.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMWebHttpCors.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\SprightlySoftAWS.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\SprightlySoftAWS.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMWebService.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMWebService.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\EntityFramework.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\FFmpegController.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMDomainModel.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMWebHttpCors.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\SprightlySoftAWS.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\TRMWebHttpCors.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\EntityFramework.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\FFmpegController.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\Newtonsoft.Json.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\bin\SprightlySoftAWS.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\obj\Debug\TRMWebService.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\obj\Debug\TRMWebService.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebService\obj\Debug\TRMWebService.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebService.dll.config
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebService.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebService.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\EntityFramework.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\Newtonsoft.Json.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMDomainModel.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMInfrastructure.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebHttpCors.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\SprightlySoftAWS.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMDomainModel.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMInfrastructure.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebHttpCors.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\EntityFramework.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\Newtonsoft.Json.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\obj\Debug\TRMWebService.csprojResolveAssemblyReference.cache
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\obj\Debug\TRMWebService.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\obj\Debug\TRMWebService.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebService.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebService.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\EntityFramework.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMDomainModel.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebHttpCors.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\SprightlySoftAWS.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebHttpCors.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\EntityFramework.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\bin\Newtonsoft.Json.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\obj\Debug\TRMWebService.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\obj\Debug\TRMWebService.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebService\obj\Debug\TRMWebService.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebService\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebService.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebService.pdb
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\EntityFramework.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\Newtonsoft.Json.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMDomainModel.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMInfrastructure.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebHttpCors.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\SprightlySoftAWS.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMDomainModel.pdb
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMInfrastructure.pdb
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\TRMWebHttpCors.pdb
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\EntityFramework.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\bin\Newtonsoft.Json.xml
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\obj\Debug\TRMWebService.csprojResolveAssemblyReference.cache
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\obj\Debug\TRMWebService.dll
+C:\Users\JPCHENOT\Dropbox\Dev\TRMWebService\TRMWebService\obj\Debug\TRMWebService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\TRMWebService.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\TRMWebService.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\TRMWebService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\TRMDomainModel.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\TRMInfrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\TRMWebHttpCors.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\SprightlySoftAWS.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\TRMDomainModel.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\TRMInfrastructure.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\TRMWebHttpCors.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\obj\Debug\TRMWebService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\obj\Debug\TRMWebService.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebService\obj\Debug\TRMWebService.pdb

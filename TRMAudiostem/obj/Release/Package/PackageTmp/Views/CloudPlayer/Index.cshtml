@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Cloud Player";
+    Layout = "~/Views/Shared/_Layout_CloudPlayer.cshtml";
+}
+
+<h2>Cloud Player</h2>
+
+<article>   
+    <h3>Please select songs to add to the playlist</h3> 
+    @*@Html.Partial("_Search")*@
+    @Html.Action("_Artists")
+</article>
+
+<aside>   
+    @Html.Partial("_CurrentlyPlaying")
+    @Html.Partial("_BasicPlayer")
+    @Html.Partial("_CurrentPlaylist")
+    <br /><br /><br /><br />
+</aside>

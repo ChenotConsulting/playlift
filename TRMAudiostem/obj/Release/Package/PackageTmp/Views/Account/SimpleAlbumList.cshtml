@@ -1,0 +1,17 @@
+﻿
+<ol id="AlbumList">
+    @{
+        var trmservice = new TRMWebService.TRMWCFWebServiceJson();
+        var artist = trmservice.GetArtist(WebSecurity.CurrentUserId);
+        var albums = trmservice.GetArtistAlbums(artist);
+        
+        foreach(var album in albums)
+        {
+            <li>
+                @Html.RadioButton("songAlbum", album.AlbumId)
+                @album.AlbumTitle                
+            </li>   
+        }
+    }
+</ol>
+

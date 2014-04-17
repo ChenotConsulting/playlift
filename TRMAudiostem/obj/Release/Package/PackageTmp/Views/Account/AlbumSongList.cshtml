@@ -1,0 +1,39 @@
+﻿@model List<DomainModel.Entities.Song>
+
+<ol id="AlbumList">
+    @{        
+        var albumId = Convert.ToInt32(ViewData["albumId"]);
+        var songModels = new List<TRMAudiostem.Models.ArtistSongModel>();
+        var trmservice = new TRMWebService.TRMWCFWebServiceJson();
+
+        foreach (var song in Model)
+        {
+            songModels.Add(new TRMAudiostem.Models.ArtistSongModel
+            {
+                AlbumId = albumId,
+                MediaAssetPath = trmservice.GetSongMediaAssets(song.SongId).FirstOrDefault(x => x.MediaAssetFormat.MediaAssetFormatName == "mp3").MediaAssetLocation.Path,
+                SongComposer = song.SongComposer,
+                SongId = song.SongId,
+                SongReleaseDate = song.SongReleaseDate,
+                SongTitle = song.SongTitle
+            });
+        }
+
+        foreach (var song in songModels)
+        {
+            <li>
+                <img src="~/Content/themes/trm/images/play.png" class="play" onclick="playSong('@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath')" />
+                @song.SongTitle                
+                &nbsp;|&nbsp;
+                Composer: @song.SongComposer
+                &nbsp;|&nbsp;
+                Released: @song.SongReleaseDate.ToString("dd MMM yyyy")
+                @*&nbsp;|&nbsp;
+                @Html.ActionLink("Edit song", "EditSong", new { songId = song.SongId })*@
+                &nbsp;|&nbsp;
+                @Html.ActionLink("Delete song", "DeleteSong", new { songId = song.SongId, albumId = ViewData["albumId"] }, new { onclick = "if(!confirm('Are you sure that you want to delete this song?')) return false;" })
+            </li>   
+        }
+    }
+</ol>
+
