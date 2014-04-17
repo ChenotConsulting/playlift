@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>AudiostemDAM</id>
+        <version>1.0.0</version>
+        <title>Required libraries for Audiostem DAM application</title>
+        <authors>Jean-Philippe Chenot</authors>
+        <owners>Jean-Philippe Chenot</owners>
+        <projectUrl>http://music.audiostem.co.uk</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The package contains libraries for 
+- data objects
+- infrastructure functions: useful utilities, encoding and uploading
+- HTTP Cors: enable remote access to the web service, particularly useful when uploading files
+- WCF web service: all the methods of the web service</description>
+        <summary>These libraries are required to run the Audiostem DAM application.</summary>
+        <copyright>Jean-Philippe Chenot</copyright>
+        <language>en-GB</language>
+        <tags>audiostem, dam</tags>
+    </metadata>
+    <files>
+        <file src="content\_._" target="content\_._" />
+        <file src="lib\TRMDomainModel.dll" target="lib\TRMDomainModel.dll" />
+        <file src="lib\TRMInfrastructure.dll" target="lib\TRMInfrastructure.dll" />
+        <file src="lib\TRMWebHttpCors.dll" target="lib\TRMWebHttpCors.dll" />
+        <file src="lib\TRMWebService.dll" target="lib\TRMWebService.dll" />
+    </files>
+</package>

@@ -1,0 +1,29 @@
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\bin\Debug\TRMAwsS3TransferUtility.exe.config
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\bin\Debug\TRMAwsS3TransferUtility.exe
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\bin\Debug\TRMAwsS3TransferUtility.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\bin\Debug\AWSSDK.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\bin\Debug\AWSSDK.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\S3TransferWindow.baml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\S3TransferWindow.g.cs
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\App.g.cs
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility_MarkupCompile.cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.g.resources
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.Properties.Resources.resources
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.csproj.GenerateResource.Cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.exe
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\bin\Debug\TRMAwsS3TransferUtility.exe.config
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\bin\Debug\TRMAwsS3TransferUtility.exe
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\bin\Debug\TRMAwsS3TransferUtility.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\bin\Debug\AWSSDK.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\S3TransferWindow.baml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\S3TransferWindow.g.cs
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\App.g.cs
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility_MarkupCompile.cache
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.g.resources
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.Properties.Resources.resources
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.csproj.GenerateResource.Cache
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.exe
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMAwsS3TransferUtility\obj\Debug\TRMAwsS3TransferUtility.pdb

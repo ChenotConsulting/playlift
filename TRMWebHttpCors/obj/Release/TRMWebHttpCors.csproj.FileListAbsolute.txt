@@ -1,0 +1,24 @@
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebHttpCors\bin\Release\TRMWebHttpCors.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebHttpCors\bin\Release\TRMWebHttpCors.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebHttpCors\bin\Release\TRMWebHttpCors.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebHttpCors\bin\Release\TRMWebHttpCors.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebHttpCors\bin\Release\TRMWebHttpCors.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebHttpCors\bin\Release\TRMWebHttpCors.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebHttpCors\bin\Release\TRMWebHttpCors.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebHttpCors\bin\Release\TRMWebHttpCors.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.csprojResolveAssemblyReference.cache
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebHttpCors\bin\Release\TRMWebHttpCors.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebHttpCors\bin\Release\TRMWebHttpCors.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.pdb

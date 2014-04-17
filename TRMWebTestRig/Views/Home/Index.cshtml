@@ -1,0 +1,248 @@
+﻿@{
+    ViewBag.Title = "TRM Web Test Rig - Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                Test application for the Total Resolution Music Ltd WCF web service.
+            </p>
+        </div>
+    </section>
+}
+
+<h3>1. Download a song from S3</h3>
+<h5>Select a file to download</h5>
+<ul id="songList">
+</ul>
+
+<h3>2. Create a playlist</h3>
+<h5>Select the files to add to the playlist</h5>
+@*@using (Html.BeginForm("CreatePlaylist", "Home", FormMethod.Post))
+{
+    <ul id="songCollection">
+    </ul>
+}*@
+<form id="playlistForm" method="POST" onsubmit="return createPlaylist(this)">
+    <input type="text" id="playlistName" name="playlistName" value="Type a playlist name" 
+           onfocus="clearTextBox(this, 'Type a playlist name')" 
+           onblur="addDefaultValue(this, 'Type a playlist name')" />
+    <ul id="songCollection">
+    </ul>
+    <input type="submit" value="Create Playlist" />
+</form>
+
+<ul id="genres"></ul>
+
+
+<script type="text/javascript">
+    // use wordpress user Id 7 to test
+    //getAllSongsForDownload(7);
+    getAllSongsForPlaylist();
+    //getAllGenres();
+
+    function clearTextBox(input, val) {
+        if (input.value == val) {
+            input.value = '';
+        }
+    }
+    
+    function addDefaultValue(input, val) {
+        if (input.value == '') {
+            input.value = val;
+        }
+    }
+
+    function getAllSongsForDownload(wordpressUserId) {
+        var songsUrl = "http://localhost:51935/TRMWCFWebServiceJson.svc/GetArtistSongs";
+
+        $.ajax({
+            cache: false,
+            type: "POST",
+            async: true,
+            data: '{"wordpressUserId": ' + wordpressUserId + '}',
+            contentType: "application/json",
+            dataType: "json",
+            url: songsUrl,
+            success: function (result) {
+                // jsonify the results
+                var json = JSON.stringify(result);
+                // parse the json so that we can iterate through it
+                var songs = $.parseJSON(json);
+
+                $.each(songs, function (key, val) {
+                    $.each(val, function (k, v) {
+                        $('#songList').append('<li id="' + v.SongId + '">' + v.SongTitle + '</li>');
+                        getSongsMediaAssets(v.SongId);
+                    });
+                });
+            },
+            error: function (xhr) {
+                alert(xhr.statusText);
+            }
+        });
+    }
+
+    function getAllSongsForPlaylist() {
+        var songsUrl = "http://localhost:51935/TRMWCFWebServiceJson.svc/GetAllSongs";
+
+        $.ajax({
+            cache: false,
+            type: "POST",
+            async: true,
+            dataType: "json",
+            url: songsUrl,
+            success: function (result) {
+                // jsonify the results
+                var json = JSON.stringify(result);
+                // parse the json so that we can iterate through it
+                var songs = $.parseJSON(json);
+
+                $.each(songs, function (key, val) {
+                    $.each(val, function (k, v) {
+                        $('#songCollection').append('<li id="' + v.SongId + '"><input type="checkbox" id="' + v.SongId + '" name="playlistSong" />&nbsp;' + v.SongTitle + '</li>');
+                    });
+                });
+            },
+            error: function (xhr) {
+                alert(xhr.statusText);
+            }
+        });
+    }
+
+    function createPlaylist(form) {
+        var wordpressUserId = 36;
+        var playlistName = form[0].value;
+        var selectedSongs = new Array();
+        var playlistSongs = '';
+        var playListSongIdentifier = '';
+        var date = dateToWcf("12/04/2013");
+
+        var i = 0;
+
+        $.each(form, function () {
+            if ($(this).is(":checkbox")) {
+                if ($(this).is(":checked")) {
+                    selectedSongs[i] = $(this).attr("id");
+                    if (i > 0) {
+                        playListSongIdentifier = '#' + (i + 1);
+                        playlistSongs += ',';
+                    }
+                    playlistSongs += '"PlaylistSong' + playListSongIdentifier + '": {"PlaylistSongId": 0, "PlaylistId": 0, "SongId": ' + $(this).attr("id") + ', "DateAdded": "' + date + '", "Position": ' + (i + 1) + '}';
+                    i++;
+                }
+            }
+        });
+        
+        var data = '{"wordpressUserId": ' + wordpressUserId + ', "playlist": {"PlaylistId": 0, "PlaylistName": "' + playlistName + '", "CreatedDate": "' + date + '", "Active": "true", "PlaylistSongCollection": {' + playlistSongs + '}}}';
+        alert(data);
+        var url = 'http://localhost:51935/TRMWCFWebServiceJson.svc/SavePlaylist';
+
+        $.ajax({
+            cache: false,
+            type: "POST",
+            async: true,
+            data: data,
+            contentType: "application/json",
+            dataType: "json",
+            url: url,
+            success: function (result) {
+                alert('Download successful');
+            },
+            error: function (xhr) {
+                alert(xhr.statusText);
+            }
+        });
+
+        return false;
+    }
+    
+    function dateToWcf(input) {
+        var d = new Date(input);
+        if (isNaN(d)) return null;
+        return '\/Date(' + d.getTime() + ')\/';
+    }
+
+    function getSongsMediaAssets(songId) {
+        var mediaAssetsUrl = "http://localhost:51935/TRMWCFWebServiceJson.svc/GetSongMediaAssetsForDownload";
+
+        $.ajax({
+            cache: false,
+            type: "POST",
+            async: true,
+            data: '{"songId": ' + songId + '}',
+            contentType: "application/json",
+            dataType: "json",
+            url: mediaAssetsUrl,
+            success: function (result) {
+                // jsonify the results
+                var json = JSON.stringify(result);
+                // parse the json so that we can iterate through it
+                var mediaAssets = $.parseJSON(json);
+
+                $.each(mediaAssets, function (key, val) {
+                    $.each(val, function (k, v) {
+                        $('#songList > li#' + songId).append('<a id="' + songId + '" href="#" onclick="downloadSong(\'' + v.MediaAssetLocation.Path + '\')">' + v.MediaAssetFileName + '</a>');
+                        //$('#songList > li#' + songId).append('<a id="' + songId + '" href="' + v.MediaAssetLocation.Path + '">' + v.MediaAssetFileName + '</a>');
+                    });
+                });
+            },
+            error: function (xhr) {
+                alert(xhr.statusText);
+            }
+        });
+    }
+
+    function downloadSong(filePath) {
+        var url = 'http://localhost:51935/TRMWCFWebServiceJson.svc/DownloadFile';
+
+        $.ajax({
+            cache: false,
+            type: "POST",
+            async: true,
+            data: '{"filePath":  ' + filePath + '}',
+            contentType: "application/json",
+            dataType: "json",
+            url: url,
+            success: function (result) {
+                alert('Download successful');
+            },
+            error: function (xhr) {
+                alert(xhr.statusText);
+            }
+        });
+
+        return false;
+    }
+
+    function getAllGenres() {
+        var url = "http://wcf.totalresolutionmusic.com/TRMWCFWebServiceJson.svc/GetAllGenres";
+
+        $.ajax({
+            cache: false,
+            type: "POST",
+            async: true,
+            dataType: "json",
+            url: url,
+            success: function (result) {
+                // jsonify the results
+                var json = JSON.stringify(result);
+                // parse the json so that we can iterate through it
+                var genres = $.parseJSON(json);
+
+                $.each(genres, function (key, val) {
+                    $.each(val, function (k, v) {
+                        $("#genres").append("<li>" + v.GenreName + "</li>");
+                    });
+                });
+            },
+            error: function (xhr) {
+                alert(xhr.statusText);
+            }
+        });
+    }
+</script>

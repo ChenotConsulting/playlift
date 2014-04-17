@@ -1,0 +1,296 @@
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Antlr3.Runtime.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.Core.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\EntityFramework.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Newtonsoft.Json.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Net.Http.Formatting.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Helpers.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Http.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Http.WebHost.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Mvc.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Optimization.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Razor.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\WebGrease.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\WebMatrix.Data.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\WebMatrix.WebData.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\EntityFramework.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Newtonsoft.Json.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Net.Http.Formatting.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Helpers.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Http.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Http.WebHost.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Mvc.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Razor.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\WebMatrix.Data.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\WebMatrix.WebData.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.Core.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.csprojResolveAssemblyReference.cache
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Antlr3.Runtime.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.Core.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\EntityFramework.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Net.Http.Formatting.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Helpers.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Http.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Http.WebHost.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Mvc.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Optimization.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Razor.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Razor.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\WebGrease.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\WebMatrix.Data.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\WebMatrix.WebData.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\EntityFramework.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Newtonsoft.Json.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Net.Http.Formatting.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Helpers.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Http.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Http.WebHost.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Mvc.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.Razor.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Razor.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\WebMatrix.Data.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\WebMatrix.WebData.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.Core.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.dll.config
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Antlr3.Runtime.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.Core.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\EntityFramework.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Newtonsoft.Json.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Net.Http.Formatting.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Helpers.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Http.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Http.WebHost.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Mvc.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Optimization.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Razor.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Razor.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\WebGrease.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\WebMatrix.Data.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\WebMatrix.WebData.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\EntityFramework.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Newtonsoft.Json.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Net.Http.Formatting.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Helpers.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Http.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Http.WebHost.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Mvc.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Razor.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Razor.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\WebMatrix.Data.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\WebMatrix.WebData.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.Core.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.csprojResolveAssemblyReference.cache
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Antlr3.Runtime.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.Core.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\EntityFramework.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Net.Http.Formatting.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Helpers.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Http.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Http.WebHost.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Mvc.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Optimization.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Razor.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Razor.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\WebGrease.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\WebMatrix.Data.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\WebMatrix.WebData.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\EntityFramework.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Newtonsoft.Json.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Net.Http.Formatting.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Helpers.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Http.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Http.WebHost.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Mvc.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.Razor.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Razor.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\WebMatrix.Data.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\WebMatrix.WebData.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.Core.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\TRMWebTestRig.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Http.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Razor.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\WebGrease.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\WebMatrix.Data.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\WebMatrix.WebData.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Http.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.Razor.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\WebMatrix.Data.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\WebMatrix.WebData.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.Core.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebTestRig\obj\Debug\TRMWebTestRig.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\TRMWebTestRig.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\TRMWebTestRig.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\TRMWebTestRig.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Http.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Razor.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\WebGrease.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\WebMatrix.Data.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\WebMatrix.WebData.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Http.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.Razor.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\WebMatrix.Data.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\WebMatrix.WebData.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.Core.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\obj\Debug\TRMWebTestRig.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\obj\Debug\TRMWebTestRig.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebTestRig\obj\Debug\TRMWebTestRig.pdb

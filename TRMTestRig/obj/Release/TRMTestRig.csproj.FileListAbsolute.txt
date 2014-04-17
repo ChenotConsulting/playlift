@@ -1,0 +1,101 @@
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.exe.config
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.exe
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\DomainModel.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMWebService.dll
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\DomainModel.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMWebService.pdb
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.csprojResolveAssemblyReference.cache
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.UserManagement.resources
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.Properties.Resources.resources
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.csproj.GenerateResource.Cache
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.exe
+C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.exe.config
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.exe
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\MediaInfoDotNet.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMDomainModel.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMWebService.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\SprightlySoftAWS.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\FFmpegController.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMWebService.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\MediaInfoDotNet.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\SprightlySoftAWS.xml
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\bin\Release\FFmpegController.pdb
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.UserManagement.resources
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.Properties.Resources.resources
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.csproj.GenerateResource.Cache
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.exe
+C:\Users\JeanPhilippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.exe.config
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.exe
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\MediaInfoDotNet.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMDomainModel.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMWebService.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\SprightlySoftAWS.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\FFmpegController.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMWebService.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\MediaInfoDotNet.xml
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.UserManagement.resources
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.Properties.Resources.resources
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.csproj.GenerateResource.Cache
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.exe
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.pdb
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\JeanPhilippe\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.exe.config
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.exe
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\MediaInfoDotNet.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMDomainModel.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMInfrastructure.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMWebService.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\SprightlySoftAWS.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\FFmpegController.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\Newtonsoft.Json.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMDomainModel.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMInfrastructure.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\TRMWebService.pdb
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\MediaInfoDotNet.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\bin\Release\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.csprojResolveAssemblyReference.cache
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.UserManagement.resources
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.Properties.Resources.resources
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.csproj.GenerateResource.Cache
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.exe
+C:\Users\jeanc\Dropbox\Dev\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\TRMTestRig.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\MediaInfoDotNet.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\TRMDomainModel.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\TRMInfrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\TRMWebService.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\SprightlySoftAWS.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\FFmpegController.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\TRMDomainModel.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\TRMInfrastructure.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\TRMWebService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\MediaInfoDotNet.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\bin\Release\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.UserManagement.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMTestRig\obj\Release\TRMTestRig.pdb
