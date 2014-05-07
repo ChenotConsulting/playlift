@@ -27,3 +27,7 @@ C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWeb
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.dll
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.pdb
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\TRMWebHttpCors\bin\Debug\TRMWebHttpCors.dll
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\TRMWebHttpCors\bin\Debug\TRMWebHttpCors.pdb
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.dll
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.pdb

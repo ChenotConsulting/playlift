@@ -88,3 +88,17 @@ C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\Domain
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\DomainModel\obj\Debug\TRMDomainModel.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\DomainModel\obj\Debug\TRMDomainModel.dll
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMAudiostem\DomainModel\obj\Debug\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\TRMDomainModel.dll.config
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\TRMDomainModel.dll
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\TRMDomainModel.pdb
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\EntityFramework.dll
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\TRMInfrastructure.dll
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\SprightlySoftAWS.dll
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\FFmpegController.dll
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\TRMInfrastructure.pdb
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\EntityFramework.xml
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\obj\Debug\TRMDomainModel.csprojResolveAssemblyReference.cache
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\obj\Debug\TRMDomainModel.dll
+C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\DomainModel\obj\Debug\TRMDomainModel.pdb
