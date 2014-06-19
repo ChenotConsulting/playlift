@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TRMWebService")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Web Service API using REST and Json. Serves all the functionality of Audiostem.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Total Resolution Music Ltd")]
-[assembly: AssemblyProduct("Total Resolution Music API")]
+[assembly: AssemblyProduct("Total Resolution Music Audiostem API")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyFileVersion("1.0.*")]

@@ -22,3 +22,8 @@ C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWe
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.dll
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\TRMWebHttpCors\obj\Release\TRMWebHttpCors.pdb
+D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\bin\Release\TRMWebHttpCors.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\bin\Release\TRMWebHttpCors.pdb
+D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Release\TRMWebHttpCors.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Release\TRMWebHttpCors.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Release\TRMWebHttpCors.pdb

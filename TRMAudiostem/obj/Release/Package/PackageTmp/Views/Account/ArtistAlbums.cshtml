@@ -4,26 +4,27 @@
     ViewBag.Title = "Manage your albums";
 }
 
-<p class="message-success">@ViewBag.StatusMessage</p>
-@Html.ActionLink("<-- Go back to profile page", "ManageArtist")
+@if (!string.IsNullOrEmpty(ViewBag.ArtistName))
+{
+    <h3>
+        Albums
+        <img id="new-album" class="icon" src="~/Content/themes/trm/images/icons/add_32x32.png" alt="Add album" title="Add album" />
+    </h3>
 
-<nav>
-    <ul id="menu">
-        <li>@Html.ActionLink("Albums", "ArtistAlbums", "Account")</li>
-        <li>@Html.ActionLink("Songs", "ArtistSongs", "Account")</li>
-        <li>@Html.ActionLink("Personal Details", "ArtistDetails", "Account")</li>
-        <li>@Html.ActionLink("Change Password", "PasswordChange", "Account")</li>
-    </ul>
-</nav>
+    @Html.Partial("ArtistAlbumList", (List<DomainModel.Entities.Album>)ViewBag.ArtistAlbums)
+}
+else
+{
+    <label>There are no albums.</label>
+}
 
-@Html.Partial("ArtistAlbumList", (List<DomainModel.Entities.Album>)ViewBag.ArtistAlbums)
-
-<input type="button" id="ToggleNewAlbum" value="Add New Album" onclick="toggleContainer('NewAlbum')" />
-
-<div id="NewAlbum" style="display: none;">
+<div id="dialog-form">
     @Html.Partial("EditAlbum")
 </div>
 
-@section Scripts {
-    @Scripts.Render("~/bundles/trm/scripts")
-}
+@Scripts.Render("~/bundles/jqueryui")
+<script>
+    $(function () {
+        loadAlbumUploadForm();
+    });
+</script>

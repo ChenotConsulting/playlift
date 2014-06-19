@@ -46,6 +46,17 @@
                     @Html.TextBoxFor(m => m.Email)
                 </li>
                 <li>
+                    @Html.LabelFor(m => m.Bio)
+                    <p>This is what will be displayed on your public profile page</p>
+                    @Html.TextAreaFor(m => m.Bio, new { id="bio", maxlength = "500", rows = 5 })
+                    <br/>
+                    <p id="remainingCharacters"></p>
+
+                    <script type='text/javascript'>                       
+                        setInterval(function () { CharacterCount('bio', 'remainingCharacters') }, 55);
+                    </script>
+                </li>
+                <li>
                     @Html.LabelFor(m => m.Website)
                     @Html.TextBoxFor(m => m.Website)
                 </li>

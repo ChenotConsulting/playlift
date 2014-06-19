@@ -60,3 +60,17 @@ C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\Domai
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\obj\Release\TRMDomainModel.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\obj\Release\TRMDomainModel.dll
 C:\Users\Administrator\Documents\Visual Studio 2013\Projects\TRMWebService\DomainModel\obj\Release\TRMDomainModel.pdb
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\obj\Release\TRMDomainModel.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\TRMDomainModel.dll.config
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\TRMDomainModel.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\TRMDomainModel.pdb
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\TRMInfrastructure.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\SprightlySoftAWS.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\FFmpegController.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\TRMInfrastructure.pdb
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\EntityFramework.xml
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Release\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\obj\Release\TRMDomainModel.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\obj\Release\TRMDomainModel.pdb

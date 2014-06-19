@@ -1,8 +1,9 @@
 ﻿@model TRMAudiostem.Models.ArtistSongModel
 
-@using (Html.BeginForm("ArtistSongs", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+@using (Html.BeginForm("EditSong", "Account", FormMethod.Post, new { id = "editSong", enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
 
     var TRMWCFWebServiceJson = new TRMWebService.TRMWCFWebServiceJson();
     var genreList = TRMWCFWebServiceJson.GetAllGenres();
@@ -10,17 +11,16 @@
     if (Model != null)
     {
         mediaAssetPath = "https://s3-eu-west-1.amazonaws.com/trmmaster/" + Model.MediaAssetPath;
-        
-        @*Html.ActionLink("<-- Go back to songs page", "ArtistSongs")*@
-        <input type="hidden" name="SongId" value="@Model.SongId" />   
+        <input type="hidden" id="SongId" name="SongId" value="@Model.SongId" />
     }
-    
+
+    <input type="hidden" id="AlbumId" name="AlbumId" value="@ViewBag.AlbumId" />
+
     <fieldset class="registrationForm">
         <legend>Song Details</legend>
         <ol>
             <li>
-                @Html.Label("Select an album to upload songs")
-                @Html.Partial("SimpleAlbumList", (List<DomainModel.Entities.Album>)ViewBag.ArtistAlbums)
+                <p class="validateTips">All form fields are required.</p>
             </li>
             <li>
                 @Html.LabelFor(m => m.MediaAsset)
@@ -28,13 +28,15 @@
                 @{
     if (Model != null)
     {
-                    <input type="hidden" name="MediaAsset" value="@Model.MediaAssetPath" />   
+        <input type="hidden" id="MediaAssetPath" name="MediaAssetPath" value="@Model.MediaAssetPath" />
     }
                 }
                 <br />
-                <input type="file" name="MediaAsset" />
-                <br />
-                <em>We recommend using files smaller than 40mb as larger files may take a long time to upload.</em>
+                <input type="file" id="MediaAsset" name="MediaAsset" />
+            </li>
+            <li>
+                @Html.CheckBoxFor(m => m.PRS)
+                <span>Registered with PRS for music?</span>
             </li>
             <li>
                 @Html.LabelFor(m => m.SongTitle)
@@ -47,16 +49,13 @@
             <li>
                 @Html.LabelFor(m => m.SongComposer)
                 @Html.TextBoxFor(m => m.SongComposer)
-            </li>
-            <li>
+            </li>            
+            <li id="songGenreList">
                 @{
                     Html.RenderPartial("GenreList", genreList);
                 }
             </li>
         </ol>
-        <br />
-        <input class="saveButton" type="submit" value="Save Song Details" onclick="showAndDisableControl('loader', 'saveButton', 'Saving song details');" />
-        <img class="loader" src="@Url.Content("~/Content/themes/trm/images/uploading.gif")" alt="Uploading song. Please wait." title="Your song is uploading. If it is a large file, it may take some time." />
     </fieldset>
 }
 

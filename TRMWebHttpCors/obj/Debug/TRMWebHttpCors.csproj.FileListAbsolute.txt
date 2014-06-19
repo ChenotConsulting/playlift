@@ -31,3 +31,13 @@ C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\TRMWebH
 C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\TRMWebHttpCors\bin\Debug\TRMWebHttpCors.pdb
 C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.dll
 C:\Users\JeanPhilippe\Documents\Visual Studio 2012\Projects\TRMAudiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.pdb
+C:\Users\Jean-Philippe\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\bin\Debug\TRMWebHttpCors.dll
+C:\Users\Jean-Philippe\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\bin\Debug\TRMWebHttpCors.pdb
+C:\Users\Jean-Philippe\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.csprojResolveAssemblyReference.cache
+C:\Users\Jean-Philippe\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.dll
+C:\Users\Jean-Philippe\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.pdb
+D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\bin\Debug\TRMWebHttpCors.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\bin\Debug\TRMWebHttpCors.pdb
+D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.dll
+D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.pdb

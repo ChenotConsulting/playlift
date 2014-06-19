@@ -9,51 +9,36 @@
     <h1>@ViewBag.Title.</h1>
 </hgroup>
 
-<p class="message-success">@ViewBag.StatusMessage</p>
-
 <nav>
     <ul id="menu">
-        <li>@Html.ActionLink("Albums", "ArtistAlbums", "Account")</li>
-        <li>@Html.ActionLink("Songs", "ArtistSongs", "Account")</li>
-        <li>@Html.ActionLink("Personal Details", "ArtistDetails", "Account")</li>
-        <li>@Html.ActionLink("Change Password", "PasswordChange", "Account")</li>
+        <li><a href="#" onclick="loadView('profilePlaceholder', '/Account/ArtistAlbums/');">Music</a></li>
+        <li><a href="#" onclick="loadView('profilePlaceholder', '/Account/ArtistDetails/');">Personal Details</a></li>
+        <li><a href="#" onclick="loadView('profilePlaceholder', '/Account/PasswordChange/');">Change Password</a></li>
     </ul>
 </nav>
 
-@if (ViewBag.ImagePath != TRMAudiostem.AudiostemBase.CloudfrontUrl)
-{
-    <img class="artist" src="@ViewBag.ImagePath" alt="@User.Identity.Name + 'profile image'" />
-}
+<section id="artist-profile" class="leftCol">
 
-<fieldset>
-    <legend>@Model.ArtistName</legend>
-
-    <ol>
-        <li></li>
-        <li>@Model.ArtistName</li>
-        <li>@Model.Email</li>
-        <li><a href="@Model.Website" target="_blank">@Model.Website</a></li>
-        <li><a href="@Model.SoundCloud" target="_blank">@Model.SoundCloud</a></li>
-        <li><a href="@Model.Facebook" target="_blank">@Model.Facebook</a></li>
-        <li><a href="@Model.Twitter" target="_blank">@Model.Twitter</a></li>
-        <li><a href="@Model.MySpace" target="_blank">@Model.MySpace</a></li>
-    </ol>
-</fieldset>
-
-@if (Model.PRS)
-{
-	<img class="royalty" src="http://www.prsformusic.com/Style%20Library/Images/Logos/prsformusiclogo.jpg" alt="PRS for music" />
-}
-else if (Model.CreativeCommonsLicence)
-{
-    <img class="royalty" alt="Creative Commons License" style="border-width: 0" src="~/Content/themes/trm/images/cc_logo.gif" />
-}
-
-<div class="clear"><!-- --></div>
-
-<section id="externalLogins">
-    @Html.Action("RemoveExternalLogins")
-
-    @*<h3>Add an external login</h3>
-    @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })*@
+    @if (string.IsNullOrEmpty(Model.ArtistName))
+    {
+        <label>
+            You haven't updated your personal information yet. You must at least have an artist/band name before you can upload any music.
+            You can update your details <a href="#" onclick="loadView('profilePlaceholder', '/Account/ArtistDetails/');">here</a>.
+        </label>
+    }
+    else
+    {
+        @Html.Action("ArtistProfile")
+    }    
 </section>
+
+<section class="rightCol" id="profilePlaceholder">
+    <section id="externalLogins">
+        @Html.Action("RemoveExternalLogins")
+
+        <h3>Add an external login</h3>
+        @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+    </section>
+</section>
+
+
