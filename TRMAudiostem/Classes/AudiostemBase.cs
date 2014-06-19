@@ -77,7 +77,22 @@ namespace TRMAudiostem
                 value = form.FirstOrDefault(x => x.ToString().Contains(key)).ToString().Split('=')[1];
             }
 
-            return value.Replace("+", " ").Replace("%2F", "/").Replace("%3F", "?").Replace("%3D", "=");
+            return value.Replace("+", " ").Replace("%2F", "/").Replace("%3F", "?").Replace("%3D", "=").Replace("%40", "@").Replace("%3A", ":")
+                .Replace("%2C", ",").Replace("%5C", "\\").Replace("%3B", ";").Replace("%0D", "").Replace("%0A", "");
+        }
+
+        public static bool ReturnFormBooleanValue(string[] form, string key)
+        {
+            bool value = false;
+            if (!string.IsNullOrEmpty(form.FirstOrDefault(x => x.ToString().Contains(key))))
+            {
+                if (form.FirstOrDefault(x => x.ToString().Contains(key)).ToString().Split('=')[1] == "true")
+                {
+                    return true;
+                }
+            }
+
+            return value;
         }
     }
 }

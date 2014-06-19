@@ -49,6 +49,10 @@ namespace TRMAudiostem
 
             bundles.Add(new ScriptBundle("~/bundles/trm/scripts").Include(
                         "~/Content/themes/trm/scripts/account.js",
+                        "~/Content/themes/trm/scripts/album.js",
+                        "~/Content/themes/trm/scripts/song.js",
+                        "~/Content/themes/trm/scripts/personaldetails.js",
+                        "~/Content/themes/trm/scripts/password.js",
                         "~/Content/themes/trm/scripts/admin.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/trm/new/scripts").Include(
@@ -61,12 +65,12 @@ namespace TRMAudiostem
                         "~/Content/themes/cloudPlayer/css/bootstrap-theme.min.css",
                         "~/Content/themes/cloudPlayer/css/demo.css",
                         "~/Content/themes/cloudPlayer/css/component.css",
-                        "~/Content/themes/cloudPlayer/css/context.css",                    
+                        "~/Content/themes/cloudPlayer/css/context.css",
                         "~/Content/themes/cloudPlayer/css/jquery.jscrollpane.css",
                         "~/Content/themes/cloudPlayer/js/jquery.contextMenu.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/cloudplayer/scripts").Include(
-                        "~/Content/themes/cloudPlayer/js/modernizr.custom.js", 
+                        "~/Content/themes/cloudPlayer/js/modernizr.custom.js",
                         "~/Content/themes/cloudPlayer/js/classie.js",
                         "~/Content/themes/cloudPlayer/js/mlpushmenu.js",
                         "~/Content/themes/cloudPlayer/js/jquery-1.10.2.min.js",

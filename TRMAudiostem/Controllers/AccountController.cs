@@ -23,8 +23,6 @@ namespace TRMAudiostem.Controllers
     [ErrorNotification]
     public class AccountController : Controller
     {
-        private Utilities util = new Utilities();
-
         public ActionResult Index()
         {
             return RedirectToAction("ManageArtist");
@@ -141,23 +139,23 @@ namespace TRMAudiostem.Controllers
                         var util = new Utilities();
 
                         var artist = new Artist
-                            {
-                                ProfileImage = util.RemoveSpaces(model.ArtistName) + "/" + model.ProfileImage.FileName,
-                                ArtistName = model.ArtistName,
-                                UserName = model.UserName,
-                                Password = model.Password,
-                                UserType = DomainModel.Entities.User.UserTypeList.Artist,
-                                Email = model.Email,
-                                Facebook = model.Facebook,
-                                MySpace = model.MySpace,
-                                SoundCloud = model.SoundCloud,
-                                Twitter = model.Twitter,
-                                Website = model.Website,
-                                TermsAndConditionsAccepted = model.TermsAndConditions,
-                                PRS = model.PRS,
-                                CreativeCommonsLicence = model.CreativeCommonsLicence,
-                                Bio = model.Bio
-                            };
+                        {
+                            ProfileImage = util.RemoveSpaces(model.ArtistName) + "/" + model.ProfileImage.FileName,
+                            ArtistName = model.ArtistName,
+                            UserName = model.UserName,
+                            Password = model.Password,
+                            UserType = DomainModel.Entities.User.UserTypeList.Artist,
+                            Email = model.Email,
+                            Facebook = model.Facebook,
+                            MySpace = model.MySpace,
+                            SoundCloud = model.SoundCloud,
+                            Twitter = model.Twitter,
+                            Website = model.Website,
+                            TermsAndConditionsAccepted = model.TermsAndConditions,
+                            PRS = model.PRS,
+                            CreativeCommonsLicence = model.CreativeCommonsLicence,
+                            Bio = model.Bio
+                        };
 
                         var artistGenreList = new List<Genre>();
 
@@ -388,19 +386,28 @@ namespace TRMAudiostem.Controllers
             var trmservice = new TRMWebService.TRMWCFWebServiceJson();
             var artist = trmservice.GetArtist(WebSecurity.CurrentUserId);
 
-            ViewBag.ImagePath = AudiostemBase.StreamingUrl + artist.ProfileImage;
-
             return View(artist);
         }
 
         // Artist management
         // GET: /Account/ArtistAlbums
 
+        public PartialViewResult ArtistProfile()
+        {
+            var trmwebservice = new TRMWebService.TRMWCFWebServiceJson();
+            var artist = trmwebservice.GetArtist(WebSecurity.CurrentUserId);
+
+            ViewBag.ImagePath = AudiostemBase.StreamingUrl + artist.ProfileImage;
+
+            return PartialView(artist);
+        }
+
         public PartialViewResult ArtistAlbums()
         {
             var trmservice = new TRMWebService.TRMWCFWebServiceJson();
             var artist = trmservice.GetArtist(WebSecurity.CurrentUserId);
             ViewBag.ArtistAlbums = trmservice.GetArtistAlbums(artist);
+            ViewBag.ArtistName = artist.ArtistName;
 
             return PartialView();
         }
@@ -473,6 +480,8 @@ namespace TRMAudiostem.Controllers
             var trmservice = new TRMWebService.TRMWCFWebServiceJson();
             var album = trmservice.GetAllAlbums().FirstOrDefault(a => a.AlbumId == albumId);
             ViewBag.AlbumCoverPath = AudiostemBase.StreamingUrl + album.AlbumCover;
+            ViewBag.ArtistName = trmservice.GetArtist(WebSecurity.CurrentUserId).ArtistName;
+
             return PartialView(album);
         }
 
@@ -508,11 +517,14 @@ namespace TRMAudiostem.Controllers
             var util = new Utilities();
             var localFile = Path.Combine(AudiostemBase.LocalTempDestinationPath, fileName);
 
-            byte[] bytes = Convert.FromBase64String(fileStream);
-            using (MemoryStream ms = new MemoryStream(bytes))
+            if (!string.IsNullOrEmpty(fileStream))
             {
-                Image image = Image.FromStream(ms);
-                image.Save(localFile);
+                byte[] bytes = Convert.FromBase64String(fileStream);
+                using (MemoryStream ms = new MemoryStream(bytes))
+                {
+                    Image image = Image.FromStream(ms);
+                    image.Save(localFile);
+                }
             }
 
             // populate the list of albums for this artist to be displayed in the management section
@@ -593,145 +605,187 @@ namespace TRMAudiostem.Controllers
             return result;
         }
 
-        public PartialViewResult DeleteAlbum(int albumId)
+        [HttpPost]
+        public string DeleteAlbum(int albumId)
         {
-            var trmservice = new TRMWebService.TRMWCFWebServiceJson();
-            var artist = trmservice.GetArtist(WebSecurity.CurrentUserId);
-            var album = trmservice.GetArtistAlbumDetails(albumId);
+            var result = "There was a problem deleting this album. Please try again. If the problem persists, please contact support@totalresolutionmusic.com";
 
-            trmservice.DeleteArtistAlbum(album, artist);
+            try
+            {
+                var trmservice = new TRMWebService.TRMWCFWebServiceJson();
+                var artist = trmservice.GetArtist(WebSecurity.CurrentUserId);
+                var album = trmservice.GetArtistAlbumDetails(albumId);
 
-            return PartialView();
+                trmservice.DeleteArtistAlbum(album, artist);
+                result = "The album " + album.AlbumTitle + " has been successfully removed.";
+            }
+            catch (Exception ex)
+            {
+                result = ex.Message;
+            }
+
+            return result;
         }
 
         // Artist management
         // GET: /Account/ArtistSongs
 
-        public ActionResult ArtistSongs()
+        public PartialViewResult ArtistSongs(int albumId)
         {
             var trmservice = new TRMWebService.TRMWCFWebServiceJson();
             var artist = trmservice.GetArtist(WebSecurity.CurrentUserId);
             ViewBag.ArtistAlbums = trmservice.GetArtistAlbums(artist);
+            ViewBag.AlbumId = albumId;
 
-            return View();
+            return PartialView();
         }
 
         // Artist management
         // POST: /Account/ArtistSongs
 
         [HttpPost]
-        public ActionResult ArtistSongs(ArtistSongModel model, FormCollection form)
+        public string EditSong(string form, string fileStream, string fileName, string fileType)
         {
-            if (ModelState.IsValid)
+            var result = "The song was not uploaded. Please try again. If the problem persists, please contact us at support@totalresolutionmusic.com";
+            var formCollection = form.Split('&');
+            var trmservice = new TRMWebService.TRMWCFWebServiceJson();
+            var artist = trmservice.GetArtist(WebSecurity.CurrentUserId);
+            var util = new Utilities();
+            var localFile = Path.Combine(AudiostemBase.LocalTempDestinationPath, fileName);
+
+            if (!string.IsNullOrEmpty(fileStream))
             {
-                if (model.MediaAsset != null || !string.IsNullOrEmpty(model.MediaAssetPath))
+                byte[] bytes = Convert.FromBase64String(fileStream);
+                using (MemoryStream ms = new MemoryStream(bytes))
                 {
-                    // Attempt to save the songs
-                    try
+                    using (FileStream file = new FileStream(localFile, FileMode.Create, System.IO.FileAccess.Write))
                     {
-                        var trmservice = new TRMWebService.TRMWCFWebServiceJson();
-                        var util = new Utilities();
-                        var albumCollection = new List<Album>();
-                        var artist = trmservice.GetArtist(WebSecurity.CurrentUserId);
-
-                        var songGenreList = new List<Genre>();
-
-                        foreach (var formItem in form)
-                        {
-                            if (formItem.ToString().StartsWith("genre"))
-                            {
-                                songGenreList.Add(new Genre
-                                {
-                                    GenreId = GetGenreId(formItem.ToString()),
-                                    GenreName = GetGenreName(formItem.ToString())
-                                });
-                            }
-                        }
-
-                        var albumId = Convert.ToInt32(form["songAlbum"]);
-                        var album = trmservice.GetArtistAlbumDetails(albumId);
-                        albumCollection.Add(album);
-
-                        // if editing, if no media file is uploaded, use the existing path
-                        var mediaFileFolder = string.Empty;
-                        var mediaFileLocation = string.Empty;
-
-                        if (model.MediaAsset != null)
-                        {
-                            // save the file to a temp location
-                            if (!Directory.Exists(AudiostemBase.LocalTempDestinationPath))
-                            {
-                                Directory.CreateDirectory(AudiostemBase.LocalTempDestinationPath);
-                            }
-
-                            var tempLocation = Path.Combine(AudiostemBase.LocalTempDestinationPath, model.MediaAsset.FileName);
-                            model.MediaAsset.SaveAs(tempLocation);
-
-                            mediaFileLocation = tempLocation;
-                            mediaFileFolder = util.RemoveSpaces(artist.ArtistName) + "/" + util.RemoveSpaces(album.AlbumTitle) + "/";
-                        }
-
-                        var song = new Song()
-                        {
-                            AlbumCollection = albumCollection,
-                            CreatedDate = DateTime.Now,
-                            GenreCollection = songGenreList,
-                            SongComposer = model.SongComposer,
-                            SongId = model.SongId,
-                            SongReleaseDate = model.SongReleaseDate,
-                            SongTitle = model.SongTitle
-                        };
-
-                        // upload and save the song
-                        if (trmservice.UploadSong(song, mediaFileLocation, "mp3", mediaFileFolder))
-                        {
-                            ViewBag.StatusMessage = "The song \"" + song.SongTitle + "\" has been uploaded successfully.";
-                        }
-                        else
-                        {
-                            ModelState.AddModelError("Song upload error.", "There was an issue uploading your song. Please try again. If the problem persists, please contact us at info@totalresolutiomusic.com");
-                        }
+                        ms.Read(bytes, 0, (int)ms.Length);
+                        file.Write(bytes, 0, bytes.Length);
+                        ms.Close();
                     }
-                    catch (MembershipCreateUserException e)
-                    {
-                        ModelState.AddModelError("", ErrorCodeToString(e.StatusCode));
-                    }
-                    catch (TimeoutException exc)
-                    {
-                        util.ErrorNotification(exc);
-                        ModelState.AddModelError("Upload Time Out.", "The upload of your song has timed out. Your file may be too big for our system. We have been informed and will work on fixing this issue. You may want to try uploading a shorter version of this file.");
-                    }
-                    catch (Exception ex)
-                    {
-                        util.ErrorNotification(ex);
-                        ModelState.AddModelError("General issue.", ex.Message);
-                    }
-                }
-                else
-                {
-                    ModelState.AddModelError("MissingMediaFile", "Please select a media file to upload");
                 }
             }
 
-            // If we got this far, something failed, redisplay form
-            return View(model);
+            if (!string.IsNullOrEmpty(fileName) || !string.IsNullOrEmpty(AudiostemBase.ReturnFormItemValue(formCollection, "MediaAssetPath")))
+            {
+                // Attempt to save the song
+                try
+                {
+                    var albumCollection = new List<Album>();
+                    var songGenreList = new List<Genre>();
+
+                    foreach (var formItem in formCollection)
+                    {
+                        if (formItem.ToString().StartsWith("genre"))
+                        {
+                            songGenreList.Add(new Genre
+                            {
+                                GenreId = GetGenreId(formItem.ToString()),
+                                GenreName = GetGenreName(formItem.ToString())
+                            });
+                        }
+                    }
+
+                    var albumId = 0;
+                    if (!string.IsNullOrEmpty(AudiostemBase.ReturnFormItemValue(formCollection, "AlbumId")) && Convert.ToInt32(AudiostemBase.ReturnFormItemValue(formCollection, "AlbumId")) > 0)
+                    {
+                        albumId = Convert.ToInt32(AudiostemBase.ReturnFormItemValue(formCollection, "AlbumId"));
+                    }
+
+                    var songId = 0;
+                    if (!string.IsNullOrEmpty(AudiostemBase.ReturnFormItemValue(formCollection, "SongId")) && Convert.ToInt32(AudiostemBase.ReturnFormItemValue(formCollection, "SongId")) > 0)
+                    {
+                        songId = Convert.ToInt32(AudiostemBase.ReturnFormItemValue(formCollection, "SongId"));
+                    }
+
+                    var album = trmservice.GetArtistAlbumDetails(albumId);
+                    albumCollection.Add(album);
+
+                    var mediaFileFolder = string.Empty;
+                    var mediaFileLocation = string.Empty;
+
+                    if (!string.IsNullOrEmpty(fileName))
+                    {
+                        mediaFileLocation = localFile;
+                        mediaFileFolder = util.RemoveSpaces(artist.ArtistName) + "/" + util.RemoveSpaces(album.AlbumTitle) + "/";
+                    }
+
+                    var releaseDate = AudiostemBase.ReturnFormItemValue(formCollection, "SongReleaseDate").ToString().Replace("%2F", "/");
+
+                    var song = new Song()
+                    {
+                        AlbumCollection = albumCollection,
+                        CreatedDate = DateTime.Now,
+                        GenreCollection = songGenreList,
+                        SongComposer = AudiostemBase.ReturnFormItemValue(formCollection, "SongComposer"),
+                        SongId = songId,
+                        SongReleaseDate = Convert.ToDateTime(releaseDate),
+                        SongTitle = AudiostemBase.ReturnFormItemValue(formCollection, "SongTitle"),
+                        PRS = AudiostemBase.ReturnFormBooleanValue(formCollection, "PRS")
+                    };
+
+                    // upload and save the song
+                    if (trmservice.UploadSong(song, mediaFileLocation, "mp3", mediaFileFolder))
+                    {
+                        result = "The song \"" + song.SongTitle + "\" has been uploaded successfully.";
+                    }
+                }
+                catch (MembershipCreateUserException e)
+                {
+                    result = ErrorCodeToString(e.StatusCode);
+                }
+                catch (Exception ex)
+                {
+                    result = ex.Message;
+                }
+            }
+            else
+            {
+                result = "Please select a media file to upload";
+            }
+
+            return result;
         }
 
-        public ActionResult DeleteSong(int songId, int albumId)
+        public PartialViewResult AlbumSongList(int albumId)
         {
             var trmservice = new TRMWebService.TRMWCFWebServiceJson();
-            var album = trmservice.GetArtistAlbumDetails(albumId);
-            var song = trmservice.GetArtistSongDetails(songId);
+            var artist = trmservice.GetArtist(WebSecurity.CurrentUserId);
+            var songList = trmservice.GetAlbumSongs(albumId);
+            var album = trmservice.GetAllAlbums().FirstOrDefault(a => a.AlbumId == albumId);
 
-            trmservice.DeleteSong(song, album);
+            ViewBag.AlbumId = albumId;
+            ViewBag.AlbumTitle = album.AlbumTitle;
 
-            return RedirectToAction("ArtistSongs");
+            return PartialView(songList);
+        }
+
+        public string DeleteSong(int songId, int albumId)
+        {
+            var result = "There was a problem deleting this song. Please try again. If the problem persists, please contact support@totalresolutionmusic.com";
+
+            try
+            {
+                var trmservice = new TRMWebService.TRMWCFWebServiceJson();
+                var album = trmservice.GetArtistAlbumDetails(albumId);
+                var song = trmservice.GetArtistSongDetails(songId);
+
+                trmservice.DeleteSong(song, album);
+                result = "The song " + song.SongTitle + "has been successfully removed from the album " + album.AlbumTitle + ".";
+            }
+            catch (Exception ex)
+            {
+                result = ex.Message;
+            }
+
+            return result;
         }
 
         // Artist management
         // GET: /Account/ManageArtist
 
-        public ActionResult ArtistDetails()
+        public PartialViewResult ArtistDetails()
         {
             var TrmWcfWebServiceJson = new TRMWebService.TRMWCFWebServiceJson();
             var artist = TrmWcfWebServiceJson.GetArtist(WebSecurity.CurrentUserId);
@@ -752,153 +806,142 @@ namespace TRMAudiostem.Controllers
                 Bio = artist.Bio
             };
 
-            return View(artistRegisterModel);
+            return PartialView(artistRegisterModel);
         }
 
         // Artist management
         // POST: /Account/ManageArtist
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult ArtistDetails(ManageArtistModel model, FormCollection form)
+        public string ArtistDetails(string form, string fileStream, string fileName, string fileType)
         {
+            var result = "Your details have not been updated. Please try again. If the problem persists, please contact us at support@totalresolutionmusic.com";
+            var formCollection = form.Split('&');
             var trmservice = new TRMWebService.TRMWCFWebServiceJson();
             var artist = trmservice.GetArtist(WebSecurity.CurrentUserId);
             var util = new Utilities();
             var profileImage = string.Empty;
+            var localFile = Path.Combine(AudiostemBase.LocalTempDestinationPath, fileName);
 
-            if (ModelState.IsValid)
+            if (!string.IsNullOrEmpty(fileStream))
             {
-                if (model.ProfileImage != null || !string.IsNullOrEmpty(model.ProfileImagePath))
+                byte[] bytes = Convert.FromBase64String(fileStream);
+                using (MemoryStream ms = new MemoryStream(bytes))
                 {
-                    // Attempt to upate the user
-                    try
+                    using (FileStream file = new FileStream(localFile, FileMode.Create, System.IO.FileAccess.Write))
                     {
-                        if (model.ProfileImage == null)
-                        {
-                            profileImage = model.ProfileImagePath;
-                        }
-                        else
-                        {
-                            profileImage = util.RemoveSpaces(model.ArtistName) + "/" + model.ProfileImage.FileName;
-                        }
-
-                        artist.ProfileImage = profileImage;
-                        artist.ArtistName = model.ArtistName;
-                        artist.Email = model.Email;
-                        artist.Facebook = model.Facebook;
-                        artist.MySpace = model.MySpace;
-                        artist.SoundCloud = model.SoundCloud;
-                        artist.Twitter = model.Twitter;
-                        artist.Website = model.Website;
-                        artist.PRS = model.PRS;
-                        artist.CreativeCommonsLicence = model.CreativeCommonsLicence;
-                        artist.Bio = model.Bio;
-
-                        var artistGenreList = new List<Genre>();
-
-                        foreach (var formItem in form)
-                        {
-                            if (formItem.ToString().StartsWith("genre"))
-                            {
-                                artistGenreList.Add(new Genre
-                                {
-                                    GenreId = GetGenreId(formItem.ToString()),
-                                    GenreName = GetGenreName(formItem.ToString())
-                                });
-                            }
-                        }
-
-                        if (trmservice.UpdateArtist(artist, artistGenreList, artist.ProfileImage))
-                        {
-                            ViewBag.StatusMessage = "You have successfully updated your details";
-
-                            return RedirectToAction("ManageArtist");
-                        }
+                        ms.Read(bytes, 0, (int)ms.Length);
+                        file.Write(bytes, 0, bytes.Length);
+                        ms.Close();
                     }
-                    catch (MembershipCreateUserException e)
-                    {
-                        ModelState.AddModelError("", ErrorCodeToString(e.StatusCode));
-                    }
-                }
-                else
-                {
-                    ModelState.AddModelError("MissingProfileImage", "Please select a profile image");
                 }
             }
 
-            // If we got this far, something failed, redisplay form
-            model.GenreCollection = artist.GenreCollection;
-            return View(model);
+            if (!string.IsNullOrEmpty(fileName) || !string.IsNullOrEmpty(AudiostemBase.ReturnFormItemValue(formCollection, "ProfileImagePath")))
+            {
+                // Attempt to upate the user
+                try
+                {
+                    if (string.IsNullOrEmpty(fileName))
+                    {
+                        profileImage = AudiostemBase.ReturnFormItemValue(formCollection, "ProfileImagePath");
+                    }
+                    else
+                    {
+                        profileImage = util.RemoveSpaces(AudiostemBase.ReturnFormItemValue(formCollection, "ArtistName")) + "/" + fileName;
+                    }
+
+                    artist.ProfileImage = profileImage;
+                    artist.ArtistName = AudiostemBase.ReturnFormItemValue(formCollection, "ArtistName");
+                    artist.Email = AudiostemBase.ReturnFormItemValue(formCollection, "Email");
+                    artist.Facebook = AudiostemBase.ReturnFormItemValue(formCollection, "Facebook");
+                    artist.MySpace = AudiostemBase.ReturnFormItemValue(formCollection, "MySpace");
+                    artist.SoundCloud = AudiostemBase.ReturnFormItemValue(formCollection, "SoundCloud");
+                    artist.Twitter = AudiostemBase.ReturnFormItemValue(formCollection, "Twitter");
+                    artist.Website = AudiostemBase.ReturnFormItemValue(formCollection, "Website");
+                    artist.PRS = AudiostemBase.ReturnFormBooleanValue(formCollection, "PRS");
+                    artist.CreativeCommonsLicence = AudiostemBase.ReturnFormBooleanValue(formCollection, "CreativeCommonsLicence");
+                    artist.Bio = AudiostemBase.ReturnFormItemValue(formCollection, "Bio");
+
+                    var artistGenreList = new List<Genre>();
+
+                    foreach (var formItem in formCollection)
+                    {
+                        if (formItem.ToString().StartsWith("genre"))
+                        {
+                            artistGenreList.Add(new Genre
+                            {
+                                GenreId = GetGenreId(formItem.ToString()),
+                                GenreName = GetGenreName(formItem.ToString())
+                            });
+                        }
+                    }
+
+                    if (trmservice.UpdateArtist(artist, artistGenreList, localFile))
+                    {
+                        result = "You have successfully updated your details";
+                    }
+                }
+                catch (MembershipCreateUserException e)
+                {
+                    result = ErrorCodeToString(e.StatusCode);
+                }
+            }
+            else
+            {
+                result = "Please select a profile image";
+            }
+
+            return result;
         }
 
         // Password management
 
-        public ActionResult PasswordChange(ManageMessageId? message)
+        public PartialViewResult PasswordChange(ManageMessageId? message)
         {
             LoadPasswordChangeDefaults(message);
 
-            return View();
+            return PartialView();
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult PasswordChange(LocalPasswordModel model)
+        public string PasswordChange(string form)
         {
+            var result = "Your password has not been updated. Please try again. If the problem persists, please contact us at support@totalresolutionmusic.com";
+            var formCollection = form.Split('&');
+            var model = new LocalPasswordModel();
+
+            model.OldPassword = AudiostemBase.ReturnFormItemValue(formCollection, "OldPassword");
+            model.NewPassword = AudiostemBase.ReturnFormItemValue(formCollection, "NewPassword");
+            model.ConfirmPassword = AudiostemBase.ReturnFormItemValue(formCollection, "ConfirmPassword");
+
             bool hasLocalAccount = OAuthWebSecurity.HasLocalAccount(WebSecurity.GetUserId(User.Identity.Name));
             ViewBag.HasLocalPassword = hasLocalAccount;
             ViewBag.ReturnUrl = Url.Action("PasswordChange");
             if (hasLocalAccount)
             {
-                if (ModelState.IsValid)
+                // ChangePassword will throw an exception rather than return false in certain failure scenarios.
+                bool changePasswordSucceeded;
+                try
                 {
-                    // ChangePassword will throw an exception rather than return false in certain failure scenarios.
-                    bool changePasswordSucceeded;
-                    try
-                    {
-                        changePasswordSucceeded = WebSecurity.ChangePassword(User.Identity.Name, model.OldPassword, model.NewPassword);
-                    }
-                    catch (Exception)
-                    {
-                        changePasswordSucceeded = false;
-                    }
-
-                    if (changePasswordSucceeded)
-                    {
-                        return RedirectToAction("PasswordChange", new { Message = ManageMessageId.ChangePasswordSuccess });
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("", "The current password is incorrect or the new password is invalid.");
-                    }
+                    changePasswordSucceeded = WebSecurity.ChangePassword(User.Identity.Name, model.OldPassword, model.NewPassword);
                 }
-            }
-            else
-            {
-                // User does not have a local password so remove any validation errors caused by a missing
-                // OldPassword field
-                ModelState state = ModelState["OldPassword"];
-                if (state != null)
+                catch (Exception)
                 {
-                    state.Errors.Clear();
+                    changePasswordSucceeded = false;
                 }
 
-                if (ModelState.IsValid)
+                if (changePasswordSucceeded)
                 {
-                    try
-                    {
-                        WebSecurity.CreateAccount(User.Identity.Name, model.NewPassword);
-                        return RedirectToAction("PasswordChange", new { Message = ManageMessageId.SetPasswordSuccess });
-                    }
-                    catch (Exception)
-                    {
-                        ModelState.AddModelError("", String.Format("Unable to create local account. An account with the name \"{0}\" may already exist.", User.Identity.Name));
-                    }
+                    result = "You have successfully updated your password!";
+                }
+                else
+                {
+                    result = "The current password is incorrect or the new password is invalid.";
                 }
             }
 
-            // If we got this far, something failed, redisplay form
-            return View(model);
+            return result;
         }
 
         // Customer management

@@ -1,5 +1,6 @@
 ﻿@model List<DomainModel.Entities.Album>
 
+@if (Model.Count > 0) { 
 <ol id="AlbumList">
     @{
         foreach (var album in Model)
@@ -8,7 +9,7 @@
                 <img class="thumbnail" src="@TRMAudiostem.AudiostemBase.StreamingUrl@album.AlbumCover" alt="@album.AlbumTitle" />
                 @album.AlbumTitle
                 &nbsp;|&nbsp;
-                <img class="icon" src="~/Content/themes/trm/images/view.png" onclick="viewAlbum('profilePlaceholder', '/Account/ViewAlbum', 'GET', @album.AlbumId)" />
+                <img class="icon" src="~/Content/themes/trm/images/view.png" onclick="viewAlbum('profilePlaceholder', '/Account/ViewAlbum', @album.AlbumId)" />
                 @*&nbsp;|&nbsp;
                     @Html.ActionLink("Edit album", "EditAlbum", new { albumId = album.AlbumId })*@
                 &nbsp;|&nbsp;
@@ -17,4 +18,9 @@
         }
     }
 </ol>
+}
+else
+{
+    <label>There are no albums.</label>
+}
 

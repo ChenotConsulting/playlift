@@ -131,6 +131,10 @@ ul#genreList {
 
 /* Profile */
 
+p.validateTips {
+    color: red;
+}
+
 img.artist, img.album {
     width: 200px;
     float: left;
@@ -139,9 +143,16 @@ img.artist, img.album {
     box-shadow: 5px 5px 10px #ababab;
 }
 
+img.profile {
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #ababab;
+}
+
 img.royalty {
     width: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 5px 5px 10px #ababab;
 }
 
@@ -176,12 +187,13 @@ section.leftCol {
     border-right: solid 2px #c8c8c8;
     float: left;
     width: 55%;
+    padding-right: 5%;
 }
 
 section.rightCol {
-    margin-left: 20px;
+    margin-left: 5%;
     float: left;
-    width: 40%;
+    width: 34%;
 }
 
     #socialLoginForm h2 {
@@ -190,7 +202,6 @@ section.rightCol {
 
 /* End profile */
 
-a.strapline, a.straplineBis {
 /* Album section */
 
 li.album {
@@ -199,18 +210,25 @@ li.album {
 
 /* End album section*/
 
+/* Song section */
+
+ol.albumSongs {
+    padding-left: 5px;
+}
+
+ol.albumSongs li {
+    margin-top: 5px;
+}
+
+/* End song section */
+
 a.strapline {
     font-family: inherit;
     font-weight: normal;
     font-size: 16pt;
-    line-height: 30px;
+    line-height: 60px;
     color: #fff;
     text-rendering: optimizelegibility;
-}
-
-a.straplineBis {
-    font-size: 8pt;
-    line-height: none;
 }
 
 .site-logo a:hover {
@@ -247,10 +265,6 @@ img.play {
     vertical-align: middle;
     cursor: pointer;
     width: 24px;
-}
-
-img.loader {
-    display: none;
 }
 
 .copyright {

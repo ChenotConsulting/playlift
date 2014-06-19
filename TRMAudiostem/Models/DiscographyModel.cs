@@ -55,6 +55,9 @@ namespace TRMAudiostem.Models
         [Display(Name = "Composer")]
         public string SongComposer { get; set; }
 
+        [Display(Name = "Registered with PRS?")]
+        public bool PRS { get; set; }
+
         [Display(Name = "Media File")]
         public HttpPostedFileBase MediaAsset { get; set; }
         public string MediaAssetPath { get; set; }

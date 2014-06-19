@@ -1,32 +1,14 @@
 ﻿@model TRMAudiostem.Models.ArtistSongModel
 
-@{
-    ViewBag.Title = "Manage your songs";
-}
+@Html.Action("AlbumSongList", new { albumId = @ViewBag.AlbumId })
 
-<p class="message-success">@ViewBag.StatusMessage</p>
-@Html.ActionLink("<-- Go back to profile page", "ManageArtist")
-
-<nav>
-    <ul id="menu">
-        <li>@Html.ActionLink("Albums", "ArtistAlbums", "Account")</li>
-        <li>@Html.ActionLink("Songs", "ArtistSongs", "Account")</li>
-        <li>@Html.ActionLink("Personal Details", "ArtistDetails", "Account")</li>
-        <li>@Html.ActionLink("Change Password", "PasswordChange", "Account")</li>
-    </ul>
-</nav>
-
-@Html.ValidationSummary()
-@Html.Partial("SongAlbumList")
-@Html.Partial("_BasicPlayer")
-<br />
-
-<input type="button" id="ToggleNewAlbum" value="Add New Song" onclick="toggleContainer('NewSong')" />
-
-<div id="NewSong" style="display: none;">
+<div id="song-dialog-form">
     @Html.Partial("EditSong")
 </div>
 
-@section Scripts {
-    @Scripts.Render("~/bundles/trm/scripts")
-}
+@Scripts.Render("~/bundles/jqueryui")
+<script>
+    $(function () {
+        loadSongUploadForm();
+    });
+</script>

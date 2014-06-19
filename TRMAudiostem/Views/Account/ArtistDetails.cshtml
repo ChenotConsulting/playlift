@@ -1,22 +1,10 @@
 ﻿@model TRMAudiostem.Models.ManageArtistModel
 
-@{
-    ViewBag.Title = "Edit your personal details";
-}
+<h3>Personal Details</h3>
 
 <p class="message-success">@ViewBag.StatusMessage</p>
-@Html.ActionLink("<-- Go back to profile page", "ManageArtist")
 
-<nav>
-    <ul id="menu">
-        <li>@Html.ActionLink("Albums", "ArtistAlbums", "Account")</li>
-        <li>@Html.ActionLink("Songs", "ArtistSongs", "Account")</li>
-        <li>@Html.ActionLink("Personal Details", "ArtistDetails", "Account")</li>
-        <li>@Html.ActionLink("Change Password", "PasswordChange", "Account")</li>
-    </ul>
-</nav>
-
-@using (Html.BeginForm("ArtistDetails", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+@using (Html.BeginForm("ArtistDetails", "Account", FormMethod.Post, new { id="artistDetails", enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary()
@@ -33,17 +21,21 @@
         <legend>Personal Details</legend>
         <ol>
             <li>
+                <p class="validateTips">All fields marked with an asterix are required.</p>
+                <input type="hidden" name="UserName" />
+            </li>
+            <li>
                 @Html.LabelFor(m => m.ProfileImage)
 
                 @{
                     if (Model != null && !string.IsNullOrEmpty(Model.ProfileImagePath))
                     {
-                        <img src="@profileImagePath" alt="@User.Identity.Name + ' profile image'" width="100" /> 
-                        <input type="hidden" name="ProfileImagePath" value="@Model.ProfileImagePath" />                       
-                    }   
-                }
+                        <img class="profile" src="@profileImagePath" alt="@User.Identity.Name profile image" />
+                        <input type="hidden" id="ProfileImagePath" name="ProfileImagePath" value="@Model.ProfileImagePath" />
+                    }
+}
                 <br />
-                <input type="file" name="ProfileImage" />          
+                <input type="file" id="ProfileImage" name="ProfileImage" />          
             </li> 
             <li>
                 @Html.LabelFor(m => m.ArtistName)
@@ -119,30 +111,35 @@
                     @Html.Partial("_InfoHelper", new TRMAudiostem.Models.InfoHelper() { Message = "You cannot use this option if you have a PRS Licence.", AltMessage = "Creative Commons Licence Info" })
                 }
             </li>
+            <li id="artistGenreList">
                 @Html.LabelFor(m => m.GenreCollection)
                 @{
-                    if (Model != null)
+                if (Model != null)
+                {
+                    foreach (var artistGenre in Model.GenreCollection)
                     {
-                        foreach (var artistGenre in Model.GenreCollection)
+                        foreach (var genre in genreList)
                         {
-                            foreach (var genre in genreList)
+                            if (genre.GenreId == artistGenre.GenreId)
                             {
-                                if (genre.GenreId == artistGenre.GenreId)
-                                {
-                                    genre.Selected = true;
-                                }
+                                genre.Selected = true;
                             }
                         }
                     }
-
-                    Html.RenderPartial("GenreList", genreList);
                 }
+
+                Html.RenderPartial("GenreList", genreList);
+                }
+            </li>
+
         </ol>
-        <input type="submit" value="Save Personal Details" />
-        <input type="hidden" name="UserName" />
+        <input type="submit" id="save-artist-details" value="Save Personal Details" />
     </fieldset>
 }
 
-@section Scripts {
-    @Scripts.Render("~/bundles/trm/scripts")
-}
+@Scripts.Render("~/bundles/jqueryui")
+<script>
+    $(function () {
+        loadArtistDetailsForm();
+    });
+</script>
