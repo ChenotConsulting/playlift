@@ -1,0 +1,90 @@
+﻿@model DomainModel.Entities.Artist
+
+<h3>@Model.ArtistName</h3>
+
+@if (ViewBag.ImagePath != TRMAudiostem.AudiostemBase.CloudfrontUrl)
+{
+    <img class="artist" src="@ViewBag.ImagePath" alt="@User.Identity.Name profile image" />
+}
+
+<fieldset>
+    <ol>
+        <li>@Model.Bio</li>
+        <li></li>
+        @if (!String.IsNullOrEmpty(@Model.Email))
+        {
+            <li>
+
+                <a href="mailto:@Model.Email">
+                    <img class="profile_icon" src="@Url.Content("~/Content/themes/trm/images/icons/email_32x32.png")" alt="Email icon" />
+                    @Model.Email
+                </a>
+            </li>
+        }
+        @if (!String.IsNullOrEmpty(@Model.Website))
+        {
+            <li>
+
+                <a href="@Model.Website" target="_blank">
+                    <img class="profile_icon" src="@Url.Content("~/Content/themes/trm/images/icons/globe_32x32.png")" alt="Website icon" />
+                    &nbsp;@Model.Website
+                </a>
+
+            </li>
+        }
+        @if (!String.IsNullOrEmpty(@Model.SoundCloud))
+        {
+            <li>
+
+                <a href="@Model.SoundCloud" target="_blank">
+                    <img class="profile_icon" src="@Url.Content("~/Content/themes/trm/images/icons/soundcloud_32x32.png")" alt="Soundcloud icon" />
+                    @Model.SoundCloud
+                </a>
+
+            </li>
+        }
+        @if (!String.IsNullOrEmpty(@Model.Facebook))
+        {
+            <li>
+                <a href="@Model.Facebook" target="_blank">
+                    <img class="profile_icon" src="@Url.Content("~/Content/themes/trm/images/icons/facebook_33x33.png")" alt="Facebook icon" />
+                    @Model.Facebook
+                </a>
+            </li>
+        }
+        @if (!String.IsNullOrEmpty(@Model.Twitter))
+        {
+            <li>
+                <a href="@Model.Twitter" target="_blank">
+                    <img class="profile_icon" src="@Url.Content("~/Content/themes/trm/images/icons/twitter_33x33.png")" alt="Twitter icon" />
+                    @Model.Twitter
+                </a>
+            </li>
+        }
+        @if (!String.IsNullOrEmpty(@Model.MySpace))
+        {
+            <li>
+                <a href="@Model.MySpace" target="_blank">
+                    <img class="profile_icon" src="@Url.Content("~/Content/themes/trm/images/icons/myspace_32x32.png")" alt="MySpace icon" />
+                    @Model.MySpace
+                </a>
+            </li>
+        }
+        <li>
+            @if (Model.PRS)
+            {
+                <p>Registered with </p>
+                <img class="royalty" src="http://www.prsformusic.com/Style%20Library/Images/Logos/prsformusiclogo.jpg" alt="PRS for music" />
+            }
+            else if (Model.CreativeCommonsLicence)
+            {
+                <p>Registered with </p>
+                <img class="royalty" alt="Creative Commons License" style="border-width: 0" src="~/Content/themes/trm/images/cc_logo.gif" />
+            }
+        </li>
+    </ol>
+</fieldset>
+
+<div class="clear"><!-- --></div>
+<br /><br /><br /><br />
+

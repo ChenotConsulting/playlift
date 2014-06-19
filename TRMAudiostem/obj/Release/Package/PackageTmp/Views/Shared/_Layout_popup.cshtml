@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Total Resolution Music Ltd</title>
+    <link href="~/icon_logo.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/trm/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Html.Partial("_Fonts")
+</head>
+<body>
+    <div id="body" class="wrapper">
+        @RenderSection("featured", required: false)
+        <section class="content-wrapper main-content clear-fix">
+            @RenderBody()
+        </section>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/trm/scripts")
+    @RenderSection("scripts", required: false)
+	@Html.Partial("_JavaScript")
+</body>
+</html>

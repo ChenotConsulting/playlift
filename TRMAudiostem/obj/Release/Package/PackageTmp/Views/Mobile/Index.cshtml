@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Upload";
+    Layout = "~/Views/Shared/_Layout_Mobile.cshtml";
+}
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+<div style="text-align: center;">
+    <div id="topLoader" style="margin-top: 20px; margin-left: 60px;">
+    </div>
+
+    <button id="animateButton" class="btn btn-success" style="margin-top: 30px;">Upload</button>
+    
+    <script type="text/javascript" src="~/Content/themes/mobile/scripts/jquery.percentageloader-0.1.js"></script>  
+    <script>
+        $(function () {
+            var $topLoader = $("#topLoader").percentageLoader({
+                width: 200, height: 200, controllable: true, progress: 0, onProgressUpdate: function (val) {
+                    $topLoader.setValue(Math.round(val * 100.0));
+                }
+            });
+
+            var topLoaderRunning = false;
+            $("#animateButton").click(function () {
+                if (topLoaderRunning) {
+                    return;
+                }
+                topLoaderRunning = true;
+                $topLoader.setProgress(0);
+                $topLoader.setValue('0kb');
+                var kb = 0;
+                var totalKb = 9999;
+
+                var animateFunc = function () {
+                    kb += 17;
+                    $topLoader.setProgress(kb / totalKb);
+                    $topLoader.setValue(kb.toString() + 'kb');
+
+                    if (kb < totalKb) {
+                        setTimeout(animateFunc, 25);
+                    } else {
+                        topLoaderRunning = false;
+                    }
+                }
+
+                setTimeout(animateFunc, 25);
+
+            });
+        });
+    </script>
+</div>
+
