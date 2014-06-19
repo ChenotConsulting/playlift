@@ -20,6 +20,8 @@ namespace DomainModel.Entities
         public string SongComposer { get; set; }
         [Column]
         public DateTime CreatedDate { get; set; }
+        [Column]
+        public bool PRS { get; set; }
 
         public List<MediaAsset> songMediaAsset { get; set; }
         public List<Genre> GenreCollection { get; set; }
