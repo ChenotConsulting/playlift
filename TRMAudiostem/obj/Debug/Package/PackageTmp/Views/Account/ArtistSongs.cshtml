@@ -1,0 +1,14 @@
+﻿@model TRMAudiostem.Models.ArtistSongModel
+
+@Html.Action("AlbumSongList", new { albumId = @ViewBag.AlbumId })
+
+<div id="song-dialog-form">
+    @Html.Partial("EditSong")
+</div>
+
+@Scripts.Render("~/bundles/jqueryui")
+<script>
+    $(function () {
+        loadSongUploadForm();
+    });
+</script>

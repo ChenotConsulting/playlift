@@ -1,0 +1,15 @@
+﻿@media handlheld and (max-width: 640px), handlheld and (max-height: 960px) {
+    body {
+        width: 640px;
+        height: 960px;
+        align-content: center;
+    }
+}
+
+@media handlheld and (max-width: 640px), handlheld and (max-height: 1136px) {
+    body {
+        width: 640px;
+        height: 1136px;
+        align-content: center;
+    }
+}

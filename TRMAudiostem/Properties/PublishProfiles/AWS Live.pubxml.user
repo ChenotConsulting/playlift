@@ -195,7 +195,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:32</publishTime>
     </File>
     <File Include="bin/TRMAudiostem.dll">
-      <publishTime>06/19/2014 13:20:27</publishTime>
+      <publishTime>06/27/2014 00:27:02</publishTime>
     </File>
     <File Include="bin/TRMDomainModel.dll">
       <publishTime>06/19/2014 12:51:40</publishTime>
@@ -1803,7 +1803,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2014 23:37:02</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>06/10/2014 23:37:02</publishTime>
+      <publishTime>06/26/2014 22:02:02</publishTime>
+    </File>
+    <File Include="Views/Account/LostPassword.cshtml">
+      <publishTime>06/26/2014 22:45:34</publishTime>
     </File>
     <File Include="Views/Account/Manage.cshtml">
       <publishTime>06/10/2014 23:37:02</publishTime>
@@ -1828,6 +1831,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Account/RegisterSuccess.cshtml">
       <publishTime>06/10/2014 23:37:02</publishTime>
+    </File>
+    <File Include="Views/Account/ResetLinkSent.cshtml">
+      <publishTime>06/26/2014 23:01:11</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>06/26/2014 23:01:29</publishTime>
     </File>
     <File Include="Views/Account/SimpleAlbumList.cshtml">
       <publishTime>06/10/2014 23:37:02</publishTime>
@@ -2025,7 +2034,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/19/2014 13:20:39</publishTime>
+      <publishTime>06/27/2014 00:41:52</publishTime>
     </File>
   </ItemGroup>
 </Project>
