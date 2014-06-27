@@ -15,6 +15,9 @@ using System.Web;
 using TRMInfrastructure.Utilities;
 using System.IO;
 using System.Drawing;
+using System.Net.Mail;
+using System.Text;
+using System.Net;
 
 namespace TRMAudiostem.Controllers
 {
@@ -942,6 +945,144 @@ namespace TRMAudiostem.Controllers
             }
 
             return result;
+        }
+
+        [AllowAnonymous]
+        public ActionResult LostPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public ActionResult LostPassword(LostPasswordModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                MembershipUser user;
+                var artistUser = new Artist();
+                using (var context = new UsersContext())
+                {
+                    var userProfile = context.UserProfiles.Where(u => u.UserName == model.Username).FirstOrDefault();
+
+                    if (userProfile != null && !string.IsNullOrEmpty(userProfile.UserName))
+                    {
+                        user = Membership.GetUser(userProfile.UserName);
+
+                        try
+                        {
+                            // get local user for their email
+                            var trmwebservice = new TRMWebService.TRMWCFWebServiceJson();
+                            artistUser = trmwebservice.GetArtist(userProfile.UserId);
+                        }
+                        catch
+                        {
+                            ModelState.AddModelError("", "No artist found by that user name.");
+
+                            return View(model);
+                        }
+                    }
+                    else
+                    {
+                        user = null;
+                    }
+                }
+                if (user != null && artistUser != null)
+                {
+                    try
+                    {
+                        // Generate password token that will be used in the email link to authenticate user
+                        var token = WebSecurity.GeneratePasswordResetToken(user.UserName);
+                        // Generate the html link sent via emailModelState.AddModelError("", "There was an issue sending email: " + e.Message);
+                        StringBuilder resetLink = new StringBuilder();
+                        resetLink.Append(Url.Action("ResetPassword", "Account", new { rt = token }, "http"));
+                        resetLink.AppendLine(Environment.NewLine);
+                        resetLink.AppendLine("If the link does not work, please copy and paste it in your browser.");
+                        resetLink.AppendLine(Environment.NewLine);
+                        resetLink.AppendLine("The team at Total Resolution Music Ltd.");
+
+                        // Email stuff
+                        string subject = "Audiostem - Reset your password for " + artistUser.ArtistName;
+                        string body = "Reset password link: " + resetLink;
+                        string from = "noreply@totalresolutionmusic.com";
+
+                        MailMessage message = new MailMessage(from, artistUser.Email);
+                        message.Subject = subject;
+                        message.Body = body;
+                        SmtpClient client = new SmtpClient("auth.smtp.1and1.co.uk");
+                        client.Credentials = new NetworkCredential("info@totalresolutionmusic.com", "trm_info");
+
+                        // Attempt to send the email
+                        try
+                        {
+                            client.Send(message);
+                        }
+                        catch (Exception e)
+                        {
+                            ModelState.AddModelError("", "There was an issue sending email: " + e.Message);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        ModelState.AddModelError("", "We cannot reset your password because: " + ex.Message + " If you have registered with a social network, please reset your password with the provider.");
+                    }
+
+                }
+                else // Email not found
+                {
+                    /* Note: You may not want to provide the following information
+                    * since it gives an intruder information as to whether a
+                    * certain email address is registered with this website or not.
+                    * If you're really concerned about privacy, you may want to
+                    * forward to the same "Success" page regardless whether an
+                    * user was found or not. This is only for illustration purposes.
+                    */
+                    ModelState.AddModelError("", "No user found by that user name.");
+
+                    return View(model);
+                }
+            }
+
+            /* You may want to send the user to a "Success" page upon the successful
+            * sending of the reset email link. Right now, if we are 100% successful
+            * nothing happens on the page. :P
+            */
+            return RedirectToAction("ResetLinkSent");
+        }
+
+        [AllowAnonymous]
+        public ActionResult ResetLinkSent()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        public ActionResult ResetPassword(string rt)
+        {
+            ResetPasswordModel model = new ResetPasswordModel();
+            model.ReturnToken = rt;
+            return View(model);
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public ActionResult ResetPassword(ResetPasswordModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                bool resetResponse = WebSecurity.ResetPassword(model.ReturnToken, model.Password);
+                if (resetResponse)
+                {
+                    ViewBag.Message = "Your password has been changed successfully!";
+                }
+                else
+                {
+                    ViewBag.Message = "Your password has not been changed. Please try again! If the problem persists, please contact support.";
+                }
+            }
+            return View(model);
         }
 
         // Customer management

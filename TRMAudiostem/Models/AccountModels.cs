@@ -258,4 +258,28 @@ namespace TRMAudiostem.Models
         public string ProviderDisplayName { get; set; }
         public string ProviderUserId { get; set; }
     }
+
+    public class LostPasswordModel
+    {
+        [Required(ErrorMessage = "Please enter your user name to send you a reset link!")]
+        [Display(Name = "User name")]
+        public string Username { get; set; }
+    }
+
+    public class ResetPasswordModel
+    {
+        [Required]
+        [Display(Name = "Please enter a new Password")]
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
+
+        [Required]
+        [Display(Name = "Please confirm your new Password")]
+        [DataType(DataType.Password)]
+        [Compare("Password", ErrorMessage = "The passwords do not match.")]
+        public string ConfirmPassword { get; set; }
+
+        [Required]
+        public string ReturnToken { get; set; }
+    }
 }
