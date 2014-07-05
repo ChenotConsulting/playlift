@@ -127,6 +127,22 @@ function loadAlbumUploadForm() {
         }
     }
 
+    function checkFileType(type) {
+        switch (type) {
+            case 'image/jpeg':
+            case 'image/png':
+            case 'image/gif':
+                $("#AlbumCover").removeClass("ui-state-error");
+
+                return true;
+            default:
+                $("#AlbumCover").addClass("ui-state-error");
+                updateTips("The file type for this album cover is not allowed. Please save it in one of the allowed formats and try again.");
+
+                return false;
+        }
+    }
+
     $("#dialog-form").dialog({
         autoOpen: false,
         height: 500,
@@ -147,6 +163,7 @@ function loadAlbumUploadForm() {
                 bValid = bValid && checkLength(albumProducer, "album producer", 2, 250);
                 bValid = bValid && checkLength(albumLabel, "album label", 2, 250);
                 bValid = bValid && checkGenre(formCollection);
+                bValid = bValid && checkFileType(input.type);
 
                 if (bValid) {
                     // update the upload button to indicate some activity
@@ -184,7 +201,7 @@ function loadAlbumUploadForm() {
                                 }
                             });
 
-                            
+
                         }
 
                         reader.readAsDataURL(input);

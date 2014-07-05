@@ -26,6 +26,8 @@ namespace TRMAudiostem.Models
 
         [Display(Name = "Album Cover")]
         public HttpPostedFileBase AlbumCover { get; set; }
+
+        [Display(Name = "Album Cover Image")]
         public string AlbumCoverPath { get; set; }
 
         [Display(Name = "Genres")]
@@ -58,7 +60,7 @@ namespace TRMAudiostem.Models
         [Display(Name = "Registered with PRS?")]
         public bool PRS { get; set; }
 
-        [Display(Name = "Media File")]
+        [Display(Name = "Audio File")]
         public HttpPostedFileBase MediaAsset { get; set; }
         public string MediaAssetPath { get; set; }
 

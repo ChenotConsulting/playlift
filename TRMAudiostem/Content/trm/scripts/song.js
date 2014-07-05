@@ -105,6 +105,20 @@ function loadSongUploadForm() {
         }
     }
 
+    function checkFileType(type) {
+        switch(type) {
+            case 'audio/x-m4a':
+            case 'audio/x-mp3':
+            case 'audio/x-aac':
+            case 'audio/x-aiff':
+            case 'audio/x-wav':
+            case 'audio/x-flac':
+                return true;
+            default:
+                return false;
+        }
+    }
+
     $("#song-dialog-form").dialog({
         autoOpen: false,
         height: 500,
@@ -124,11 +138,13 @@ function loadSongUploadForm() {
                 bValid = bValid && checkRegexp(songReleaseDate, /^(0?\d|1[012])\/([012]?\d|3[01])\/(\d{2}|\d{4})$/i, "The release date must be in the format mm/dd/yyyy.");
                 bValid = bValid && checkLength(songComposer, "song composer", 2, 250);
                 bValid = bValid && checkGenre(formCollection);
+                bValid = bValid && checkFileType(input.type);
 
                 if (bValid) {
                     // update the upload button to indicate some activity
                     var $uploadButton = $(".ui-dialog-buttonset").find('button').first();
                     $uploadButton.html('<span class="ui-button-text">Uploading...</span>');
+                    $uploadButton.text('Uploading...');
                     $uploadButton.attr('disabled', 'disabled');
 
                     //check whether client browser fully supports all File API
