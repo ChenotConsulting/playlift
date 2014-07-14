@@ -195,7 +195,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:32</publishTime>
     </File>
     <File Include="bin/TRMAudiostem.dll">
-      <publishTime>06/27/2014 00:27:02</publishTime>
+      <publishTime>07/05/2014 13:49:04</publishTime>
     </File>
     <File Include="bin/TRMDomainModel.dll">
       <publishTime>06/19/2014 12:51:40</publishTime>
@@ -1245,7 +1245,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2014 23:23:28</publishTime>
     </File>
     <File Include="Content/themes/trm/scripts/album.js">
-      <publishTime>06/10/2014 23:23:28</publishTime>
+      <publishTime>07/05/2014 12:49:24</publishTime>
     </File>
     <File Include="Content/themes/trm/scripts/password.js">
       <publishTime>06/10/2014 23:23:28</publishTime>
@@ -1254,7 +1254,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2014 23:23:28</publishTime>
     </File>
     <File Include="Content/themes/trm/scripts/song.js">
-      <publishTime>06/10/2014 23:47:22</publishTime>
+      <publishTime>07/05/2014 12:49:43</publishTime>
     </File>
     <File Include="Content/themes/trm/scripts/twitter.widgets.js">
       <publishTime>05/27/2014 12:58:27</publishTime>
@@ -1617,7 +1617,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2014 23:22:33</publishTime>
     </File>
     <File Include="Content/trm/scripts/album.js">
-      <publishTime>06/10/2014 23:22:33</publishTime>
+      <publishTime>07/05/2014 12:26:04</publishTime>
     </File>
     <File Include="Content/trm/scripts/password.js">
       <publishTime>06/10/2014 23:22:33</publishTime>
@@ -1626,7 +1626,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2014 23:22:33</publishTime>
     </File>
     <File Include="Content/trm/scripts/song.js">
-      <publishTime>06/10/2014 23:22:33</publishTime>
+      <publishTime>07/05/2014 12:24:49</publishTime>
     </File>
     <File Include="Content/trm/scripts/twitter.widgets.js">
       <publishTime>06/10/2014 23:22:33</publishTime>
@@ -1788,10 +1788,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2014 23:37:02</publishTime>
     </File>
     <File Include="Views/Account/EditAlbum.cshtml">
-      <publishTime>06/10/2014 23:37:02</publishTime>
+      <publishTime>07/05/2014 10:38:31</publishTime>
     </File>
     <File Include="Views/Account/EditSong.cshtml">
-      <publishTime>06/11/2014 00:19:04</publishTime>
+      <publishTime>07/05/2014 12:30:56</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
       <publishTime>06/10/2014 23:37:02</publishTime>
@@ -2034,7 +2034,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/27/2014 00:27:13</publishTime>
+      <publishTime>07/05/2014 13:49:17</publishTime>
     </File>
   </ItemGroup>
 </Project>

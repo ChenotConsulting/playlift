@@ -172,6 +172,7 @@ function loadSongUploadForm() {
                                 success: function (html) {
                                     alert(html);
                                     $uploadButton.html('<span class="ui-button-text">Save Album Details</span>');
+                                    $uploadButton.text('Save Album Details');
                                     $uploadButton.removeAttr('disabled');
                                     $(this).dialog("close");
                                 },
