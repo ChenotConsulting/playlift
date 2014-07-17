@@ -113,6 +113,12 @@ function loadSongUploadForm() {
             case 'audio/x-aiff':
             case 'audio/x-wav':
             case 'audio/x-flac':
+            case 'audio/m4a':
+            case 'audio/mp3':
+            case 'audio/aac':
+            case 'audio/aiff':
+            case 'audio/wav':
+            case 'audio/flac':
                 $("#MediaAsset").removeClass("ui-state-error");
 
                 return true;
