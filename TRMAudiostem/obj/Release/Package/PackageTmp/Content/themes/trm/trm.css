@@ -46,13 +46,15 @@ label {
 footer {
     height: 100px;
     width: 100%;
+    margin-top: 20px;
 }
 
 .wrapper {
+    width: 100%;
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -100px;
+    margin: 0 auto;
 }
 
 footer, .push {
@@ -67,26 +69,31 @@ footer, .push {
 }
 
 .pad {
-    margin-right: 1%;
-    margin-top: 19px;
+    margin-top: 18px;
 }
 
 .pad-right20 {
     margin-right: 20px;
 }
 
+.pad-left3pc {
+    margin-left: 3%;
+}
+
+.pad-left20 {
+    margin-left: 20px;
+}
+
 .pad-left40 {
     margin-left: 40px;
 }
 
-.clear {
-    clear: both;
+.pad-left5pc {
+    margin-left: 5%;
 }
 
-.user-type {
-    width: 200px;
-    height: 200px;
-    border: 2px dotted #999999;
+.clear {
+    clear: both;
 }
 
 .user {
@@ -109,15 +116,172 @@ img.loader {
     margin-bottom: 50%;
 }
 
+/* Landing page */
+
+.main-content {
+    width: 50%;
+    height: auto;
+    padding: 0px;
+}
+
+.content-wrapper {
+    
+}
+
+.push-down17 {
+    margin-top: 17px;
+}
+
+#landing_logo {
+    width: 25%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+    #landing_logo img {
+        padding-left: 30px;
+    }
+
+    #landing_logo div#facebook_box {
+        padding-left: 30px;
+        border-radius: 5px; 
+        overflow: auto; 
+    }
+
+#landing_blog {
+    width: 25%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+    #landing_blog a {
+        text-decoration: none;
+    }
+
+#boxes-holder {
+    margin: 0 auto;
+}
+
+.user-type {
+    float: left;
+    border: 1px solid #8bc53f;
+    border-radius: 5px;
+}
+
+.user-type img {
+    width: 100%;
+    height: 100%;
+}
+
+#youtube-video {   
+    width: 100%;  
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+div#social-feeds {
+    margin: auto;
+}
+
+div#twitter-feed {
+    float: left;
+}
+
+div#facebook-feed {
+    float: right;
+}
+
+@media only screen and (max-width: 1920px) {
+    #boxes-holder {
+        width: auto;
+    }
+
+    .user-type {
+        width: 31% !important;
+        width: 250px;
+        height: 250px;
+    }
+
+    #youtube-video {
+        height: 480px;
+    }
+
+    div#facebook_box iframe {
+        width: 368px;
+        height: 600px;
+    }
+
+    #landing_blog img#blog-screenshot {
+        border-radius: 20px;
+        moz-border-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #boxes-holder {
+        width: 660px;
+    }
+
+    .user-type {
+        width: 31% !important;
+        width: 180px;
+        height: 180px;
+    }
+
+    #youtube-video {
+        height: 360px;
+    }
+
+    div#facebook_box iframe {
+        width: 268px;
+        height: 600px;
+    }
+
+    #landing_blog img#blog-screenshot {
+        width: 200px;
+        border-radius: 20px;
+        moz-border-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #boxes-holder {
+        width: 510px;
+    }
+
+    .user-type {
+        width: 30% !important;
+        width: 150px;
+        height: 150px;
+    }
+
+    #youtube-video {
+        height: 315px;
+    }
+
+    div#facebook_box iframe {
+        width: 168px;
+        height: 600px;
+    }
+
+    #landing_blog img#blog-screenshot {
+        width: 100px;
+        border-radius: 5px;
+        moz-border-radius: 5px;
+    }
+}
+
+/* End Landing page */
+
 /* Registration */
 
 #login {
     color: #fff;
 }
 
-#login a {
-    background-color: #fff;
-}
+    #login a {
+        background-color: #fff;
+    }
 
 ul#genreList {
     list-style: none;
@@ -181,6 +345,7 @@ img.profile_icon {
 img.icon {
     width: 18px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 section.leftCol {
@@ -196,9 +361,9 @@ section.rightCol {
     width: 34%;
 }
 
-    #socialLoginForm h2 {
-        margin-bottom:  5px;
-    }
+#socialLoginForm h2 {
+    margin-bottom: 5px;
+}
 
 /* End profile */
 
@@ -216,9 +381,9 @@ ol.albumSongs {
     padding-left: 5px;
 }
 
-ol.albumSongs li {
-    margin-top: 5px;
-}
+    ol.albumSongs li {
+        margin-top: 5px;
+    }
 
 /* End song section */
 
@@ -240,26 +405,26 @@ a.footer {
     text-decoration: none;
 }
 
-a.footer:hover {
-    color: #8bc53f;
-    background-color: #222;
-}
+    a.footer:hover {
+        color: #8bc53f;
+        background-color: #222;
+    }
 
 ol, ul {
     list-style-type: none;
 }
 
-ol.classic {
-    list-style-type: decimal;
-}
+    ol.classic {
+        list-style-type: decimal;
+    }
 
-ul#menu {
-    font-weight: normal;
-}
+    ul#menu {
+        font-weight: normal;
+    }
 
-ul#menu li a:hover {
-    color: #bc360a;
-}
+        ul#menu li a:hover {
+            color: #bc360a;
+        }
 
 img.play {
     vertical-align: middle;

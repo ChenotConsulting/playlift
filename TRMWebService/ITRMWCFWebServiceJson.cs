@@ -229,7 +229,7 @@ namespace TRMWebService
         /// <returns>True if successful or False if failed</returns>
         [OperationContract]
         [TransactionFlow(TransactionFlowOption.Allowed)]
-        bool SavePlaylist(int wordpressUserId, Playlist playlist);
+        int SavePlaylist(int userId, Playlist playlist);
 
         /// <summary>
         /// Hard delete of a playlist
@@ -244,9 +244,10 @@ namespace TRMWebService
         /// </summary>
         /// <param name="songId">The song to remove</param>
         /// <param name="playlistId">The playlist to remove the song from</param>
+        /// <param name="positionId">The position of the song being deleted</param>
         /// <returns>True if successful or False if failed</returns>
         [OperationContract]
-        bool DeletePlaylistSong(int songId, int playlistId);
+        bool DeletePlaylistSong(int songId, int playlistId, int positionId);
 
         #endregion
 

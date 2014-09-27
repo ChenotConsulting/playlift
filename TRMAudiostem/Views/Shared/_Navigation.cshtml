@@ -5,6 +5,10 @@
            {
             <li>@Html.ActionLink("Dashboard", "Index", "Admin")</li>
            }
+           else if (User.IsInRole("Admin") || User.IsInRole("Business"))
+           {
+               <li>@Html.ActionLink("Music Player", "Index", "CloudPlayer")</li>
+           }
            else
            {
             <li>@Html.ActionLink("About Audiostem", "About", "Home")</li> 

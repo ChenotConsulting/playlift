@@ -47,6 +47,10 @@
     <script src="@Url.Content("~/Content/themes/cloudPlayer/js/cloudplayer.js")"></script>
     @RenderSection("scripts", required: false)  
     @Html.Partial("_JavaScript")
+@{
+#if RELEASE
     @Html.Partial("_SmartTicker")
+#endif
+}
 </body>
 </html>

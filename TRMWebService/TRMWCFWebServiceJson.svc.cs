@@ -42,6 +42,7 @@ namespace TRMWebService
         private readonly SqlPlaylistRepository SqlPlaylistRepository;
         private readonly SqlPlaylistSongRepository SqlPlaylistSongRepository;
         private readonly SqlProtocolRepository SqlProtocolRepository;
+        private readonly SqlPurchasedSongRepository SqlPurchasedSongRepository;
         private readonly SqlSongRepository SqlSongRepository;
         private readonly SqlSongGenreRepository SqlSongGenreRepository;
         private readonly SqlSongMediaAssetRepository SqlSongMediaAssetRepository;
@@ -81,6 +82,7 @@ namespace TRMWebService
             SqlPlaylistRepository = new SqlPlaylistRepository(ConnectionString);
             SqlPlaylistSongRepository = new SqlPlaylistSongRepository(ConnectionString);
             SqlProtocolRepository = new SqlProtocolRepository(ConnectionString);
+            SqlPurchasedSongRepository = new SqlPurchasedSongRepository(ConnectionString);
             SqlSongRepository = new SqlSongRepository(ConnectionString);
             SqlSongGenreRepository = new SqlSongGenreRepository(ConnectionString);
             SqlSongMediaAssetRepository = new SqlSongMediaAssetRepository(ConnectionString);
@@ -154,6 +156,12 @@ namespace TRMWebService
                 GenreCollection = GetArtistGenreCollection(artist.UserId),
                 SongCollection = GetArtistSongCollection(GetArtistAlbumCollection(artist.UserId))
             }).ToList();
+        }
+
+        public Artist GetArtistFromAlbumId(int albumId)
+        {
+            var artistAlbum = SqlArtistAlbumRepository.ArtistAlbum.Where(x => x.AlbumId == albumId).FirstOrDefault();
+            return SqlArtistRepository.GetArtistByUserId(artistAlbum.UserId);
         }
 
         public List<Event> GetArtistEvents(int userId)
@@ -238,6 +246,12 @@ namespace TRMWebService
             }
 
             return album;
+        }
+
+        public Album GetAlbumFromSongId(int songId)
+        {
+            var albumSong = SqlAlbumSongRepository.GetAlbumSongsBySongId(songId).FirstOrDefault();
+            return SqlAlbumRepository.GetAlbumById(albumSong.AlbumId);
         }
 
         [OperationBehavior(TransactionScopeRequired = true, TransactionAutoComplete = true)]
@@ -546,39 +560,105 @@ namespace TRMWebService
 
         #region Playlist section
 
+        public Playlist GetPlaylistByName(string playlistName)
+        {
+            var playlist = SqlPlaylistRepository.Playlist.Where(p => p.PlaylistName == playlistName).FirstOrDefault();
+
+            if (playlist != null)
+            {
+                playlist.PlaylistSongCollection = GetPlaylistSongCollection(playlist.PlaylistId);
+                return playlist;
+            }
+
+            return new Playlist();
+        }
+
+        public Playlist GetPlaylistById(int playlistId)
+        {
+            var playlist = SqlPlaylistRepository.Playlist.Where(p => p.PlaylistId == playlistId).FirstOrDefault();
+            if (playlist != null)
+            {
+                playlist.PlaylistSongCollection = GetPlaylistSongCollection(playlistId);
+            }
+            else
+            {
+                playlist = new Playlist();
+                playlist.PlaylistSongCollection = new List<PlaylistSong>();
+            }
+
+            return playlist;
+        }
+
+        public List<Playlist> GetPlaylistsByUserId(int userId)
+        {
+            var userPlaylists = SqlUserPlaylistRepository.GetUserPlaylistsByUserId(userId);
+            var userPlaylistCollection = new List<Playlist>();
+
+            foreach (var userPlaylist in userPlaylists)
+            {
+                userPlaylistCollection.Add(SqlPlaylistRepository.GetPlaylistById(userPlaylist.PlaylistId));
+            }
+
+            return userPlaylistCollection;
+        }
+
+        public List<UserPlaylist> GetUserPlaylistsByUserId(int userId)
+        {
+            return SqlUserPlaylistRepository.GetUserPlaylistsByUserId(userId);
+        }
+
+        public List<Song> GetAllPlaylistSongs(int playlistId)
+        {
+            var songCollection = new List<Song>();
+
+            foreach(var playlistSong in SqlPlaylistSongRepository.GetSongsByPlaylistId(playlistId)){
+                songCollection.Add(SqlSongRepository.Song.Where(x => x.SongId == playlistSong.SongId).FirstOrDefault());
+            }
+
+            return songCollection;
+        }
+
+        public List<PlaylistSong> GetPlaylistSongCollection(int playlistId)
+        {
+            return SqlPlaylistSongRepository.GetSongsByPlaylistId(playlistId);
+        }        
+
         [OperationBehavior(TransactionScopeRequired = true, TransactionAutoComplete = true)]
-        public bool SavePlaylist(int wordpressUserId, Playlist playlist)
+        public int SavePlaylist(int userId, Playlist playlist)
         {
             using (var tranScope = new TransactionScope())
             {
                 try
                 {
-                    var playlistId = SqlPlaylistRepository.SavePlaylist(playlist);
+                    var playlistId = playlist.PlaylistId;
+                    var newPlaylist = (playlistId == 0);
 
-                    if (playlistId > 0)
+                    if (newPlaylist)
                     {
-                        if (playlist.PlaylistSongCollection.Count > 0 && SavePlaylistSongs(UpdatePlaylistSongsPlaylistId(playlist.PlaylistId, playlist.PlaylistSongCollection)))
-                        {
-                            if (SaveUserPlaylist(wordpressUserId, playlistId))
-                            {
-                                tranScope.Complete();
+                        playlistId = SqlPlaylistRepository.SavePlaylist(playlist);
+                    }
 
-                                return true;
-                            }
-                        }
-                        else
+                    if (playlist.PlaylistSongCollection.Count > 0 && SavePlaylistSongs(UpdatePlaylistSongsPlaylistId(playlist.PlaylistId, playlist.PlaylistSongCollection)))
+                    {
+                        if (SaveUserPlaylist(userId, playlistId, newPlaylist))
                         {
-                            return false;
+                            tranScope.Complete();
+
+                            return playlistId;
                         }
+                    }
+                    else
+                    {
+                        return -1;
                     }
                 }
                 catch
                 {
-                    return false;
+                    return -1;
                 }
             }
 
-            return false;
+            return -1;
         }
 
         public bool DeletePlaylist(int playlistId)
@@ -593,16 +673,30 @@ namespace TRMWebService
             }
         }
 
-        public bool DeletePlaylistSong(int songId, int playlistId)
+        [OperationBehavior(TransactionScopeRequired = true, TransactionAutoComplete = true)]
+        public bool DeletePlaylistSong(int songId, int playlistId, int position)
         {
-            try
+            var valid = false;
+
+            using (var tranScope = new TransactionScope())
             {
-                return SqlPlaylistSongRepository.DeletePlaylistSong(SqlPlaylistSongRepository.PlaylistSong.FirstOrDefault(x => x.PlaylistId == playlistId && x.SongId == songId));
+                try
+                {
+                    valid = SqlPlaylistSongRepository.DeletePlaylistSong(SqlPlaylistSongRepository.PlaylistSong.FirstOrDefault(x => x.PlaylistId == playlistId && x.SongId == songId));
+                    valid = UpdatePlaylistSongsPosition(playlistId, position);
+
+                    if (valid)
+                    {
+                        tranScope.Complete();
+                    }
+                }
+                catch
+                {
+                    return false;
+                }
             }
-            catch
-            {
-                return false;
-            }
+
+            return valid;
         }
 
         #endregion
@@ -988,6 +1082,33 @@ namespace TRMWebService
         }
         #endregion
 
+        #region Song operations
+
+        public bool RecordSongPlay(int songId, int playlistId)
+        {
+            var playlistSongId = GetPlaylistSongCollection(playlistId).Where(s => s.SongId == songId).Select(p => p.PlaylistSongId).FirstOrDefault();
+            var purchasedSong = new PurchasedSong()
+            {
+                UserId = WebSecurity.CurrentUserId,
+                Cost = 0,
+                DatePurchased = DateTime.Now,
+                PlaylistSongId = playlistSongId
+            };
+
+            try
+            {
+                var success = SqlPurchasedSongRepository.SavePurchasedSong(purchasedSong);
+
+                return success;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        #endregion
+
         #endregion
 
         #region private methods
@@ -1148,6 +1269,34 @@ namespace TRMWebService
             return businessType;
         }
 
+        private bool UpdatePlaylistSongsPosition(int playlistId, int position){
+            var valid = true;
+
+            var maxposition = SqlPlaylistSongRepository.GetSongsByPlaylistId(playlistId).Select(x => x.Position).Max();
+            var playlistSongs = SqlPlaylistSongRepository.GetSongsByPlaylistId(playlistId);
+
+            if (maxposition > position)
+            {
+                foreach (var playlistSong in playlistSongs)
+                {
+                    if (playlistSong.Position > position)
+                    {
+                        playlistSong.Position = playlistSong.Position - 1;
+                        try
+                        {
+                            valid = SqlPlaylistSongRepository.SavePlaylistSong(playlistSong);
+                        }
+                        catch
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+
+            return valid;
+        }        
+
         #endregion
 
         #region media asset methods
@@ -1240,28 +1389,32 @@ namespace TRMWebService
 
         private bool SavePlaylistSongs(IEnumerable<PlaylistSong> playlistSongCollection)
         {
-            var isSaved = false;
+            var isSaved = true;
 
             foreach (var playlistSong in playlistSongCollection)
             {
-                isSaved = SqlPlaylistSongRepository.SavePlaylistSong(playlistSong);
-
-                if (!isSaved)
+                if (playlistSong.PlaylistSongId == 0)
                 {
-                    return false;
+                    isSaved = SqlPlaylistSongRepository.SavePlaylistSong(playlistSong);
+
+                    if (!isSaved)
+                    {
+                        return false;
+                    }
                 }
             }
 
             return isSaved;
         }
 
-        private bool SaveUserPlaylist(int userId, int playlistId)
+        private bool SaveUserPlaylist(int userId, int playlistId, bool newPlaylist)
         {
-            var user = GetUserByUserId(userId);
+            if (!newPlaylist) return true;
+
             var isSaved = SqlUserPlaylistRepository.SaveUserPlaylist(new UserPlaylist
             {
                 PlaylistId = playlistId,
-                UserId = user.UserId
+                UserId = userId
             });
 
             return isSaved;

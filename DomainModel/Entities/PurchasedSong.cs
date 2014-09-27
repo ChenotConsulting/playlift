@@ -19,11 +19,8 @@ namespace DomainModel.Entities
         [Column]
         public DateTime DatePurchased { get; set; }
         [Column]
-        public int CustmomerAccountId { get; set; }
-        [Column]
-        public int BusinessId { get; set; }
+        public int UserId { get; set; }
 
-        public Account CustomerAccount { get; set; }
         public Business Business { get; set; }
     }
 }

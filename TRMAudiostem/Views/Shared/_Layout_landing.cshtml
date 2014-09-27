@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Total Resolution Music Ltd</title>
+    <link href="~/icon_logo.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/trm/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Html.Partial("_Fonts")
+</head>
+<body>
+    <div>
+
+    </div>
+    <div id="body" class="wrapper">
+        <div id="landing_logo" class="pull-left">
+            <img src="~/Content/themes/trm/images/logo_audiostem_250w.png" />
+        </div>
+
+        <section class="content-wrapper main-content clear-fix pull-left">
+            @RenderBody()
+        </section>
+
+        <div id="landing_blog" class="pull-left">
+            <a target="_blank" href="http://blog.audiostem.co.uk">
+                <img id="blog-screenshot" src="~/Content/themes/trm/images/audiostem-blog.png" width="300" />
+                <p>
+                    Audiostem Blog
+                </p>
+            </a>        
+
+            <br />
+
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+                <img alt="Creative Commons License" style="border-width: 0" src="~/Content/themes/trm/images/cc_logo.gif" />
+            </a>
+
+            <a href="http://www.prsformusic.com" target="_blank">
+                <img src="http://www.prsformusic.com/Style%20Library/Images/Logos/prsformusiclogo.jpg" alt="PRS for music" />
+            </a>
+        </div>
+    </div>   
+    <footer class="footer">
+        @Html.Partial("_FooterLinks")
+    </footer>
+</body>
+</html>

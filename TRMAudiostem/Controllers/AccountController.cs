@@ -59,6 +59,19 @@ namespace TRMAudiostem.Controllers
 
             if (ModelState.IsValid && WebSecurity.Login(model.UserName, model.Password, persistCookie: model.RememberMe))
             {
+                if (Roles.IsUserInRole(model.UserName, "Admin"))
+                {
+                    return RedirectToAction("Index", "Admin", null);
+                }
+                else if (Roles.IsUserInRole(model.UserName, "Business"))
+                {
+                    return RedirectToAction("Index", "CloudPlayer", null);
+                }
+                else if (Roles.IsUserInRole(model.UserName, "Artist"))
+                {
+                    return RedirectToAction("ManageArtist", "Account", null);
+                }
+
                 return RedirectToLocal(returnUrl);
             }
 
@@ -1085,6 +1098,84 @@ namespace TRMAudiostem.Controllers
             return View(model);
         }
 
+        // Business management
+        // GET: /Account/ManageBusiness
+
+        public ActionResult ManageBusiness(ManageMessageId? message)
+        {
+            ViewBag.StatusMessage =
+                message == ManageMessageId.ChangePasswordSuccess ? "Your password has been changed."
+                : message == ManageMessageId.SetPasswordSuccess ? "Your password has been set."
+                : message == ManageMessageId.RemoveLoginSuccess ? "The external login was removed."
+                : "";
+            ViewBag.HasLocalPassword = OAuthWebSecurity.HasLocalAccount(WebSecurity.GetUserId(User.Identity.Name));
+            ViewBag.ReturnUrl = Url.Action("Manage");
+            return View();
+        }
+
+        // Business management
+        // POST: /Account/ManageBusiness
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult ManageBusiness(LocalPasswordModel model)
+        {
+            bool hasLocalAccount = OAuthWebSecurity.HasLocalAccount(WebSecurity.GetUserId(User.Identity.Name));
+            ViewBag.HasLocalPassword = hasLocalAccount;
+            ViewBag.ReturnUrl = Url.Action("Manage");
+            if (hasLocalAccount)
+            {
+                if (ModelState.IsValid)
+                {
+                    // ChangePassword will throw an exception rather than return false in certain failure scenarios.
+                    bool changePasswordSucceeded;
+                    try
+                    {
+                        changePasswordSucceeded = WebSecurity.ChangePassword(User.Identity.Name, model.OldPassword, model.NewPassword);
+                    }
+                    catch (Exception)
+                    {
+                        changePasswordSucceeded = false;
+                    }
+
+                    if (changePasswordSucceeded)
+                    {
+                        return RedirectToAction("Manage", new { Message = ManageMessageId.ChangePasswordSuccess });
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "The current password is incorrect or the new password is invalid.");
+                    }
+                }
+            }
+            else
+            {
+                // User does not have a local password so remove any validation errors caused by a missing
+                // OldPassword field
+                ModelState state = ModelState["OldPassword"];
+                if (state != null)
+                {
+                    state.Errors.Clear();
+                }
+
+                if (ModelState.IsValid)
+                {
+                    try
+                    {
+                        WebSecurity.CreateAccount(User.Identity.Name, model.NewPassword);
+                        return RedirectToAction("Manage", new { Message = ManageMessageId.SetPasswordSuccess });
+                    }
+                    catch (Exception)
+                    {
+                        ModelState.AddModelError("", String.Format("Unable to create local account. An account with the name \"{0}\" may already exist.", User.Identity.Name));
+                    }
+                }
+            }
+
+            // If we got this far, something failed, redisplay form
+            return View(model);
+        }
+
         // Customer management
         // GET: /Account/Manage
 
@@ -1188,6 +1279,19 @@ namespace TRMAudiostem.Controllers
 
             if (OAuthWebSecurity.Login(result.Provider, result.ProviderUserId, createPersistentCookie: false))
             {
+                if (Roles.IsUserInRole(result.UserName, "Admin"))
+                {
+                    return RedirectToAction("Index", "Admin", null);
+                }
+                else if (Roles.IsUserInRole(result.UserName, "Business"))
+                {
+                    return RedirectToAction("Index", "CloudPlayer", null);
+                }
+                else if (Roles.IsUserInRole(result.UserName, "Artist"))
+                {
+                    return RedirectToAction("ManageArtist", "Account", null);
+                }
+
                 return RedirectToLocal(returnUrl);
             }
 

@@ -411,7 +411,9 @@
     <Content Include="Content\themes\trm\images\256px-Icon-round-Question_mark.jpg" />
     <Content Include="Content\themes\trm\images\activated.png" />
     <Content Include="Content\themes\trm\images\animated-overlay.gif" />
+    <Content Include="Content\themes\trm\images\audiostem-blog.png" />
     <Content Include="Content\themes\trm\images\band.jpg" />
+    <Content Include="Content\themes\trm\images\band.png" />
     <Content Include="Content\themes\trm\images\business.jpg" />
     <Content Include="Content\themes\trm\images\business.png" />
     <Content Include="Content\themes\trm\images\cc_logo.gif" />
@@ -430,6 +432,7 @@
     <Content Include="Content\themes\trm\images\icons\soundcloud_32x32.png" />
     <Content Include="Content\themes\trm\images\icons\twitter_33x33.png" />
     <Content Include="Content\themes\trm\images\loading.gif" />
+    <Content Include="Content\themes\trm\images\logo_audiostem_250w.png" />
     <Content Include="Content\themes\trm\images\not_supported.png" />
     <Content Include="Content\themes\trm\images\search-icon-2x.png" />
     <Content Include="Content\themes\trm\images\search-icon.png" />
@@ -903,6 +906,10 @@
     <Content Include="Views\Account\LostPassword.cshtml" />
     <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\ResetLinkSent.cshtml" />
+    <Content Include="Views\Shared\_AdvancedPlayer.cshtml" />
+    <Content Include="Views\Account\ManageBusiness.cshtml" />
+    <Content Include="Views\CloudPlayer\_UserPlaylists.cshtml" />
+    <Content Include="Views\Shared\_Layout_landing.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

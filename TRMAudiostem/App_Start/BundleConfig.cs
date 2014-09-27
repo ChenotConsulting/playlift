@@ -25,7 +25,9 @@ namespace TRMAudiostem
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
 
-            bundles.Add(new StyleBundle("~/Content/cloudplayer/css").Include("~/Content/themes/cloudPlayer/css/cloudplayer.css"));
+            bundles.Add(new StyleBundle("~/Content/cloudplayer/css").Include(
+                        "~/Content/themes/cloudPlayer/css/cloudplayer.css",
+                        "~/Content/themes/smartticker/css/jquery.smarticker.min.css"));
 
             bundles.Add(new StyleBundle("~/content/trm/css").Include(
                         "~/Content/themes/trm/trm.css",
@@ -58,7 +60,7 @@ namespace TRMAudiostem
             bundles.Add(new ScriptBundle("~/bundles/trm/new/scripts").Include(
                         "~/Content/themes/trm/reg_website/js/bootstrap.js"));
 
-            bundles.Add(new ScriptBundle("~/content/cloudplayer/css").Include(
+            bundles.Add(new ScriptBundle("~/content/cloudplayerv2/css").Include(
                         "~/Content/themes/cloudPlayer/css/normalize.css",
                         "~/Content/themes/cloudPlayer/css/font-awesome.min.css",
                         "~/Content/themes/cloudPlayer/css/bootstrap.min.css",
@@ -67,9 +69,13 @@ namespace TRMAudiostem
                         "~/Content/themes/cloudPlayer/css/component.css",
                         "~/Content/themes/cloudPlayer/css/context.css",
                         "~/Content/themes/cloudPlayer/css/jquery.jscrollpane.css",
-                        "~/Content/themes/cloudPlayer/js/jquery.contextMenu.css"));
+                        "~/Content/themes/cloudPlayer/js/jquery.contextMenu.css",
+                        "~/Content/themes/cloudPlayer/css/cloudplayer.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/cloudplayer/scripts").Include(
+                        "~/Content/themes/cloudPlayer/js/cloudplayer.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/cloudplayerv2/scripts").Include(
                         "~/Content/themes/cloudPlayer/js/modernizr.custom.js",
                         "~/Content/themes/cloudPlayer/js/classie.js",
                         "~/Content/themes/cloudPlayer/js/mlpushmenu.js",

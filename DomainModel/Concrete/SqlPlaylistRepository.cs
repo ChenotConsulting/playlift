@@ -28,7 +28,7 @@ namespace DomainModel.Concrete
                 }
                 else
                 {
-                    PlaylistTable.Context.Refresh(RefreshMode.KeepCurrentValues, playlist);
+                    PlaylistTable.Context.Refresh(RefreshMode.KeepChanges, playlist);
                 }
 
                 PlaylistTable.Context.SubmitChanges();

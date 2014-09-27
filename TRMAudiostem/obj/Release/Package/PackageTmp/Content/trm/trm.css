@@ -181,6 +181,7 @@ img.profile_icon {
 img.icon {
     width: 18px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 section.leftCol {

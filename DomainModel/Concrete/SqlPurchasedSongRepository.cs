@@ -63,12 +63,13 @@ namespace DomainModel.Concrete
 
         public List<PurchasedSong> GetPurchasedSongsByCustomerAccountId(int customerAccountId)
         {
-            return PurchasedSongTable.Where(x => x.CustmomerAccountId == customerAccountId).ToList();
+            //return PurchasedSongTable.Where(x => x.CustmomerAccountId == customerAccountId).ToList();
+            return new List<PurchasedSong>();
         }
 
         public List<PurchasedSong> GetPurchasedSongsByBusinessId(int businessId)
         {
-            return PurchasedSongTable.Where(x => x.BusinessId == businessId).ToList();
+            return PurchasedSongTable.Where(x => x.UserId == businessId).ToList();
         }
 
         public List<PurchasedSong> GetPurchasedSongsByPlaylistSongId(int playlistSongId)

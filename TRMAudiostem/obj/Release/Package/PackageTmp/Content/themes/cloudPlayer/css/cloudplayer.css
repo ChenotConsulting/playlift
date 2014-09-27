@@ -14,7 +14,7 @@ ul#artistResults li img, ul#artistResults li span, ul.artistAlbums li img, ul.ar
     cursor: pointer;
 }
 
-ol.albumSongs, ul.artistAlbums, div#currentlyPlaying, ul#playlistSongs {
+ol.albumSongs, ul.artistAlbums, div#currentlyPlaying {
     display: none;
 }
 

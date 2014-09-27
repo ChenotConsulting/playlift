@@ -47,6 +47,9 @@ namespace TRMAudiostem.Models
     {
         public int SongId { get; set; }
         public int AlbumId { get; set; }
+        public string AlbumCover { get; set; }
+        public string AlbumTitle { get; set; }
+        public string ArtistName { get; set; }
 
         [Display(Name = "Release Date")]
         public DateTime SongReleaseDate { get; set; }
@@ -75,5 +78,31 @@ namespace TRMAudiostem.Models
                 return TRMWCFWebServiceJson.GetAllGenres();
             }
         }
+    }
+
+    public class PlaylistModel
+    {
+        public int PlaylistId { get; set; }
+
+        [Display(Name = "Playlist Name")]
+        public string PlaylistName { get; set; }
+
+        [Display(Name = "Is Playlist Active?")]
+        public bool Active { get; set; }
+    }
+
+    public class PlaylistSongModel
+    {
+        public int PlaylistSongId { get; set; }
+        public int PlaylistId { get; set; }
+        public int SongId { get; set; }
+        public int Position { get; set; }
+    }
+
+    public class UserPlaylistModel
+    {
+        public int UserPlaylistId { get; set; }
+        public int PlaylistId { get; set; }
+        public int UserId { get; set; }
     }
 }

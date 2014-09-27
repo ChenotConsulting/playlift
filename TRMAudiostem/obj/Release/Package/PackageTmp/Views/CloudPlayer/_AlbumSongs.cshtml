@@ -4,7 +4,7 @@
     @{foreach (var song in (List<TRMAudiostem.Models.ArtistSongModel>)Model)
       {
         <li id="song_@song.SongId" class="notSelected">
-            <img src="~/Content/themes/trm/images/play.png" title="Play now" alt="Play now" class="play" onclick="playSong(@song.SongId, '@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath', '@TRMAudiostem.AudiostemBase.StreamingUrl@ViewBag.AlbumCover', '@song.SongTitle.Replace("'", "\\'")', '@ViewBag.AlbumTitle', '@ViewBag.ArtistName')" />
+            <img src="~/Content/themes/trm/images/play.png" title="Play now" alt="Play now" class="play" onclick="playSong(@song.SongId, '@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath', '@TRMAudiostem.AudiostemBase.StreamingUrl@ViewBag.AlbumCover', '@song.SongTitle.Replace("'", "\\'")', '@ViewBag.AlbumTitle', '@ViewBag.ArtistName', '@false', 0)" />
             &nbsp;|&nbsp;
             <img src="~/Content/themes/cloudplayer/images/addtoplaylist.png" title="Add to playlist" alt="Add to playlist" class="playlist" onclick="addSongToPlaylist(@song.SongId, '@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath', '@TRMAudiostem.AudiostemBase.StreamingUrl@ViewBag.AlbumCover', '@song.SongTitle.Replace("'", "\\'")', '@ViewBag.AlbumTitle', '@ViewBag.ArtistName')" />
             &nbsp;|&nbsp;

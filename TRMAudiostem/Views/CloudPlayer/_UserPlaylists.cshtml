@@ -1,0 +1,21 @@
+﻿@model List<DomainModel.Entities.Playlist>
+
+@if (Model == null)
+{
+    <p>There are no playlists at present. Create your first playlist below.</p>
+}
+else
+{
+    <ul id="userPlaylists">
+        @foreach (var playlist in (List<DomainModel.Entities.Playlist>)Model)
+        {
+            <li id="userPlaylist_@playlist.PlaylistId">
+                <img src="~/Content/themes/trm/images/play.png" title="Play now" alt="Play now" class="play" onclick="loadPlaylist(@playlist.PlaylistId, '@playlist.PlaylistName')" />
+                &nbsp;|&nbsp;
+                @playlist.PlaylistName
+                &nbsp;|&nbsp;
+                Created on @playlist.CreatedDate.ToString("dd MMM yyyy") at @playlist.CreatedDate.ToShortTimeString()
+            </li>
+        }
+    </ul>
+}

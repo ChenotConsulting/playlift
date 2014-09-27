@@ -5,8 +5,9 @@
     <title>@ViewBag.Title - Total Resolution Music Ltd</title>
     <link href="~/icon_logo.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/themes/cloudPlayer/css/cloudplayer.css")" />
+    @*<link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/themes/cloudPlayer/css/cloudplayer.css")" />*@
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/themes/smartticker/css/jquery.smarticker.min.css")">
+    @Styles.Render("~/Content/cloudplayer/css")
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Content/trm/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -38,9 +39,14 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/jqueryui")
     @Scripts.Render("~/bundles/trm/scripts")
-    <script src="@Url.Content("~/Content/themes/cloudPlayer/js/cloudplayer.js")"></script>
+    @Scripts.Render("~/bundles/cloudplayer/scripts")
+    @*<script src="@Url.Content("~/Content/themes/cloudPlayer/js/cloudplayer.js")"></script>*@
     @RenderSection("scripts", required: false)
     @Html.Partial("_JavaScript")
+@{
+#if RELEASE
     @Html.Partial("_SmartTicker")
+#endif
+}
 </body>
 </html>
