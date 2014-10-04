@@ -611,7 +611,8 @@ namespace TRMWebService
         {
             var songCollection = new List<Song>();
 
-            foreach(var playlistSong in SqlPlaylistSongRepository.GetSongsByPlaylistId(playlistId)){
+            foreach (var playlistSong in SqlPlaylistSongRepository.GetSongsByPlaylistId(playlistId))
+            {
                 songCollection.Add(SqlSongRepository.Song.Where(x => x.SongId == playlistSong.SongId).FirstOrDefault());
             }
 
@@ -621,7 +622,7 @@ namespace TRMWebService
         public List<PlaylistSong> GetPlaylistSongCollection(int playlistId)
         {
             return SqlPlaylistSongRepository.GetSongsByPlaylistId(playlistId);
-        }        
+        }
 
         [OperationBehavior(TransactionScopeRequired = true, TransactionAutoComplete = true)]
         public int SavePlaylist(int userId, Playlist playlist)
@@ -659,6 +660,49 @@ namespace TRMWebService
             }
 
             return -1;
+        }
+
+        [OperationBehavior(TransactionScopeRequired = true, TransactionAutoComplete = true)]
+        public bool DeactivateUserPlaylists(int userId)
+        {
+            using (var tranScope = new TransactionScope())
+            {
+                try
+                {
+                    var userPlaylists = GetUserPlaylistsByUserId(WebSecurity.CurrentUserId);
+                    foreach (var userPlaylist in userPlaylists)
+                    {
+                        var playlist = GetPlaylistById(userPlaylist.PlaylistId);
+                        playlist.Active = false;
+
+                        SqlPlaylistRepository.SavePlaylist(playlist);
+                    }
+
+                    tranScope.Complete();
+                    return true;
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+        }
+
+        public bool ActivateCurrentPlaylist(int playlistId)
+        {
+            try
+            {
+                var playlist = GetPlaylistById(playlistId);
+                playlist.Active = true;
+
+                SqlPlaylistRepository.SavePlaylist(playlist);
+
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         public bool DeletePlaylist(int playlistId)
@@ -1269,7 +1313,8 @@ namespace TRMWebService
             return businessType;
         }
 
-        private bool UpdatePlaylistSongsPosition(int playlistId, int position){
+        private bool UpdatePlaylistSongsPosition(int playlistId, int position)
+        {
             var valid = true;
 
             var maxposition = SqlPlaylistSongRepository.GetSongsByPlaylistId(playlistId).Select(x => x.Position).Max();
@@ -1295,7 +1340,7 @@ namespace TRMWebService
             }
 
             return valid;
-        }        
+        }
 
         #endregion
 
@@ -1411,11 +1456,15 @@ namespace TRMWebService
         {
             if (!newPlaylist) return true;
 
-            var isSaved = SqlUserPlaylistRepository.SaveUserPlaylist(new UserPlaylist
+            var isSaved = false;
+            if (DeactivateUserPlaylists(userId))
             {
-                PlaylistId = playlistId,
-                UserId = userId
-            });
+                isSaved = SqlUserPlaylistRepository.SaveUserPlaylist(new UserPlaylist
+                {
+                    PlaylistId = playlistId,
+                    UserId = userId
+                });
+            }
 
             return isSaved;
         }

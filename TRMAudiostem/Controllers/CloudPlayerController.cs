@@ -127,7 +127,14 @@ namespace TRMAudiostem.Controllers
                 });
             }
 
-            return Json(songModel, JsonRequestBehavior.AllowGet);
+            if (TRMWebService.DeactivateUserPlaylists(WebSecurity.CurrentUserId) && TRMWebService.ActivateCurrentPlaylist(playlistId))
+            {
+                return Json(songModel, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                return null;
+            }
         }
 
         [HttpPost]
@@ -216,9 +223,6 @@ namespace TRMAudiostem.Controllers
             }
 
             return result;
-#if RELEASE
-
-#endif
         }
 
         [HttpPost]
