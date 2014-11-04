@@ -36,6 +36,8 @@ namespace DomainModel.Entities
         public bool Active { get; set; }
         [Column]
         public string Bio { get; set; }
+        [Column]
+        public int CountyCityId { get; set; }
 
         public List<Genre> GenreCollection { get; set; }
         public List<Song> SongCollection { get; set; }

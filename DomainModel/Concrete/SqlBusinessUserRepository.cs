@@ -60,5 +60,10 @@ namespace DomainModel.Concrete
         {
             return BusinessUserTable.FirstOrDefault(x => x.UserId == userId);
         }
+
+        public BusinessUser GetBusinessUserByBusinessTypeId(int businessTypeId)
+        {
+            return BusinessUserTable.FirstOrDefault(x => x.BusinessTypeId == businessTypeId);
+        }
     }
 }

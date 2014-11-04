@@ -30,5 +30,8 @@ namespace DomainModel.Entities
         public string PostCode { get; set; }
         [Column]
         public string Logo { get; set; }
+
+        public BusinessType BusinessType { get; set; }
+        public List<Playlist> PlaylistCollection { get; set; }
     }
 }

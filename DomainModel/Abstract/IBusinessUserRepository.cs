@@ -13,5 +13,6 @@ namespace DomainModel.Abstract
         bool SaveBusinessUser(BusinessUser businessUser);
         bool DeleteBusinessUser(BusinessUser businessUser);
         BusinessUser GetBusinessUserByUserId(int userId);
+        BusinessUser GetBusinessUserByBusinessTypeId(int businessTypeId);
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DomainModel.Entities
 {
-    public class Business : User
+    public class Business
     {
         public BusinessType BusinessType { get; set; }
         public List<Playlist> PlaylistCollection { get; set; }

@@ -70,6 +70,7 @@
     <Compile Include="Abstract\IAlbumRepository.cs" />
     <Compile Include="Abstract\IAlbumSongRepository.cs" />
     <Compile Include="Abstract\IArtistEventRepository.cs" />
+    <Compile Include="Abstract\ICountyCityRepository.cs" />
     <Compile Include="Abstract\IArtistRepository.cs" />
     <Compile Include="Abstract\IBusinessTypeRepository.cs" />
     <Compile Include="Abstract\IBusinessUserRepository.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Concrete\SqlAlbumRepository.cs" />
     <Compile Include="Concrete\SqlAlbumSongRepository.cs" />
     <Compile Include="Concrete\SqlArtistEventRepository.cs" />
+    <Compile Include="Concrete\SqlCountyCityRepository.cs" />
     <Compile Include="Concrete\SqlArtistRepository.cs" />
     <Compile Include="Concrete\SqlBusinessTypeRepository.cs" />
     <Compile Include="Concrete\SqlBusinessUserRepository.cs" />
@@ -122,6 +124,7 @@
     <Compile Include="Entities\Album.cs" />
     <Compile Include="Entities\AlbumGenre.cs" />
     <Compile Include="Entities\AlbumSong.cs" />
+    <Compile Include="Entities\CountyCity.cs" />
     <Compile Include="Entities\Artist.cs" />
     <Compile Include="Entities\ArtistEvent.cs" />
     <Compile Include="Entities\Business.cs" />
@@ -161,7 +164,10 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Database\Scripts\AddPRSColumnToSong.sql" />
+    <Content Include="Database\Scripts\CountyCity.sql" />
     <Content Include="Database\Scripts\DropAndCreateBusinessUser.sql" />
+    <Content Include="Database\Scripts\PurchasedSong.sql" />
+    <Content Include="Database\Scripts\UpdateArtistWithCountyCity.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
