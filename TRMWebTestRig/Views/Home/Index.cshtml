@@ -1,7 +1,14 @@
 ﻿@{
     ViewBag.Title = "TRM Web Test Rig - Home Page";
 }
-@section featured {
+
+<form id="playlistForm" method="GET">
+    <input type="text" id="postcode" name="postcode" value="Enter a postcode" />
+    <input type="submit" value="Get Location" />
+</form>
+
+
+@*@section featured {
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
@@ -22,11 +29,11 @@
 
 <h3>2. Create a playlist</h3>
 <h5>Select the files to add to the playlist</h5>
-@*@using (Html.BeginForm("CreatePlaylist", "Home", FormMethod.Post))
+@using (Html.BeginForm("CreatePlaylist", "Home", FormMethod.Post))
 {
     <ul id="songCollection">
     </ul>
-}*@
+}
 <form id="playlistForm" method="POST" onsubmit="return createPlaylist(this)">
     <input type="text" id="playlistName" name="playlistName" value="Type a playlist name" 
            onfocus="clearTextBox(this, 'Type a playlist name')" 
@@ -245,4 +252,4 @@
             }
         });
     }
-</script>
+</script>*@

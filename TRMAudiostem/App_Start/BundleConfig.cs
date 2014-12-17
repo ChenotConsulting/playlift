@@ -44,6 +44,10 @@ namespace TRMAudiostem
                         "~/Content/themes/trm/jquery.ui.progressbar.css",
                         "~/Content/themes/trm/jquery.ui.theme.css"));
 
+            bundles.Add(new StyleBundle("~/content/mobile/css").Include(
+                        "~/Content/themes/mobile/mobile.css",
+                        "~/Content/themes/mobile/jquery.percentageloader-0.1.css"));
+
             bundles.Add(new StyleBundle("~/content/trm/new/css").Include(
                         "~/Content/themes/trm/reg_website/base_style.css",
                         "~/Content/themes/trm/reg_website/css/bootstrap-theme.css",

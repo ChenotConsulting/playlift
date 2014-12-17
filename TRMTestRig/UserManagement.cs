@@ -105,8 +105,9 @@ namespace TRMTestRig
                     sb = GetArtistDetailsForDisplay((Artist)user);
                     break;
                 case User.UserTypeList.Business:
-                    user = TRMWCFWebServiceJson.GetBusiness(Convert.ToInt32(txtWordpressId.Text));
-                    sb = GetBusinessDetailsForDisplay((Business)user);
+                    //user = TRMWCFWebServiceJson.GetBusiness(Convert.ToInt32(txtWordpressId.Text));
+                    //sb = GetBusinessDetailsForDisplay((BusinessUser)user);
+                    sb = null;
                     break;
                 default:
                     user = TRMWCFWebServiceJson.GetCustomer(Convert.ToInt32(txtWordpressId.Text));
@@ -193,9 +194,10 @@ namespace TRMTestRig
             return sb;
         }
 
-        private StringBuilder GetBusinessDetailsForDisplay(Business business)
+        private StringBuilder GetBusinessDetailsForDisplay(BusinessUser business)
         {
-            var sb = GetUserDetailsForDisplay(business);
+            //var sb = GetUserDetailsForDisplay(business);
+            var sb = new StringBuilder();
 
             return sb;
         }

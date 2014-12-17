@@ -1,0 +1,44 @@
+﻿@model DomainModel.Entities.Artist
+
+@{
+    ViewBag.Title = "Manage your account";
+    var TrmWcfWebServiceJson = new TRMWebService.TRMWCFWebServiceJson();
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+<nav>
+    <ul id="menu">
+        <li><a href="#" onclick="loadView('profilePlaceholder', '/Account/ArtistAlbums/');">Music</a></li>
+        <li><a href="#" onclick="loadView('profilePlaceholder', '/Account/ArtistDetails/');">Personal Details</a></li>
+        <li><a href="#" onclick="loadView('profilePlaceholder', '/Account/PasswordChange/');">Change Password</a></li>
+    </ul>
+</nav>
+
+<section id="artist-profile" class="leftCol">
+
+    @if (string.IsNullOrEmpty(Model.ArtistName))
+    {
+        <label>
+            You haven't updated your personal information yet. You must at least have an artist/band name before you can upload any music.
+            You can update your details <a href="#" onclick="loadView('profilePlaceholder', '/Account/ArtistDetails/');">here</a>.
+        </label>
+    }
+    else
+    {
+        @Html.Action("ArtistProfile")
+    }    
+</section>
+
+<section class="rightCol" id="profilePlaceholder">
+    <section id="externalLogins">
+        @Html.Action("RemoveExternalLogins")
+
+        <h3>Add an external login</h3>
+        @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+    </section>
+</section>
+
+

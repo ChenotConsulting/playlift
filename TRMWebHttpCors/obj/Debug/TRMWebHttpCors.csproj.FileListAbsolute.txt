@@ -40,4 +40,3 @@ D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\bin\Debug\TRMW
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\bin\Debug\TRMWebHttpCors.pdb
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.pdb
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.csprojResolveAssemblyReference.cache

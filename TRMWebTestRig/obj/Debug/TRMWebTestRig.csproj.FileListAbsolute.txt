@@ -366,10 +366,7 @@ D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\TRMWebTestR
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\EntityFramework.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\Microsoft.Web.Infrastructure.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\Microsoft.Web.WebPages.OAuth.dll
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Net.Http.Formatting.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Helpers.dll
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Http.dll
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Http.WebHost.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Mvc.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Optimization.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Razor.dll
@@ -379,10 +376,7 @@ D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\WebMatrix.Data.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\WebMatrix.WebData.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\EntityFramework.xml
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Net.Http.Formatting.xml
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Helpers.xml
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Http.xml
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Http.WebHost.xml
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Mvc.xml
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.Razor.xml
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebTestRig\bin\System.Web.WebPages.xml

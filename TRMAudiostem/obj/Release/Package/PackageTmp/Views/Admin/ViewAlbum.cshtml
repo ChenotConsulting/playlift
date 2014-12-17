@@ -31,33 +31,33 @@
 }*@
 
 <ol id="AlbumList">
-    @{        
-        var albumId = Convert.ToInt32(ViewData["albumId"]);
-        var songModels = new List<TRMAudiostem.Models.ArtistSongModel>();
-        var trmservice = new TRMWebService.TRMWCFWebServiceJson();
-        var songList = trmservice.GetAlbumSongs(Model.AlbumId);
+    @{
+    var albumId = Convert.ToInt32(ViewData["albumId"]);
+    var songModels = new List<TRMAudiostem.Models.ArtistSongModel>();
+    var trmservice = new TRMWebService.TRMWCFWebServiceJson();
+    var songList = trmservice.GetAlbumSongs(Model.AlbumId);
 
-        foreach (var song in songList)
+    foreach (var song in songList)
+    {
+        songModels.Add(new TRMAudiostem.Models.ArtistSongModel
         {
-            songModels.Add(new TRMAudiostem.Models.ArtistSongModel
-            {
-                AlbumId = albumId,
-                MediaAssetPath = trmservice.GetSongMediaAssets(song.SongId).FirstOrDefault().MediaAssetLocation.Path,
-                SongComposer = song.SongComposer,
-                SongId = song.SongId,
-                SongReleaseDate = song.SongReleaseDate,
-                SongTitle = song.SongTitle
-            });
-        }
-
-        foreach (var song in songModels)
-        {
-            <li>
-                <img src="~/Content/themes/trm/images/play.png" class="play" onclick="playSong('@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath')" />
-                @song.SongTitle
-            </li>   
-        }
+            AlbumId = albumId,
+            MediaAssetPath = trmservice.GetSongMediaAssets(song.SongId).FirstOrDefault().MediaAssetLocation.Path,
+            SongComposer = song.SongComposer,
+            SongId = song.SongId,
+            SongReleaseDate = song.SongReleaseDate,
+            SongTitle = song.SongTitle
+        });
     }
+
+    foreach (var song in songModels)
+    {
+        <li id="song_@song.SongId" class="song">
+            <img src="~/Content/themes/trm/images/play.png" class="play" onclick="playSong(@song.SongId, '@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath', '', '', false, 0)" />
+            @song.SongTitle
+        </li>
+    }
+}
 </ol>
 
 @Html.Partial("_BasicPlayer")

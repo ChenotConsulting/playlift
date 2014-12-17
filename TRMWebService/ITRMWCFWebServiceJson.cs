@@ -58,6 +58,9 @@ namespace TRMWebService
         [OperationContract]
         List<Event> GetArtistEvents(int userId);
 
+        [OperationContract]
+        List<CountyCity> GetAllCountyCities();
+         
         #region Album section
 
         /// <summary>
@@ -217,7 +220,7 @@ namespace TRMWebService
         /// </summary>
         /// <returns>A list of businesses</returns>
         [OperationContract]
-        List<Business> GetAllBusinesses();
+        List<BusinessUser> GetAllBusinesses();
 
         #region Playlist section
 
@@ -401,7 +404,7 @@ namespace TRMWebService
         /// <param name="wordpressUserId">The user Id in the Wordpress database</param>
         /// <returns>An instance of the business class</returns>
         [OperationContract]
-        Business GetBusiness(int wordpressUserId);
+        BusinessUser GetBusiness(int wordpressUserId);
 
         /// <summary>
         /// Gets a customer instance

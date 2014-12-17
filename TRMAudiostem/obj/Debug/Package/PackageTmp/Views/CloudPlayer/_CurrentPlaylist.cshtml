@@ -1,0 +1,11 @@
+﻿@model DomainModel.Entities.Playlist
+
+@using (Html.BeginForm("SavePlaylist", "CloudPlayer", FormMethod.Post, new { id = "savePlaylist" }))
+{
+    <h3 id="playlist">New Playlist</h3>
+    <input type="hidden" id="playlistName" name="playlistName" />
+    <input type="hidden" id="playlistId" name="playlistId" />
+
+    <ul id="playlistSongs" class="playlistSongs ui-sortable"></ul>
+}
+

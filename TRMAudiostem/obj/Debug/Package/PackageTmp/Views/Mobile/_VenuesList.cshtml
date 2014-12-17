@@ -1,0 +1,14 @@
+﻿@model List<DomainModel.Entities.BusinessUser>
+
+<div id="venues">
+    @{
+        foreach (var venue in (List<DomainModel.Entities.BusinessUser>)Model)
+        {
+            <div class="venue">
+                @venue.Address1
+                <br />
+                @venue.Address2, @venue.City, @venue.PostCode
+            </div>
+        }
+    }
+</div>

@@ -34,6 +34,7 @@ namespace TRMWebService
         private readonly SqlArtistGenreRepository SqlArtistGenreRepository;
         private readonly SqlBusinessTypeRepository SqlBusinessTypeRepository;
         private readonly SqlBusinessUserRepository SqlBusinessUserRepository;
+        private readonly SqlCountyCityRepository SqlCountyCityRepository;
         private readonly SqlGenreRepository SqlGenreRepository;
         private readonly SqlMediaAssetFormatRepository SqlMediaAssetFormatRepository;
         private readonly SqlMediaAssetLocationRepository SqlMediaAssetLocationRepository;
@@ -74,6 +75,7 @@ namespace TRMWebService
             SqlArtistGenreRepository = new SqlArtistGenreRepository(ConnectionString);
             SqlBusinessTypeRepository = new SqlBusinessTypeRepository(ConnectionString);
             SqlBusinessUserRepository = new SqlBusinessUserRepository(ConnectionString);
+            SqlCountyCityRepository = new SqlCountyCityRepository(ConnectionString);
             SqlGenreRepository = new SqlGenreRepository(ConnectionString);
             SqlMediaAssetFormatRepository = new SqlMediaAssetFormatRepository(ConnectionString);
             SqlMediaAssetLocationRepository = new SqlMediaAssetLocationRepository(ConnectionString);
@@ -152,6 +154,7 @@ namespace TRMWebService
                 PRS = artist.PRS,
                 CreativeCommonsLicence = artist.CreativeCommonsLicence,
                 Active = artist.Active,
+                CountyCityId = artist.CountyCityId,
                 AlbumCollection = GetArtistAlbumCollection(artist.UserId),
                 GenreCollection = GetArtistGenreCollection(artist.UserId),
                 SongCollection = GetArtistSongCollection(GetArtistAlbumCollection(artist.UserId))
@@ -168,6 +171,11 @@ namespace TRMWebService
         {
             // TODO
             return null;
+        }
+
+        public List<CountyCity> GetAllCountyCities()
+        {
+            return SqlCountyCityRepository.CountyCity.ToList();
         }
 
         #region Album section
@@ -540,22 +548,16 @@ namespace TRMWebService
 
         #region Business operations
 
-        public List<Business> GetAllBusinesses()
+        public List<BusinessUser> GetAllBusinesses()
         {
-            var userCollection = SqlUserRepository.User.ToList();
+            var businessUserCollection = SqlBusinessUserRepository.BusinessUser.ToList();
 
-            return userCollection.Where(user => Roles.IsUserInRole(user.UserName, User.UserTypeList.Business.ToString()))
-            .Select(user => new Business
-                {
-                    //CreatedDate = user.CreatedDate,
-                    UserId = user.UserId,
-                    UserType = user.UserType,
-                    //UserTypeId = user.UserTypeId,
-                    //WordpressUserId = user.WordpressUserId,
-                    PlaylistCollection = GetBusinessPlaylists(user.UserId),
-                    BusinessType = GetBusinessType(user.UserId),
-                    BusinessUser = GetBusinessUserObject(user.UserId)
-                }).ToList();
+            foreach (var business in businessUserCollection)
+            {
+                business.PlaylistCollection = GetPlaylistsByUserId(business.UserId);
+            }
+
+            return businessUserCollection;
         }
 
         #region Playlist section
@@ -596,7 +598,10 @@ namespace TRMWebService
 
             foreach (var userPlaylist in userPlaylists)
             {
-                userPlaylistCollection.Add(SqlPlaylistRepository.GetPlaylistById(userPlaylist.PlaylistId));
+                var playlist = SqlPlaylistRepository.GetPlaylistById(userPlaylist.PlaylistId);
+                playlist.PlaylistSongCollection = SqlPlaylistSongRepository.GetSongsByPlaylistId(playlist.PlaylistId);
+
+                userPlaylistCollection.Add(playlist);
             }
 
             return userPlaylistCollection;
@@ -1083,23 +1088,10 @@ namespace TRMWebService
             return artist;
         }
 
-        public Business GetBusiness(int userId)
+        public BusinessUser GetBusiness(int userId)
         {
-            var user = GetUserByUserId(userId);
-
-            var businessUser = new Business
-            {
-                //CreatedDate = user.CreatedDate;
-                UserId = user.UserId,
-                UserType = user.UserType,
-                UserName = user.UserName,
-                //UserTypeId = user.UserTypeId;
-                //WordpressUserId = user.WordpressUserId;
-
-                PlaylistCollection = GetBusinessPlaylists(user.UserId),
-                BusinessType = GetBusinessType(user.UserId),
-                BusinessUser = GetBusinessUserObject(user.UserId)
-            };
+            var businessUser = SqlBusinessUserRepository.BusinessUser.FirstOrDefault(x => x.UserId == userId);
+            businessUser.PlaylistCollection = GetPlaylistsByUserId(userId);
 
             return businessUser;
         }

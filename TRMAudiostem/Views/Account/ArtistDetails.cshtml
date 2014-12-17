@@ -4,7 +4,7 @@
 
 <p class="message-success">@ViewBag.StatusMessage</p>
 
-@using (Html.BeginForm("ArtistDetails", "Account", FormMethod.Post, new { id="artistDetails", enctype = "multipart/form-data" }))
+@using (Html.BeginForm("ArtistDetails", "Account", FormMethod.Post, new { id = "artistDetails", enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary()
@@ -28,15 +28,15 @@
                 @Html.LabelFor(m => m.ProfileImage)
 
                 @{
-                    if (Model != null && !string.IsNullOrEmpty(Model.ProfileImagePath))
-                    {
-                        <img class="profile" src="@profileImagePath" alt="@User.Identity.Name profile image" />
-                        <input type="hidden" id="ProfileImagePath" name="ProfileImagePath" value="@Model.ProfileImagePath" />
-                    }
-}
+    if (Model != null && !string.IsNullOrEmpty(Model.ProfileImagePath))
+    {
+        <img class="profile" src="@profileImagePath" alt="@User.Identity.Name profile image" />
+                    <input type="hidden" id="ProfileImagePath" name="ProfileImagePath" value="@Model.ProfileImagePath" />
+    }
+                }
                 <br />
-                <input type="file" id="ProfileImage" name="ProfileImage" />          
-            </li> 
+                <input type="file" id="ProfileImage" name="ProfileImage" />
+            </li>
             <li>
                 @Html.LabelFor(m => m.ArtistName)
                 @Html.TextBoxFor(m => m.ArtistName)
@@ -60,7 +60,23 @@
                     setInterval(function () { CharacterCount('bio', 'remainingCharacters') }, 55);
                 </script>
             </li>
-
+            <li>
+                @Html.Label("Location")
+                @*@Html.HiddenFor(m => m.CountyCityId, new { id = "CountyCityId", value = 0 })*@
+                @Html.TextBox("CountyCity", "N11")
+                <br />
+                <em>
+                    Please enter only the first part of your postcode (e.g. ME2 or NN11)
+                </em>
+            </li>
+            @*<li>
+                @Html.LabelFor(m => m.County)
+                @Html.DropDownListFor(m => m.County, null, new { id = "County" })
+            </li>
+            <li>
+                    @Html.LabelFor(m => m.City)
+                    @Html.DropDownListFor(m => m.City, null, new { id = "City" })
+                </li>*@
             <li>
                 @Html.LabelFor(m => m.SoundCloud)
                 @Html.TextBoxFor(m => m.SoundCloud)
@@ -76,11 +92,11 @@
             <li>
                 @Html.LabelFor(m => m.MySpace)
                 @Html.TextBoxFor(m => m.MySpace)
-            </li>  
+            </li>
             <li>
                 @Html.Label("Royalties Collection Agency Status")
 
-                @if (Model.PRS) 
+                @if (Model.PRS)
                 {
                     @Html.CheckBoxFor(m => m.PRS, new { @class = "royalty", id = "prs", onchange = "validateRoyalty('prs');", @checked = "checked" })
                     <span>Are you registered with PRS for music?</span>

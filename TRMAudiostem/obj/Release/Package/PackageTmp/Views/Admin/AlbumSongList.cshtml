@@ -21,8 +21,8 @@
 
         foreach (var song in songModels)
         {
-            <li>
-                <img src="~/Content/themes/trm/images/play.png" class="play" onclick="playSong('@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath')" />
+            <li id="song_@song.SongId" class="song">
+                <img src="~/Content/themes/trm/images/play.png" class="play" onclick="playSong(@song.SongId, '@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath', '', '', false, 0)" />
                 @song.SongTitle                
                 &nbsp;|&nbsp;
                 Composer: @song.SongComposer

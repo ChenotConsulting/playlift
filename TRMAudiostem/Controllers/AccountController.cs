@@ -170,7 +170,8 @@ namespace TRMAudiostem.Controllers
                             TermsAndConditionsAccepted = model.TermsAndConditions,
                             PRS = model.PRS,
                             CreativeCommonsLicence = model.CreativeCommonsLicence,
-                            Bio = model.Bio
+                            Bio = model.Bio,
+                            CountyCityId = model.CountyCityId
                         };
 
                         var artistGenreList = new List<Genre>();
@@ -805,6 +806,10 @@ namespace TRMAudiostem.Controllers
         {
             var TrmWcfWebServiceJson = new TRMWebService.TRMWCFWebServiceJson();
             var artist = TrmWcfWebServiceJson.GetArtist(WebSecurity.CurrentUserId);
+            var countyCity = TrmWcfWebServiceJson.GetAllCountyCities();
+
+            ViewBag.Counties = countyCity.Select(x => x.County).ToList();
+            ViewBag.Cities = countyCity.Select(x => x.City).ToList();
 
             var artistRegisterModel = new ManageArtistModel
             {
@@ -819,7 +824,8 @@ namespace TRMAudiostem.Controllers
                 Website = artist.Website,
                 PRS = artist.PRS,
                 CreativeCommonsLicence = artist.CreativeCommonsLicence,
-                Bio = artist.Bio
+                Bio = artist.Bio,
+                CountyCityId = artist.CountyCityId
             };
 
             return PartialView(artistRegisterModel);

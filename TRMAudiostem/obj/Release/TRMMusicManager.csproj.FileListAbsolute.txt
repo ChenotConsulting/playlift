@@ -27,12 +27,9 @@ D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\Microsoft.Da
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\Microsoft.Web.Infrastructure.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\Microsoft.Web.WebPages.OAuth.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\Newtonsoft.Json.dll
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Net.Http.Formatting.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Spatial.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Helpers.dll
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Http.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Http.OData.dll
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Http.WebHost.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Mvc.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Optimization.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Razor.dll
@@ -74,10 +71,7 @@ D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\DotNetOpenAu
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\EntityFramework.xml
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\EntityFramework.SqlServer.xml
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\Newtonsoft.Json.xml
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Net.Http.Formatting.xml
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Helpers.xml
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Http.xml
-D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Http.WebHost.xml
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Mvc.xml
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.Razor.xml
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMAudiostem\bin\System.Web.WebPages.xml

@@ -1,0 +1,66 @@
+﻿@model TRMAudiostem.Models.ArtistSongModel
+
+@using (Html.BeginForm("EditSong", "Account", FormMethod.Post, new { id = "editSong", enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    var TRMWCFWebServiceJson = new TRMWebService.TRMWCFWebServiceJson();
+    var genreList = TRMWCFWebServiceJson.GetAllGenres();
+    var mediaAssetPath = string.Empty;
+    if (Model != null)
+    {
+        mediaAssetPath = "https://s3-eu-west-1.amazonaws.com/trmmaster/" + Model.MediaAssetPath;
+        <input type="hidden" id="SongId" name="SongId" value="@Model.SongId" />
+    }
+
+    <input type="hidden" id="AlbumId" name="AlbumId" value="@ViewBag.AlbumId" />
+
+    <fieldset class="registrationForm">
+        <legend>Song Details</legend>
+        <ol>
+            <li>
+                <p class="validateTips">All form fields are required.</p>
+            </li>
+            <li>
+                @Html.LabelFor(m => m.MediaAsset)
+
+                @{
+    if (Model != null)
+    {
+        <input type="hidden" id="MediaAssetPath" name="MediaAssetPath" value="@Model.MediaAssetPath" />
+    }
+                }
+                <br />
+                <input type="file" id="MediaAsset" name="MediaAsset" />
+                <br />
+                <em>Files allowed: .mp3, .aac, .flac, .wav, .aiff, .m4a</em>
+            </li>
+            <li><!-- --></li>
+            <li>
+                @Html.Label("Royalty Agency")
+                @Html.CheckBoxFor(m => m.PRS)
+                <span>Registered with PRS for music?</span>
+            </li>
+            <li>
+                @Html.LabelFor(m => m.SongTitle)
+                @Html.TextBoxFor(m => m.SongTitle)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.SongReleaseDate)
+                @Html.TextBoxFor(m => m.SongReleaseDate)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.SongComposer)
+                @Html.TextBoxFor(m => m.SongComposer)
+            </li>            
+            <li id="songGenreList">
+                @{
+                    Html.RenderPartial("GenreList", genreList);
+                }
+            </li>
+        </ol>
+    </fieldset>
+}
+
+

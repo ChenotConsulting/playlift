@@ -1,0 +1,17 @@
+﻿@model DomainModel.Entities.Album
+
+@{
+    var TRMWebService = new TRMWebService.TRMWCFWebServiceJson();
+    var songs = TRMWebService.GetAlbumSongs(Model.AlbumId);
+    var albumCoverUrl = TRMAudiostem.AudiostemBase.StreamingUrl + Model.AlbumCover;
+    
+    foreach (var song in songs)
+    {
+        var songUrl = TRMAudiostem.AudiostemBase.StreamingUrl + song.songMediaAsset.FirstOrDefault(x => x.MediaAssetFormat.MediaAssetFormatName.Equals("mp3") && x.MediaAssetLocation.Protocol.ProtocolName.Equals("S3")).MediaAssetLocation.Path;
+        
+        <li>
+            <a href="#" onclick="addSongToPlaylist(@song.SongId, '@albumCoverUrl', '@songUrl', '@song.SongTitle', '@song.SongComposer')">@song.SongTitle</a>
+        </li>
+    }
+}
+

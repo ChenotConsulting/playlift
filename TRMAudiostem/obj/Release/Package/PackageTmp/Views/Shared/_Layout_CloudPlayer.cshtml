@@ -20,6 +20,9 @@
                 @Html.Partial("_Logo")
             </div>
             <div class="float-right">
+                <section id="login">
+                    @Html.Partial("_LoginPartial")
+                </section>
             </div>
 
             <div class="clear"><!-- --></div>
@@ -43,10 +46,6 @@
     @*<script src="@Url.Content("~/Content/themes/cloudPlayer/js/cloudplayer.js")"></script>*@
     @RenderSection("scripts", required: false)
     @Html.Partial("_JavaScript")
-@{
-#if RELEASE
     @Html.Partial("_SmartTicker")
-#endif
-}
 </body>
 </html>

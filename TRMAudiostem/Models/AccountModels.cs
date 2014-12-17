@@ -189,6 +189,14 @@ namespace TRMAudiostem.Models
         [Display(Name = "Tell us about yourself*")]
         public string Bio { get; set; }
 
+        [Display(Name = "County*")]
+        public List<string> County { get; set; }
+
+        [Display(Name = "City*")]
+        public List<string> City { get; set; }
+
+        public int CountyCityId { get; set; }
+
         [Display(Name = "Genres")]
         public IEnumerable<Genre> GenreCollection { get; set; }
 
@@ -247,6 +255,14 @@ namespace TRMAudiostem.Models
         [Required]
         [Display(Name = "Tell us about yourself*")]
         public string Bio { get; set; }
+
+        [Display(Name = "County*")]
+        public List<string> County { get; set; }
+
+        [Display(Name = "City*")]
+        public List<string> City { get; set; }
+
+        public int CountyCityId { get; set; }
 
         [Display(Name = "Genres")]
         public IEnumerable<Genre> GenreCollection { get; set; }

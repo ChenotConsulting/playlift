@@ -25,7 +25,7 @@
         foreach (var song in songModels)
         {
             <li id="song_@song.SongId" class="notSelected">
-                <img src="~/Content/themes/trm/images/play.png" class="play" onclick="playSong(@song.SongId, '@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath', @song.AlbumCover, @song.SongTitle, false, @position)" />
+                <img src="~/Content/themes/trm/images/play.png" class="play" onclick="playSong(@song.SongId, '@TRMAudiostem.AudiostemBase.StreamingUrl@song.MediaAssetPath', '@song.AlbumCover', '@song.SongTitle', false, @position)" />
                 @song.SongTitle
                 @Html.Partial("_InfoHelper", new TRMAudiostem.Models.InfoHelper() { Message = "Composer: " + song.SongComposer + " | Released: " + song.SongReleaseDate.ToString("dd MMM yyyy"), AltMessage = "Song information" })
                 @*&nbsp;|&nbsp;

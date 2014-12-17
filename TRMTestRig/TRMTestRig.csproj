@@ -70,6 +70,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web References\net.webservicex.www\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="UserManagement.resx">
       <DependentUpon>UserManagement.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +109,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="Service References\TRMWebServiceJson\TRMWCFWebServiceJson.wsdl" />
+    <None Include="Web References\net.webservicex.www\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\net.webservicex.www\uklocation.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -124,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon_logo.ico" />
+    <None Include="Web References\net.webservicex.www\uklocation.disco" />
     <None Include="Service References\TRMWebServiceJson\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -136,6 +147,22 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\TRMWebServiceJson\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.webservicex.net/uklocation.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\net.webservicex.www\</RelPath>
+      <UpdateFromURL>http://www.webservicex.net/uklocation.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>TRMTestRig_net_webservicex_www_UKLocation</CachedSettingsPropName>
+    </WebReferenceUrl>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

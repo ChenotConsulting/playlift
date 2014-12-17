@@ -1,0 +1,30 @@
+﻿@model DomainModel.Entities.Album
+
+@{
+    ViewBag.Title = "ViewAlbum";
+}
+
+<a href="#" onclick="loadView('profilePlaceholder', '/Account/ArtistAlbums/');">&lt;&lt; back to albums</a>
+
+<h3>@Model.AlbumTitle by @ViewBag.ArtistName</h3>
+
+<img class="album" src="@ViewBag.AlbumCoverPath" alt="@Model.AlbumTitle + 'cover image'" />
+
+<fieldset>
+    <legend>@Model.AlbumTitle</legend>
+    <ol>
+        <li></li>
+        <li>Released on @Model.AlbumReleaseDate.ToString("dd MMM yyyy")</li>
+        <li>Produced by @Model.AlbumProducer</li>
+        <li>Label: @Model.AlbumLabel</li>
+    </ol>
+</fieldset>
+
+<div class="clear"><!-- --></div>
+
+<h3>
+    Song List |
+    <img id="new-song" class="icon" src="~/Content/themes/trm/images/icons/add_32x32.png" alt="Add song" title="Add song" />
+</h3>
+
+@Html.Action("ArtistSongs", new { albumId = @Model.AlbumId })

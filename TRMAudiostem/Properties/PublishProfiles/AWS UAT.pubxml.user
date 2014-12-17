@@ -195,19 +195,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:32</publishTime>
     </File>
     <File Include="bin/TRMAudiostem.dll">
-      <publishTime>09/27/2014 15:38:12</publishTime>
+      <publishTime>10/28/2014 01:33:40</publishTime>
+    </File>
+    <File Include="bin/TRMAudiostem.pdb">
+      <publishTime>10/04/2014 15:04:03</publishTime>
     </File>
     <File Include="bin/TRMDomainModel.dll">
-      <publishTime>09/27/2014 15:38:06</publishTime>
+      <publishTime>10/26/2014 07:45:01</publishTime>
+    </File>
+    <File Include="bin/TRMDomainModel.pdb">
+      <publishTime>09/27/2014 14:29:07</publishTime>
     </File>
     <File Include="bin/TRMInfrastructure.dll">
-      <publishTime>09/20/2014 12:57:12</publishTime>
+      <publishTime>10/26/2014 04:43:06</publishTime>
+    </File>
+    <File Include="bin/TRMInfrastructure.pdb">
+      <publishTime>09/20/2014 14:17:18</publishTime>
     </File>
     <File Include="bin/TRMWebHttpCors.dll">
-      <publishTime>09/20/2014 12:57:12</publishTime>
+      <publishTime>10/26/2014 04:43:06</publishTime>
+    </File>
+    <File Include="bin/TRMWebHttpCors.pdb">
+      <publishTime>09/20/2014 11:43:32</publishTime>
     </File>
     <File Include="bin/TRMWebService.dll">
-      <publishTime>09/27/2014 15:38:10</publishTime>
+      <publishTime>10/26/2014 07:45:02</publishTime>
+    </File>
+    <File Include="bin/TRMWebService.pdb">
+      <publishTime>10/04/2014 12:50:41</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>05/27/2014 12:58:32</publishTime>
@@ -656,10 +671,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/themes/cloudPlayer/fonts/FontAwesome.otf">
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
+    <File Include="Content/themes/cloudPlayer/images/addtoplaylist.png">
+      <publishTime>05/27/2014 12:58:27</publishTime>
+    </File>
     <File Include="Content/themes/cloudPlayer/images/amy_w.jpg">
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Content/themes/cloudPlayer/images/antony_r.jpg">
+      <publishTime>05/27/2014 12:58:27</publishTime>
+    </File>
+    <File Include="Content/themes/cloudPlayer/images/collapse.png">
+      <publishTime>05/27/2014 12:58:27</publishTime>
+    </File>
+    <File Include="Content/themes/cloudPlayer/images/expand.png">
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Content/themes/cloudPlayer/images/frank_s.jpg">
@@ -705,6 +729,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Content/themes/cloudPlayer/images/parallax_drops/2.png">
+      <publishTime>05/27/2014 12:58:27</publishTime>
+    </File>
+    <File Include="Content/themes/cloudPlayer/images/pause.png">
+      <publishTime>05/27/2014 12:58:27</publishTime>
+    </File>
+    <File Include="Content/themes/cloudPlayer/images/removefromplaylist.png">
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Content/themes/cloudPlayer/images/seek.gif">
@@ -834,7 +864,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2014 23:22:33</publishTime>
     </File>
     <File Include="Content/themes/mobile/mobile.css">
-      <publishTime>06/10/2014 23:22:33</publishTime>
+      <publishTime>10/26/2014 07:19:51</publishTime>
     </File>
     <File Include="Content/themes/mobile/scripts/jquery.percentageloader-0.1.js">
       <publishTime>06/10/2014 23:22:33</publishTime>
@@ -1140,7 +1170,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Content/themes/trm/minified/images/ui-bg_gloss-wave_100_ece8da_500x100.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Content/themes/trm/minified/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png">
       <publishTime>05/27/2014 12:58:27</publishTime>
@@ -1263,7 +1293,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2014 23:23:28</publishTime>
     </File>
     <File Include="Content/themes/trm/scripts/song.js">
-      <publishTime>05/07/2014 13:51:03</publishTime>
+      <publishTime>07/05/2014 13:51:03</publishTime>
     </File>
     <File Include="Content/themes/trm/scripts/twitter.widgets.js">
       <publishTime>05/27/2014 12:58:27</publishTime>
@@ -1905,7 +1935,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Views/CloudPlayer/Index.cshtml">
-      <publishTime>07/09/2014 15:36:37</publishTime>
+      <publishTime>09/07/2014 15:36:37</publishTime>
     </File>
     <File Include="Views/CloudPlayer/_Albums.cshtml">
       <publishTime>05/27/2014 12:58:27</publishTime>
@@ -1926,7 +1956,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Views/CloudPlayer/_UserPlaylists.cshtml">
-      <publishTime>07/09/2014 18:03:46</publishTime>
+      <publishTime>09/07/2014 18:03:46</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>09/20/2014 13:48:30</publishTime>
@@ -1962,7 +1992,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/27/2014 14:18:01</publishTime>
+      <publishTime>10/04/2014 12:06:42</publishTime>
     </File>
     <File Include="Views/Home/PrivacyPolicy.cshtml">
       <publishTime>09/20/2014 13:50:47</publishTime>
@@ -1981,6 +2011,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Mobile/Profile.cshtml">
       <publishTime>06/10/2014 23:33:04</publishTime>
+    </File>
+    <File Include="Views/Mobile/VenuePlaylist.cshtml">
+      <publishTime>10/13/2014 17:34:08</publishTime>
+    </File>
+    <File Include="Views/Mobile/Venues.cshtml">
+      <publishTime>10/26/2014 07:29:37</publishTime>
+    </File>
+    <File Include="Views/Mobile/_VenuesList.cshtml">
+      <publishTime>10/26/2014 07:11:55</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>06/10/2014 23:33:37</publishTime>
@@ -2013,10 +2052,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2014 23:33:37</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/27/2014 14:20:52</publishTime>
+      <publishTime>10/04/2014 12:10:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_CloudPlayer.cshtml">
-      <publishTime>09/27/2014 14:32:08</publishTime>
+      <publishTime>10/26/2014 04:37:26</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_landing.cshtml">
       <publishTime>09/20/2014 12:13:27</publishTime>
@@ -2025,7 +2064,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2014 23:33:37</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_Mobile.cshtml">
-      <publishTime>06/10/2014 23:33:37</publishTime>
+      <publishTime>10/26/2014 06:58:20</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_popup.cshtml">
       <publishTime>06/10/2014 23:33:37</publishTime>
@@ -2055,7 +2094,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2014 12:58:27</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/07/2014 13:49:17</publishTime>
+      <publishTime>10/26/2014 07:45:20</publishTime>
     </File>
   </ItemGroup>
 </Project>

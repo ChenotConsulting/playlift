@@ -1,0 +1,19 @@
+﻿@model List<DomainModel.Entities.BusinessUser>
+
+<div id="venues">
+    @{
+        var index = 1;
+    foreach (var venue in (List<DomainModel.Entities.BusinessUser>)Model)
+    {
+        <a class="venue" href="@Url.Action("VenuePlaylist", new { userId = venue.UserId })">
+            <div class="venue">
+                @index . @venue.Address1
+                <br />
+                @venue.Address2, @venue.City, @venue.PostCode
+            </div>
+        </a>
+        
+        index = index + 1;
+    }
+}
+</div>

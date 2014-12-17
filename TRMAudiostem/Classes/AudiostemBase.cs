@@ -44,6 +44,34 @@ namespace TRMAudiostem
             }
         }
 
+        public static string GoogleMapsAPIKey
+        {
+            get
+            {
+#if DEBUG
+                return ConfigurationManager.AppSettings["APIKeyTest"].ToString(CultureInfo.InvariantCulture);
+#else
+                return ConfigurationManager.AppSettings["APIKey"].ToString(CultureInfo.InvariantCulture);
+#endif
+            }
+        }
+
+        public static string DefaultLat
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["DefaultLat"].ToString(CultureInfo.InvariantCulture);
+            }
+        }
+
+        public static string DefaultLong
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["DefaultLong"].ToString(CultureInfo.InvariantCulture);
+            }
+        }
+
         public static string SaveFileLocally(System.Web.HttpPostedFileBase sourceFile)
         {
             if (!Directory.Exists(LocalTempDestinationPath))

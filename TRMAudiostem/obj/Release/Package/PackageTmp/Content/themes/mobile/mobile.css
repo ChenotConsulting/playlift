@@ -13,3 +13,57 @@
         align-content: center;
     }
 }
+
+#map-canvas {
+    height: 100%;
+    min-height: 300px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #999;
+}
+
+#venues > a {
+    padding: 0px;
+    margin: 0px;
+}
+
+    #venues > a > div.venue {
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        border-bottom: 1px solid #999;
+        text-align: left;
+        background: -webkit-linear-gradient(left, #6EAA20, #8bc53f); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #6EAA20, #8bc53f); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #6EAA20, #8bc53f); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #6EAA20, #8bc53f); /* Standard syntax */
+    }
+
+        #venues > a > div.venue:hover {
+            cursor: pointer;
+            background: -webkit-linear-gradient(left, #999, #e1e1e1); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(right, #999, #e1e1e1); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(right, #999, #e1e1e1); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to right, #999, #e1e1e1); /* Standard syntax */
+        }
+
+ul#venuePlaylist {
+    padding: 0px;
+}
+
+ul#venuePlaylist > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid #999;
+    text-align: left;
+}
+
+ul#venuePlaylist > li.playlistSong {    
+    color: #fff;
+    background: -webkit-linear-gradient(left, #6EAA20, #8bc53f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #6EAA20, #8bc53f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #6EAA20, #8bc53f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #6EAA20, #8bc53f); /* Standard syntax */
+}
