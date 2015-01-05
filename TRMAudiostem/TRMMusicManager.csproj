@@ -595,6 +595,7 @@
     <Content Include="Content\themes\cloudPlayer\fonts\fontawesome-webfont.ttf" />
     <Content Include="Content\themes\cloudPlayer\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\themes\cloudPlayer\fonts\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\AWS Dashboard.pubxml" />
     <None Include="Properties\PublishProfiles\AWS Live.pubxml" />
     <None Include="Properties\PublishProfiles\AWS Test.pubxml" />
     <None Include="Properties\PublishProfiles\AWS UAT.pubxml" />
