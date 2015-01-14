@@ -8,12 +8,14 @@ using System.Threading.Tasks;
 namespace DomainModel.Entities
 {
     [Table(Name="BusinessUser")]
-    public class BusinessUser
+    public class BusinessUser : User
     {
         [Column(IsPrimaryKey = true, IsDbGenerated = true, AutoSync = AutoSync.OnInsert)]
         public int BusinessUserId { get; set; }
         [Column]
         public int UserId { get; set; }
+        [Column]
+        public string BusinessName { get; set; }
         [Column]
         public DateTime CreatedDate { get; set; }
         [Column]
@@ -30,6 +32,8 @@ namespace DomainModel.Entities
         public string PostCode { get; set; }
         [Column]
         public string Logo { get; set; }
+        [Column]
+        public bool TermsAndConditionsAccepted { get; set; }
 
         public BusinessType BusinessType { get; set; }
         public List<Playlist> PlaylistCollection { get; set; }

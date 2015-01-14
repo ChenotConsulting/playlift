@@ -323,7 +323,7 @@ namespace TRMWebService
         /// <returns>True if the whole process is successful, False if it is not</returns>
         [OperationContract]
         [TransactionFlow(TransactionFlowOption.Allowed)]
-        bool RegisterBusiness(User user, BusinessType businessType, string latitude, string longitude);
+        bool RegisterBusiness(BusinessUser business, HttpPostedFileBase sourceFile);
 
         /// <summary>
         /// Registers a customer user

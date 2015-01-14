@@ -251,66 +251,54 @@ namespace TRMAudiostem.Controllers
                 ModelState.AddModelError("TermsAndConditions", "You must agree to the terms and conditions to register.");
             }
 
-            //if (ModelState.IsValid)
-            //{
-            //    if (model.ProfileImage != null)
-            //    {
-            //        // Attempt to register the user
-            //        try
-            //        {
-            //            var trmservice = new TRMWebService.TRMWCFWebServiceJson();
-            //            var util = new Utilities();
+            if (ModelState.IsValid)
+            {
+                if (model.Logo != null)
+                {
+                    // Attempt to register the user
+                    try
+                    {
+                        var trmservice = new TRMWebService.TRMWCFWebServiceJson();
+                        var util = new Utilities();
 
-            //            var artist = new Artist
-            //            {
-            //                ProfileImage = util.RemoveSpaces(model.ArtistName) + "/" + model.ProfileImage.FileName,
-            //                ArtistName = model.ArtistName,
-            //                UserName = model.UserName,
-            //                Password = model.Password,
-            //                UserType = DomainModel.Entities.User.UserTypeList.Artist,
-            //                Email = model.Email,
-            //                Facebook = model.Facebook,
-            //                MySpace = model.MySpace,
-            //                SoundCloud = model.SoundCloud,
-            //                Twitter = model.Twitter,
-            //                Website = model.Website,
-            //                TermsAndConditionsAccepted = model.TermsAndConditions
-            //            };
+                        var business = new BusinessUser
+                        {
+                            Logo= util.RemoveSpaces(model.BusinessName) + "/" + model.Logo.FileName,
+                            UserName = model.UserName,
+                            Password = model.Password,
+                            UserType = DomainModel.Entities.User.UserTypeList.Business,
+                            BusinessName = model.BusinessName,
+                            BusinessType = trmservice.GetAllBusinessTypes().Where(x => x.BusinessTypeId == model.BusinessType).FirstOrDefault(),
+                            BusinessTypeId = model.BusinessType,
+                            Address1 = model.Address1,
+                            Address2 = model.Address2,
+                            City = model.City,
+                            PostCode = model.PostCode,
+                            Country = model.Country,
+                            TermsAndConditionsAccepted = model.TermsAndConditions,
+                            CreatedDate = DateTime.Now
+                        };
 
-            //            var artistGenreList = new List<Genre>();
-
-            //            foreach (var formItem in form)
-            //            {
-            //                if (formItem.ToString().StartsWith("genre"))
-            //                {
-            //                    artistGenreList.Add(new Genre
-            //                    {
-            //                        GenreId = GetGenreId(formItem.ToString()),
-            //                        GenreName = GetGenreName(formItem.ToString())
-            //                    });
-            //                }
-            //            }
-
-            //            if (trmservice.RegisterArtist(artist, artistGenreList, model.ProfileImage))
-            //            {
-            //                WebSecurity.Login(model.UserName, model.Password);
-            //                return RedirectToAction("RegisterSuccess", "Account");
-            //            }
-            //        }
-            //        catch (MembershipCreateUserException e)
-            //        {
-            //            ModelState.AddModelError("Error registering business", ErrorCodeToString(e.StatusCode));
-            //        }
-            //        catch (Exception e)
-            //        {
-            //            ModelState.AddModelError("Generic Error", e.ToString());
-            //        }
-            //    }
-            //    else
-            //    {
-            //        ModelState.AddModelError("MissingProfileImage", "Please select a profile image.");
-            //    }
-            //}
+                        if (trmservice.RegisterBusiness(business, model.Logo))
+                        {
+                            WebSecurity.Login(model.UserName, model.Password);
+                            return RedirectToAction("RegisterBusinessSuccess", "Account");
+                        }
+                    }
+                    catch (MembershipCreateUserException e)
+                    {
+                        ModelState.AddModelError("Error registering business", ErrorCodeToString(e.StatusCode));
+                    }
+                    catch (Exception e)
+                    {
+                        ModelState.AddModelError("Generic Error", e.ToString());
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError("MissingProfileImage", "Please select a profile image.");
+                }
+            }
 
             // If we got this far, something failed, redisplay form
             return View(model);
@@ -364,6 +352,12 @@ namespace TRMAudiostem.Controllers
         public ActionResult RegisterSuccess()
         {
             Response.AddHeader("REFRESH", "5;URL=" + Url.Action("ManageArtist"));
+            return View();
+        }
+
+        public ActionResult RegisterBusinessSuccess()
+        {
+            Response.AddHeader("REFRESH", "5;URL=" + Url.Action("ManageBusiness"));
             return View();
         }
 
