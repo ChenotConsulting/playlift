@@ -188,7 +188,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2015 21:39:11</publishTime>
     </File>
     <File Include="bin/TRMAudiostem.dll">
-      <publishTime>01/14/2015 21:53:19</publishTime>
+      <publishTime>01/15/2015 19:54:25</publishTime>
     </File>
     <File Include="bin/TRMDomainModel.dll">
       <publishTime>01/14/2015 21:53:17</publishTime>
@@ -1487,214 +1487,214 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Account/ResetPassword.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Account/SimpleAlbumList.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Account/SongAlbumList.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Account/ViewAlbum.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Account/_ChangePasswordPartial.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Account/_RemoveExternalLoginsPartial.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Account/_SetPasswordPartial.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/AlbumSongList.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/ArtistAlbumList.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/ArtistAlbums.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/ArtistDetails.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/ArtistProfile.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/ArtistSongs.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/GenreList.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/Index.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/SongAlbumList.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/ViewAlbum.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Admin/_ArtistActivation.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/CloudPlayer/Index.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/CloudPlayer/_Albums.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/CloudPlayer/_AlbumSongs.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/CloudPlayer/_Artists.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/CloudPlayer/_CurrentlyPlaying.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/CloudPlayer/_CurrentPlaylist.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/CloudPlayer/_Search.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/CloudPlayer/_UserPlaylists.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/AcceptableUsePolicy.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/Artist.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/ArtistAlbums.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/ArtistList.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/ArtistSongs.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/Business.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/CloudPlayer.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/Error.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/Faq.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/PrivacyPolicy.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/TermsAndConditions.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Home/User.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Mobile/Index.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Mobile/Login.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Mobile/Profile.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Mobile/VenuePlaylist.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Mobile/Venues.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Mobile/_VenuesList.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_AdminLayout.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_AdvancedPlayer.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_BasicPlayer.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_CloudPlayerLayout.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_Fonts.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_FooterLinks.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_GoogleAnalytics.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_InfoHelper.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_JavaScript.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_CloudPlayer.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_landing.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_min.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_Mobile.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_popup.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_Logo.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_Logo_Mobile.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_MobileLayout.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_Navigation.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Shared/_SmartTicker.cshtml">
-      <publishTime>01/05/2015 21:39:03</publishTime>
+      <publishTime>05/01/2015 21:39:03</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>01/05/2015 21:39:03</publishTime>
@@ -1703,7 +1703,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2015 21:39:03</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/14/2015 21:53:33</publishTime>
+      <publishTime>01/15/2015 20:16:31</publishTime>
     </File>
   </ItemGroup>
 </Project>
