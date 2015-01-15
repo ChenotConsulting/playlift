@@ -612,6 +612,11 @@ namespace TRMWebService
             return SqlUserPlaylistRepository.GetUserPlaylistsByUserId(userId);
         }
 
+        public UserPlaylist GetUserPlaylistByPlaylistId(int playlistId)
+        {
+            return SqlUserPlaylistRepository.UserPlaylist.FirstOrDefault(x => x.PlaylistId == playlistId);
+        }
+
         public List<Song> GetAllPlaylistSongs(int playlistId)
         {
             var songCollection = new List<Song>();
@@ -621,6 +626,12 @@ namespace TRMWebService
                 songCollection.Add(SqlSongRepository.Song.Where(x => x.SongId == playlistSong.SongId).FirstOrDefault());
             }
 
+            return songCollection;
+        }
+
+        public List<PlaylistSong> GetAllPlaylistSongs()
+        {
+            var songCollection = SqlPlaylistSongRepository.PlaylistSong.ToList();
             return songCollection;
         }
 
@@ -1127,6 +1138,29 @@ namespace TRMWebService
             var purchasedSong = new PurchasedSong()
             {
                 UserId = WebSecurity.CurrentUserId,
+                Cost = 0,
+                DatePurchased = DateTime.Now,
+                PlaylistSongId = playlistSongId
+            };
+
+            try
+            {
+                var success = SqlPurchasedSongRepository.SavePurchasedSong(purchasedSong);
+
+                return success;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public bool RecordSongPlayByUser(int songId, int playlistId, int userId)
+        {
+            var playlistSongId = GetPlaylistSongCollection(playlistId).Where(s => s.SongId == songId).Select(p => p.PlaylistSongId).FirstOrDefault();
+            var purchasedSong = new PurchasedSong()
+            {
+                UserId = userId,
                 Cost = 0,
                 DatePurchased = DateTime.Now,
                 PlaylistSongId = playlistSongId
