@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMWebHttpCors", "TRMWebHtt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMMusicManager", "TRMAudiostem\TRMMusicManager.csproj", "{4F4E4B83-8A97-439F-BA44-D72E3D997B57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
@@ -211,6 +213,31 @@ Global
 		{4F4E4B83-8A97-439F-BA44-D72E3D997B57}.SingleImage|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{4F4E4B83-8A97-439F-BA44-D72E3D997B57}.SingleImage|Mixed Platforms.Build.0 = Release|Any CPU
 		{4F4E4B83-8A97-439F-BA44-D72E3D997B57}.SingleImage|x86.ActiveCfg = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.CD_ROM|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.CD_ROM|Mixed Platforms.Build.0 = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.CD_ROM|x86.ActiveCfg = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.DVD-5|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.DVD-5|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.DVD-5|x86.ActiveCfg = Debug|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.Release|x86.ActiveCfg = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.SingleImage|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.SingleImage|Mixed Platforms.Build.0 = Release|Any CPU
+		{AF734033-B9CD-42DE-9D60-E5B8C8BF757B}.SingleImage|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

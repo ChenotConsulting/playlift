@@ -21,6 +21,10 @@
                 <input type="file" name="Logo" />
             </li>
             <li>
+                @Html.LabelFor(m => m.BusinessName)
+                @Html.TextBoxFor(m => m.BusinessName)
+            </li>
+            <li>
                 @Html.LabelFor(m => m.UserName)
                 @Html.TextBoxFor(m => m.UserName)
             </li>

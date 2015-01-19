@@ -612,6 +612,11 @@ namespace TRMWebService
             return SqlUserPlaylistRepository.GetUserPlaylistsByUserId(userId);
         }
 
+        public UserPlaylist GetUserPlaylistByPlaylistId(int playlistId)
+        {
+            return SqlUserPlaylistRepository.UserPlaylist.FirstOrDefault(x => x.PlaylistId == playlistId);
+        }
+
         public List<Song> GetAllPlaylistSongs(int playlistId)
         {
             var songCollection = new List<Song>();
@@ -621,6 +626,12 @@ namespace TRMWebService
                 songCollection.Add(SqlSongRepository.Song.Where(x => x.SongId == playlistSong.SongId).FirstOrDefault());
             }
 
+            return songCollection;
+        }
+
+        public List<PlaylistSong> GetAllPlaylistSongs()
+        {
+            var songCollection = SqlPlaylistSongRepository.PlaylistSong.ToList();
             return songCollection;
         }
 
@@ -901,34 +912,35 @@ namespace TRMWebService
         }
 
         [OperationBehavior(TransactionScopeRequired = true, TransactionAutoComplete = true)]
-        public bool RegisterBusiness(User user, BusinessType businessType, string latitude, string longitude)
+        public bool RegisterBusiness(BusinessUser business, HttpPostedFileBase sourceFile)
         {
             bool isRegistered;
-            int userId;
 
             using (var tranScope = new TransactionScope())
             {
                 try
                 {
                     // if the user is saved successfully it will return a userId which is always greater than 0
-                    userId = SqlUserRepository.SaveUser(user);
+                    WebSecurity.CreateUserAndAccount(business.UserName, business.Password);
+                    Roles.AddUserToRole(business.UserName, business.UserType.ToString());
+                    business.UserId = WebSecurity.GetUserId(business.UserName);
+
                     // now create an account for this user
-                    isRegistered = SaveUserAccount(user, Account.AccountTypeList.business);
+                    isRegistered = SaveBusiness(business);
 
-                    // create the business object and insert it
-                    var businessUser = new BusinessUser()
-                        {
-                            BusinessTypeId = businessType.BusinessTypeId,
-                            CreatedDate = DateTime.Now,
-                            UserId = userId
-                        };
-
-                    if (!SqlBusinessUserRepository.SaveBusinessUser(businessUser))
+                    if (isRegistered)
                     {
-                        return false;
-                    }
+                        // now create an account for this user
+                        isRegistered = SaveUserAccount(business, Account.AccountTypeList.business);
 
-                    tranScope.Complete();
+                        // save file locally to upload it
+                        if (!UploadFileToS3(SaveFileLocally(sourceFile), util.RemoveSpaces(business.BusinessName) + "/", "master"))
+                        {
+                            return false;
+                        }
+
+                        tranScope.Complete();
+                    }
                 }
                 catch
                 {
@@ -936,7 +948,7 @@ namespace TRMWebService
                 }
             }
 
-            return (userId > 0 && isRegistered);
+            return (business.UserId > 0 && isRegistered);
         }
 
         [OperationBehavior(TransactionScopeRequired = true, TransactionAutoComplete = true)]
@@ -1143,6 +1155,29 @@ namespace TRMWebService
             }
         }
 
+        public bool RecordSongPlayByUser(int songId, int playlistId, int userId)
+        {
+            var playlistSongId = GetPlaylistSongCollection(playlistId).Where(s => s.SongId == songId).Select(p => p.PlaylistSongId).FirstOrDefault();
+            var purchasedSong = new PurchasedSong()
+            {
+                UserId = userId,
+                Cost = 0,
+                DatePurchased = DateTime.Now,
+                PlaylistSongId = playlistSongId
+            };
+
+            try
+            {
+                var success = SqlPurchasedSongRepository.SavePurchasedSong(purchasedSong);
+
+                return success;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         #endregion
 
         #endregion
@@ -1272,6 +1307,19 @@ namespace TRMWebService
         #endregion
 
         #region business private methods
+
+        private bool SaveBusiness(BusinessUser business)
+        {
+            try
+            {
+                return SqlBusinessUserRepository.SaveBusinessUser(business);
+            }
+            catch (Exception ex)
+            {
+                util.ErrorNotification(ex);
+                throw;
+            }
+        }
 
         private List<Playlist> GetBusinessPlaylists(int userId)
         {

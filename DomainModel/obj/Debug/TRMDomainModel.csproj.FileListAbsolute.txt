@@ -130,3 +130,17 @@ D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\bin\Debug\Newtons
 D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\obj\Debug\TRMDomainModel.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\obj\Debug\TRMDomainModel.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\DomainModel\obj\Debug\TRMDomainModel.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\TRMDomainModel.dll.config
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\TRMDomainModel.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\TRMDomainModel.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\TRMInfrastructure.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\SprightlySoftAWS.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\FFmpegController.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\TRMInfrastructure.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\obj\Debug\TRMDomainModel.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\obj\Debug\TRMDomainModel.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-4\DomainModel\obj\Debug\TRMDomainModel.pdb

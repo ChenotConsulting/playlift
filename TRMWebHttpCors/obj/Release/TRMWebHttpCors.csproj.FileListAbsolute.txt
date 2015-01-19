@@ -27,3 +27,8 @@ D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\bin\Release\TR
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Release\TRMWebHttpCors.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Release\TRMWebHttpCors.dll
 D:\Documents\Visual Studio 2013\Projects\Audiostem\TRMWebHttpCors\obj\Release\TRMWebHttpCors.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-4\TRMWebHttpCors\bin\Release\TRMWebHttpCors.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-4\TRMWebHttpCors\bin\Release\TRMWebHttpCors.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-4\TRMWebHttpCors\obj\Release\TRMWebHttpCors.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\MMD-4\TRMWebHttpCors\obj\Release\TRMWebHttpCors.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-4\TRMWebHttpCors\obj\Release\TRMWebHttpCors.pdb

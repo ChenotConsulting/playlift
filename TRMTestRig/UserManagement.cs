@@ -55,7 +55,7 @@ namespace TRMTestRig
                         BusinessTypeName = businessTypeListItem.ToString(),
                         BusinessTypeId = businessTypeListItem.SelectedValue()
                     };
-                    TRMWCFWebServiceJson.RegisterBusiness(user, businessType, "0.0345749857", "-52.489082309");
+                    //TRMWCFWebServiceJson.RegisterBusiness(user, businessType, "0.0345749857", "-52.489082309");
                     break;
                 default:
                     TRMWCFWebServiceJson.RegisterCustomer(user);
