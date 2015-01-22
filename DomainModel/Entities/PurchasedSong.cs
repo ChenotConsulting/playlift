@@ -15,12 +15,14 @@ namespace DomainModel.Entities
         [Column]
         public int PlaylistSongId { get; set; }
         [Column]
-        public double Cost { get; set; }
+        public decimal Cost { get; set; }
+        [Column]
+        public int Credits { get; set; }
         [Column]
         public DateTime DatePurchased { get; set; }
         [Column]
         public int UserId { get; set; }
 
-        public Business Business { get; set; }
+        public BusinessUser BusinessUser { get; set; }
     }
 }

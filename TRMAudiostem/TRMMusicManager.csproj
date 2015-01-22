@@ -217,6 +217,7 @@
     <Compile Include="Classes\AudiostemBase.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\ArtistDashboardController.cs" />
     <Compile Include="Controllers\CloudPlayerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MobileController.cs" />
@@ -797,6 +798,7 @@
     <Content Include="Views\Mobile\VenuePlaylist.cshtml" />
     <Content Include="Views\Mobile\_VenuesList.cshtml" />
     <Content Include="Views\Account\RegisterBusinessSuccess.cshtml" />
+    <Content Include="Views\ArtistDashboard\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

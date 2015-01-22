@@ -447,3 +447,30 @@ img.activated, img.deactivated {
     width: 16px;
     cursor: pointer;
 }
+
+/* End Admin section */
+
+/* Artist Dashboard section */
+
+table#songsDashboard {
+    border: 1px solid #e1e1e1;
+}
+
+table#songsDashboard thead {
+    background-color: #8bc53f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12pt;
+    text-indent: 5px;
+}
+
+table#songsDashboard tr {
+    border: 1px solid #e1e1e1;
+    text-indent: 5px;
+}
+
+table#songsDashboard td.value {
+    text-align: center;
+}
+
+/* End artist dashboard section */
