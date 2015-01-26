@@ -108,6 +108,7 @@ namespace TRMAudiostem.Models
         public DateTime CreatedDate { get; set; }
         public bool PRS { get; set; }
         public int TimesPurchased { get; set; }
+        public List<Album> AlbumCollection { get; set; }
     }
 
     public class UserPlaylistModel
