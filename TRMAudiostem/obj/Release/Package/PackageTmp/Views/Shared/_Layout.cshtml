@@ -6,11 +6,11 @@
     <link href="~/icon_logo.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/themes/smartticker/css/jquery.smarticker.min.css")">
-    @Styles.Render("~/Content/css")
-    @Styles.Render("~/Content/trm/css")
-    @Scripts.Render("~/bundles/modernizr")
-    @Html.Partial("_Fonts")
-</head>
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.4/css/jquery.dataTables.css" />
+          @Styles.Render("~/Content/css")
+          @Styles.Render("~/Content/trm/css")
+          @Scripts.Render("~/bundles/modernizr")
+          @Html.Partial("_Fonts")></head>
 <body>
     <header>
         <div class="content-wrapper">
@@ -42,11 +42,13 @@
         @Html.Partial("_FooterLinks")
     </footer>
 
-    @Scripts.Render("~/bundles/jquery")
+    @*@Scripts.Render("~/bundles/jquery")*@
+    <script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     @Scripts.Render("~/bundles/trm/scripts")
-    <script src="@Url.Content("~/Content/themes/cloudPlayer/js/cloudplayer.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/themes/cloudPlayer/js/cloudplayer.js")"></script>
     @RenderSection("scripts", required: false)  
     @Html.Partial("_JavaScript")
     @Html.Partial("_SmartTicker")
+    <script type="text/javascript" src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
 </body>
 </html>

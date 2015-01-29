@@ -1,0 +1,55 @@
+﻿@model List<TRMAudiostem.Models.DashboardSongModel>
+
+<table id="songsDashboard" class="display">
+    <thead>
+        <tr class="songsDashboard-head">
+            <td class="album-img"></td>
+            <td class="left">
+                <div class="column-in">
+                    Album
+                </div>
+            </td>
+            <td class="middle">
+                <div class="column-in">
+                    Song
+                </div>
+            </td>
+            <td class="right">
+                <div class="column-in">
+                    Play Count
+                </div>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var song in (List<TRMAudiostem.Models.DashboardSongModel>)Model)
+            {
+                <tr class="songsDashboard-row">
+                    <td class="left">
+                        <div class="column-in">
+                            <img width="60" src="@TRMAudiostem.AudiostemBase.StreamingUrl@song.AlbumCollection.FirstOrDefault().AlbumCover"
+                                 alt="@song.AlbumCollection.FirstOrDefault().AlbumTitle Album Cover" />
+                        </div>
+                    </td>
+                    <td class="left">
+                        <div class="column-in">
+
+                            @song.AlbumCollection.FirstOrDefault().AlbumTitle
+                        </div>
+                    </td>
+                    <td class="middle">
+                        <div class="column-in">
+                            @song.SongTitle
+                        </div>
+                    </td>
+                    <td class="right">
+                        <div class="column-in">
+                            @song.TimesPurchased
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

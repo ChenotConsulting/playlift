@@ -453,46 +453,45 @@ img.activated, img.deactivated {
 
 /* Artist Dashboard section */
 
-#songsDashboard {
-    display: table;
+table#songsDashboard {
+    width: 100%;
 }
 
-#songsDashboard-head {
-    display: table-row;
+tr.songsDashboard-head {
     background-color: #8bc53f;
     color: #fff;
     font-weight: bold;
     font-size: 12pt;
 }
 
-#songsDashboard-row {
-    display: table-row;    
-}
-
-#songsDashboard-row img {
+tr.songsDashboard-row img {
     box-shadow: 3px 3px 7px #888888;    
     margin-right: 5px;
     border-radius: 30px;
 }
 
-#left, #right, #middle {
-    display: table-cell;
-}
-
-#songsDashboard-row div#left, #songsDashboard-row div#right, #songsDashboard-row div#middle {
+tr.songsDashboard-row td.left, tr.songsDashboard-row td.right, tr.songsDashboard-row td.middle {
     border-bottom: 2px solid #e1e1e1;
 }
 
-#left, #middle {
-    width: 45%;
+tr.songsDashboard-head td.album-img {
+    width: 10%;
 }
 
-#right {
+tr.songsDashboard-head td.left, tr.songsDashboard-head td.middle {
+    width: 40%;
+}
+
+tr.songsDashboard-head td.right {
     width: 10%;
     text-align: center;
 }
 
-#songsDashboard div.column-in {
+tr.songsDashboard-head td.left, tr.songsDashboard-row td.right {
+    text-align: center;
+}
+
+table#songsDashboard div.column-in {
     margin: 0px;
     padding: 10px;
 }

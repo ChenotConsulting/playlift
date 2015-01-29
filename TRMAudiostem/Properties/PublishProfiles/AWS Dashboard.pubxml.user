@@ -188,7 +188,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/19/2015 19:39:41</publishTime>
     </File>
     <File Include="bin/TRMAudiostem.dll">
-      <publishTime>01/26/2015 21:36:29</publishTime>
+      <publishTime>01/29/2015 21:39:11</publishTime>
     </File>
     <File Include="bin/TRMDomainModel.dll">
       <publishTime>01/22/2015 20:47:37</publishTime>
@@ -835,6 +835,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/themes/cloudPlayer/views/partial_search.html">
       <publishTime>01/19/2015 19:39:33</publishTime>
     </File>
+    <File Include="Content/themes/dashboard/dashboard.js">
+      <publishTime>01/29/2015 21:08:50</publishTime>
+    </File>
     <File Include="Content/themes/mobile/images/artist-profile.png">
       <publishTime>01/19/2015 19:39:33</publishTime>
     </File>
@@ -1277,7 +1280,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/19/2015 19:39:34</publishTime>
     </File>
     <File Include="Content/themes/trm/trm.css">
-      <publishTime>01/26/2015 21:35:02</publishTime>
+      <publishTime>01/29/2015 21:11:53</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>01/19/2015 19:39:34</publishTime>
@@ -1544,10 +1547,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/19/2015 19:39:34</publishTime>
     </File>
     <File Include="Views/ArtistDashboard/Index.cshtml">
-      <publishTime>01/26/2015 20:00:29</publishTime>
+      <publishTime>01/28/2015 21:30:29</publishTime>
+    </File>
+    <File Include="Views/ArtistDashboard/_SongsList.cshtml">
+      <publishTime>01/29/2015 21:08:56</publishTime>
     </File>
     <File Include="Views/ArtistDashboard/_SongsPlayed.cshtml">
-      <publishTime>01/26/2015 21:10:46</publishTime>
+      <publishTime>01/28/2015 20:55:17</publishTime>
     </File>
     <File Include="Views/CloudPlayer/Index.cshtml">
       <publishTime>01/19/2015 19:39:34</publishTime>
@@ -1667,10 +1673,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/19/2015 19:39:34</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/19/2015 19:39:34</publishTime>
+      <publishTime>01/29/2015 21:12:18</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_CloudPlayer.cshtml">
-      <publishTime>01/19/2015 19:39:34</publishTime>
+      <publishTime>01/29/2015 21:12:28</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_landing.cshtml">
       <publishTime>01/19/2015 19:39:34</publishTime>
@@ -1709,7 +1715,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/19/2015 19:39:34</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/26/2015 21:36:38</publishTime>
+      <publishTime>01/29/2015 21:39:23</publishTime>
     </File>
   </ItemGroup>
 </Project>

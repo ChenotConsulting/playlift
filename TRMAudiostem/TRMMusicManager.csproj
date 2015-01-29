@@ -247,6 +247,7 @@
     <Content Include="Content\themes\cloudPlayer\images\expand.png" />
     <Content Include="Content\themes\cloudPlayer\images\pause.png" />
     <Content Include="Content\themes\cloudPlayer\images\removefromplaylist.png" />
+    <Content Include="Content\themes\dashboard\dashboard.js" />
     <Content Include="Content\themes\mobile\images\artist-profile.png" />
     <Content Include="Content\themes\mobile\jquery.percentageloader-0.1.css" />
     <Content Include="Content\themes\mobile\mobile.css" />
@@ -800,6 +801,7 @@
     <Content Include="Views\Account\RegisterBusinessSuccess.cshtml" />
     <Content Include="Views\ArtistDashboard\Index.cshtml" />
     <Content Include="Views\ArtistDashboard\_SongsPlayed.cshtml" />
+    <Content Include="Views\ArtistDashboard\_SongsList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
