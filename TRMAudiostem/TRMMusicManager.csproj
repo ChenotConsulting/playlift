@@ -658,6 +658,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="Views\ArtistDashboard\Index.cshtml" />
     <Content Include="Views\Home\Error.cshtml" />
     <Content Include="Views\Account\RegisterSuccess.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
@@ -799,7 +800,6 @@
     <Content Include="Views\Mobile\VenuePlaylist.cshtml" />
     <Content Include="Views\Mobile\_VenuesList.cshtml" />
     <Content Include="Views\Account\RegisterBusinessSuccess.cshtml" />
-    <Content Include="Views\ArtistDashboard\Index.cshtml" />
     <Content Include="Views\ArtistDashboard\_SongsPlayed.cshtml" />
     <Content Include="Views\ArtistDashboard\_SongsList.cshtml" />
   </ItemGroup>
