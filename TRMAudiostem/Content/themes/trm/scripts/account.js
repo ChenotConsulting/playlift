@@ -106,3 +106,24 @@ function loadView(container, url) {
     return false;
 }
 
+function loadFullView(container, url) {
+    var $container = $("#" + container);
+    $container.html('<img class="loader" src="/Content/themes/trm/images/loading.gif" alt="loading" />');
+
+    $.ajax({
+        cache: false,
+        type: 'GET',
+        async: true,
+        dataType: "html",
+        url: url,
+        success: function (html) {
+            $container.hide().html(html).slideDown(200);
+        },
+        error: function (xhr) {
+            alert(xhr.statusText);
+        }
+    });
+
+    return false;
+}
+

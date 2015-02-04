@@ -772,6 +772,40 @@ namespace TRMWebService
 
         #endregion
 
+        #region Dashboard operations
+
+        [OperationContract]
+        public List<Song> GetSongCountByArtist(int userId)
+        {
+            var songCollection = new List<Song>();
+            var purchasedSongCollection = GetAllPurchasedSongsByArtist(userId);
+
+            foreach (var purchasedSong in purchasedSongCollection)
+            {
+                var playlistSongCollection = SqlPlaylistSongRepository.PlaylistSong.Where(x => x.PlaylistSongId == purchasedSong.PlaylistSongId).ToList();
+                foreach (var playlistSong in playlistSongCollection)
+                {
+                    songCollection.Add(SqlSongRepository.Song.FirstOrDefault(x => x.SongId == playlistSong.SongId));
+                }
+            }
+
+            foreach (var song in songCollection)
+            {
+                song.AlbumCollection = new List<Album>();
+                var albumSongCollection = SqlAlbumSongRepository.AlbumSong.Where(x => x.SongId == song.SongId).ToList();
+                var albumCollection = new List<Album>();
+
+                foreach (var albumSong in albumSongCollection)
+                {
+                    song.AlbumCollection.Add(SqlAlbumRepository.GetAlbumById(albumSong.AlbumId));
+                }
+            }
+
+            return songCollection;
+        }
+
+        #endregion
+
         #region Genre operations
 
         public List<Genre> GetAllGenres()
@@ -1509,6 +1543,41 @@ namespace TRMWebService
             return isSaved;
         }
 
+        #endregion
+
+        #region purchasedSong methods
+
+        private List<PurchasedSong> GetAllPurchasedSongs()
+        {
+            var purchasedSongs = SqlPurchasedSongRepository.PurchasedSong.ToList();
+
+            return purchasedSongs;
+        }
+
+        private List<PurchasedSong> GetAllPurchasedSongsByArtist(int userId)
+        {
+            var artistAlbumCollection = SqlArtistAlbumRepository.ArtistAlbum.Where(x => x.UserId == userId).ToList();
+            var purchasedSongs = new List<PurchasedSong>();
+
+            foreach (var artistAlbum in artistAlbumCollection)
+            {
+                var albumSongCollection = SqlAlbumSongRepository.AlbumSong.Where(x => x.AlbumId == artistAlbum.AlbumId).ToList();
+                foreach (var albumSong in albumSongCollection)
+                {
+                    var playlistSongCollection = SqlPlaylistSongRepository.PlaylistSong.Where(x => x.SongId == albumSong.SongId).ToList();
+                    foreach (var playlistSong in playlistSongCollection)
+                    {
+                        var purchasedSongCollection = SqlPurchasedSongRepository.GetPurchasedSongsByPlaylistSongId(playlistSong.PlaylistSongId);
+                        foreach (var purchasedSong in purchasedSongCollection)
+                        {
+                            purchasedSongs.Add(purchasedSong);
+                        }
+                    }
+                }
+            }
+
+            return purchasedSongs;
+        }
         #endregion
 
         #region song private methods

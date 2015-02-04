@@ -99,6 +99,18 @@ namespace TRMAudiostem.Models
         public int Position { get; set; }
     }
 
+    public class DashboardSongModel
+    {
+        public int SongId { get; set; }
+        public string SongTitle { get; set; }
+        public DateTime SongReleaseDate { get; set; }
+        public string SongComposer { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public bool PRS { get; set; }
+        public int TimesPurchased { get; set; }
+        public List<Album> AlbumCollection { get; set; }
+    }
+
     public class UserPlaylistModel
     {
         public int UserPlaylistId { get; set; }

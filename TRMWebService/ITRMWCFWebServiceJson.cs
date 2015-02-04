@@ -267,6 +267,12 @@ namespace TRMWebService
 
         #endregion
 
+        #region Dashboard operations
+
+        List<Song> GetSongCountByArtist(int userId);
+
+        #endregion
+
         #region Event operations
 
 
