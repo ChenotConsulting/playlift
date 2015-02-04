@@ -1,0 +1,11 @@
+﻿@model List<TRMAudiostem.Models.DashboardSongModel>
+
+<script type="text/javascript" src="@Url.Content("~/Content/themes/dashboard/dashboard.js")"></script>
+
+@Html.Partial("_SongsPlayed", Model)
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        applyDataTableToDashboard('songsDashboard');
+    });
+</script>
