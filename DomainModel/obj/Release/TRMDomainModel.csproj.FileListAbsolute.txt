@@ -102,3 +102,17 @@ D:\Documents\Visual Studio 2013\Projects\MMD-8\DomainModel\bin\Release\Newtonsof
 D:\Documents\Visual Studio 2013\Projects\MMD-8\DomainModel\obj\Release\TRMDomainModel.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2013\Projects\MMD-8\DomainModel\obj\Release\TRMDomainModel.dll
 D:\Documents\Visual Studio 2013\Projects\MMD-8\DomainModel\obj\Release\TRMDomainModel.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\TRMDomainModel.dll.config
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\TRMDomainModel.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\TRMDomainModel.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\TRMInfrastructure.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\SprightlySoftAWS.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\FFmpegController.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\TRMInfrastructure.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\EntityFramework.xml
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\bin\Release\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\obj\Release\TRMDomainModel.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\obj\Release\TRMDomainModel.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-11\DomainModel\obj\Release\TRMDomainModel.pdb

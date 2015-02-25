@@ -247,7 +247,10 @@
     <Content Include="Content\themes\cloudPlayer\images\expand.png" />
     <Content Include="Content\themes\cloudPlayer\images\pause.png" />
     <Content Include="Content\themes\cloudPlayer\images\removefromplaylist.png" />
+    <Content Include="Content\themes\dashboard\dashboard.css" />
     <Content Include="Content\themes\dashboard\dashboard.js" />
+    <Content Include="Content\themes\dashboard\images\venue-icon.png" />
+    <Content Include="Content\themes\dashboard\maps.js" />
     <Content Include="Content\themes\mobile\images\artist-profile.png" />
     <Content Include="Content\themes\mobile\jquery.percentageloader-0.1.css" />
     <Content Include="Content\themes\mobile\mobile.css" />
@@ -658,7 +661,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <Content Include="Views\ArtistDashboard\Index.cshtml" />
     <Content Include="Views\Home\Error.cshtml" />
     <Content Include="Views\Account\RegisterSuccess.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
@@ -802,6 +804,13 @@
     <Content Include="Views\Account\RegisterBusinessSuccess.cshtml" />
     <Content Include="Views\ArtistDashboard\_SongsPlayed.cshtml" />
     <Content Include="Views\ArtistDashboard\_SongsList.cshtml" />
+    <Content Include="Views\ArtistDashboard\Index.cshtml" />
+    <Content Include="Views\ArtistDashboard\_DashboardNavigation.cshtml" />
+    <Content Include="Views\ArtistDashboard\_Venues.cshtml" />
+    <Content Include="Views\ArtistDashboard\_VenuesMap.cshtml" />
+    <Content Include="Views\ArtistDashboard\_VenuesList.cshtml" />
+    <Content Include="Views\ArtistDashboard\_VenueMap.cshtml" />
+    <Content Include="Views\ArtistDashboard\_Venue.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

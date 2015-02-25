@@ -1,0 +1,39 @@
+﻿@model DomainModel.Entities.BusinessUser
+
+<table id="venuesDashboard" class="display">
+    <thead>
+        <tr class="venuesDashboard-head">
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var venue = (DomainModel.Entities.BusinessUser)Model;
+            <tr>
+                <td>
+                    <h3>@venue.BusinessName</h3>
+                    <div class="column-in">
+                        <img src="@Url.Content("~/Content/themes/dashboard/images/venue-icon.png")" width="24" alt="business type icon" align="left" />
+                        &nbsp;
+                        @venue.BusinessType.BusinessTypeName
+                    </div>
+                    <p>
+                        @venue.Address1,
+                        @if (!string.IsNullOrEmpty(@venue.Address2))
+                        {
+                            @venue.Address2<text>,</text>
+                        }
+
+                        @venue.City, @venue.PostCode, @venue.Country
+                    </p>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        applyBasicDataTableToDashboard('venuesDashboard');
+    });
+</script>

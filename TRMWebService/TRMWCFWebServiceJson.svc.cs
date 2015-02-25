@@ -554,6 +554,7 @@ namespace TRMWebService
 
             foreach (var business in businessUserCollection)
             {
+                business.BusinessType = SqlBusinessTypeRepository.BusinessType.FirstOrDefault(x => x.BusinessTypeId == business.BusinessTypeId);
                 business.PlaylistCollection = GetPlaylistsByUserId(business.UserId);
             }
 
@@ -779,6 +780,36 @@ namespace TRMWebService
         {
             var songCollection = new List<Song>();
             var purchasedSongCollection = GetAllPurchasedSongsByArtist(userId);
+
+            foreach (var purchasedSong in purchasedSongCollection)
+            {
+                var playlistSongCollection = SqlPlaylistSongRepository.PlaylistSong.Where(x => x.PlaylistSongId == purchasedSong.PlaylistSongId).ToList();
+                foreach (var playlistSong in playlistSongCollection)
+                {
+                    songCollection.Add(SqlSongRepository.Song.FirstOrDefault(x => x.SongId == playlistSong.SongId));
+                }
+            }
+
+            foreach (var song in songCollection)
+            {
+                song.AlbumCollection = new List<Album>();
+                var albumSongCollection = SqlAlbumSongRepository.AlbumSong.Where(x => x.SongId == song.SongId).ToList();
+                var albumCollection = new List<Album>();
+
+                foreach (var albumSong in albumSongCollection)
+                {
+                    song.AlbumCollection.Add(SqlAlbumRepository.GetAlbumById(albumSong.AlbumId));
+                }
+            }
+
+            return songCollection;
+        }
+
+        [OperationContract]
+        public List<Song> GetSongCountByVenue(int userId, int artistId)
+        {
+            var songCollection = new List<Song>();
+            var purchasedSongCollection = GetAllPurchasedSongsByVenue(userId, artistId);
 
             foreach (var purchasedSong in purchasedSongCollection)
             {
@@ -1138,6 +1169,7 @@ namespace TRMWebService
         {
             var businessUser = SqlBusinessUserRepository.BusinessUser.FirstOrDefault(x => x.UserId == userId);
             businessUser.PlaylistCollection = GetPlaylistsByUserId(userId);
+            businessUser.BusinessType = SqlBusinessTypeRepository.BusinessType.FirstOrDefault(x => x.BusinessTypeId == businessUser.BusinessTypeId);
 
             return businessUser;
         }
@@ -1571,6 +1603,35 @@ namespace TRMWebService
                         foreach (var purchasedSong in purchasedSongCollection)
                         {
                             purchasedSongs.Add(purchasedSong);
+                        }
+                    }
+                }
+            }
+
+            return purchasedSongs;
+        }
+
+        private List<PurchasedSong> GetAllPurchasedSongsByVenue(int userId, int artistId)
+        {
+            var artistAlbumCollection = SqlArtistAlbumRepository.ArtistAlbum.Where(x => x.UserId == artistId).ToList();
+            var venuePlaylistCollection = SqlUserPlaylistRepository.GetUserPlaylistsByUserId(userId);
+            var purchasedSongs = new List<PurchasedSong>();
+
+            foreach (var venuePlaylist in venuePlaylistCollection)
+            {
+                foreach (var artistAlbum in artistAlbumCollection)
+                {
+                    var albumSongCollection = SqlAlbumSongRepository.AlbumSong.Where(x => x.AlbumId == artistAlbum.AlbumId).ToList();
+                    foreach (var albumSong in albumSongCollection)
+                    {
+                        var playlistSongCollection = SqlPlaylistSongRepository.PlaylistSong.Where(x => x.PlaylistId == venuePlaylist.PlaylistId && x.SongId == albumSong.SongId).ToList();
+                        foreach (var playlistSong in playlistSongCollection)
+                        {
+                            var purchasedSongCollection = SqlPurchasedSongRepository.GetPurchasedSongsByPlaylistSongId(playlistSong.PlaylistSongId);
+                            foreach (var purchasedSong in purchasedSongCollection)
+                            {
+                                purchasedSongs.Add(purchasedSong);
+                            }
                         }
                     }
                 }

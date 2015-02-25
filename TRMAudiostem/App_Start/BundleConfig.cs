@@ -25,6 +25,8 @@ namespace TRMAudiostem
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
 
+            bundles.Add(new StyleBundle("~/Content/Dashboard/css").Include("~/Content/themes/dashboard/dashboard.css"));
+
             bundles.Add(new StyleBundle("~/Content/cloudplayer/css").Include(
                         "~/Content/themes/cloudPlayer/css/cloudplayer.css",
                         "~/Content/themes/smartticker/css/jquery.smarticker.min.css"));

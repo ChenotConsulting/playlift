@@ -270,6 +270,7 @@ namespace TRMWebService
         #region Dashboard operations
 
         List<Song> GetSongCountByArtist(int userId);
+        List<Song> GetSongCountByVenue(int userId, int artistId);
 
         #endregion
 

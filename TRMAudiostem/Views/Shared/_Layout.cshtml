@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.4/css/jquery.dataTables.css" />
           @Styles.Render("~/Content/css")
           @Styles.Render("~/Content/trm/css")
+          @Styles.Render("~/Content/Dashboard/css")
           @Scripts.Render("~/bundles/modernizr")
           @Html.Partial("_Fonts")></head>
 <body>
@@ -49,6 +50,6 @@
     @RenderSection("scripts", required: false)  
     @Html.Partial("_JavaScript")
     @Html.Partial("_SmartTicker")
-    <script type="text/javascript" src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>    
 </body>
 </html>

@@ -37,9 +37,21 @@ namespace TRMAudiostem
             get
             {
 #if DEBUG
-                return ConfigurationManager.AppSettings["AWSS3UrlTest"].ToString(CultureInfo.InvariantCulture);
+                return ConfigurationManager.AppSettings["AWSStreamUrlTest"].ToString(CultureInfo.InvariantCulture);
 #else
-                return ConfigurationManager.AppSettings["AWSS3Url"].ToString(CultureInfo.InvariantCulture);
+                return ConfigurationManager.AppSettings["AWSStreamUrl"].ToString(CultureInfo.InvariantCulture);
+#endif
+            }
+        }
+
+        public static string CloudfrontMasterUrl
+        {
+            get
+            {
+#if DEBUG
+                return ConfigurationManager.AppSettings["AWSMasterUrlTest"].ToString(CultureInfo.InvariantCulture);
+#else
+                return ConfigurationManager.AppSettings["AWSMasterUrl"].ToString(CultureInfo.InvariantCulture);
 #endif
             }
         }

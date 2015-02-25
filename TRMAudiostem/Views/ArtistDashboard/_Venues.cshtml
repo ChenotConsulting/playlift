@@ -1,0 +1,63 @@
+﻿@model List<TRMAudiostem.Models.DashboardVenueModel>
+
+<table id="venuesDashboard" class="display">
+    <thead>
+        <tr class="venuesDashboard-head">
+            <td class="album-img"></td>
+            <td class="left">
+                <div class="column-in">
+                    Venue
+                </div>
+            </td>
+            <td class="middle">
+                <div class="column-in">
+                    Album / Song
+                </div>
+            </td>
+            <td class="right">
+                <div class="column-in">
+                    Play Count
+                </div>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+    foreach (var venue in (List<TRMAudiostem.Models.DashboardVenueModel>)Model)
+    {
+        <tr class="venuesDashboard-row">
+            <td class="left">
+                <div class="column-in">
+                    <img width="60" src="@TRMAudiostem.AudiostemBase.CloudfrontMasterUrl@venue.Venue.Logo" alt="@venue.Venue.Logo Logo" />
+                </div>
+            </td>
+            <td class="left">
+                <div class="column-in">
+                    @venue.Venue.BusinessName
+                    <br />
+                    <a href="#" onclick="loadMap('dashboard-index', '@Url.Action("_VenueMap", "ArtistDashboard")', @venue.Venue.UserId)">View on map</a>
+                </div>
+            </td>
+            <td class="middle">
+                <div class="column-in">
+                    <b>@venue.AlbumCollection.FirstOrDefault().AlbumTitle</b>
+                    <br />
+                    @venue.SongTitle
+                </div>
+            </td>
+            <td class="right">
+                <div class="column-in">
+                    @venue.TimesPurchased
+                </div>
+            </td>
+        </tr>
+    }
+}
+    </tbody>
+</table>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        applyDataTableToDashboard('venuesDashboard', false);
+    });
+</script>

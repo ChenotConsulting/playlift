@@ -1,0 +1,140 @@
+﻿
+/* menu
+----------------------------------------------------------*/
+ul#dashboard-nav {
+    font-size: 1.3em;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: right;
+}
+
+    ul#dashboard-nav li {
+        display: inline;
+        list-style: none;
+    }
+
+        ul#dashboard-nav li a {
+            background: none;
+            color: #bc360a;
+            text-decoration: none;
+        }
+
+        ul#dashboard-nav li a:hover {
+            color: #999;
+            text-decoration: none;
+        }
+
+/* Songs table section */
+
+table#songsDashboard {
+    width: 100%;
+}
+
+tr.songsDashboard-head {
+    background-color: #8bc53f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+tr.songsDashboard-row img {
+    box-shadow: 3px 3px 7px #888888;    
+    margin-right: 5px;
+    border-radius: 30px;
+}
+
+tr.songsDashboard-row td.left, tr.songsDashboard-row td.right, tr.songsDashboard-row td.middle {
+    border-bottom: 2px solid #e1e1e1;
+}
+
+tr.songsDashboard-head td.album-img {
+    width: 10%;
+}
+
+tr.songsDashboard-head td.left, tr.songsDashboard-head td.middle {
+    width: 40%;
+}
+
+tr.songsDashboard-head td.right {
+    width: 10%;
+    text-align: center;
+}
+
+tr.songsDashboard-head td.left, tr.songsDashboard-row td.right {
+    text-align: center;
+}
+
+table#songsDashboard div.column-in {
+    margin: 0px;
+    padding: 10px;
+}
+
+#songsDashboard div.column-in img {
+    vertical-align: middle;
+}
+
+/* End songs table section */
+
+/* Venues table section */
+
+table#venuesDashboard {
+    width: 100%;
+}
+
+#venuesDashboard_wrapper {
+    margin-top: 20px;
+}
+
+tr.venuesDashboard-head {
+    background-color: #8bc53f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+tr.venuesDashboard-row img {
+    box-shadow: 3px 3px 7px #888888;    
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+tr.venuesDashboard-row td.left, tr.venuesDashboard-row td.right, tr.venuesDashboard-row td.middle {
+    border-bottom: 2px solid #e1e1e1;
+}
+
+tr.venuesDashboard-head td.album-img {
+    width: 10%;
+}
+
+tr.venuesDashboard-head td.left, tr.venuesDashboard-head td.middle {
+    width: 40%;
+}
+
+tr.venuesDashboard-head td.right {
+    width: 10%;
+    text-align: center;
+}
+
+tr.venuesDashboard-head td.left, tr.venuesDashboard-row td.right {
+    text-align: center;
+}
+
+table#venuesDashboard div.column-in {
+    margin: 0px;
+    padding: 10px;
+}
+
+#venuesDashboard div.column-in img {
+    vertical-align: middle;
+}
+
+/* End venues table section */
+
+/* Map section */
+
+#googleMap {
+    width: 550px !important;
+    height: 500px !important;
+}
+
+/* End map section */

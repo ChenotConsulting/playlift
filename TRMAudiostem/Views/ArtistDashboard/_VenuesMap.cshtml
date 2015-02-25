@@ -1,0 +1,19 @@
+﻿@model List<DomainModel.Entities.BusinessUser>
+
+<div id="googleMap"></div>
+@Html.Partial("_VenuesList", Model)
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        initialize("googleMap", 9, 51.508742, -0.120850);
+
+        var index = 1;
+        @foreach (var venue in (List<DomainModel.Entities.BusinessUser>)Model)
+        {
+            <text>
+                Geocode(index, '@venue.BusinessName', '@venue.PostCode', '@venue.Address1', '@venue.Address2', '@venue.City', '@TRMAudiostem.AudiostemBase.CloudfrontMasterUrl@venue.Logo', false);
+                index++;
+            </text>
+        }
+    });
+</script>

@@ -50,3 +50,8 @@ D:\Documents\Visual Studio 2013\Projects\MMD-8\TRMWebHttpCors\bin\Debug\TRMWebHt
 D:\Documents\Visual Studio 2013\Projects\MMD-8\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2013\Projects\MMD-8\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.dll
 D:\Documents\Visual Studio 2013\Projects\MMD-8\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-11\TRMWebHttpCors\bin\Debug\TRMWebHttpCors.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-11\TRMWebHttpCors\bin\Debug\TRMWebHttpCors.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-11\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\MMD-11\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-11\TRMWebHttpCors\obj\Debug\TRMWebHttpCors.pdb
