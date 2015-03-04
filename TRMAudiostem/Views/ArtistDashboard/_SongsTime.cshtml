@@ -28,7 +28,7 @@
             </td>
             <td class="right">
                 <div class="column-in">
-                    <a href="#" onclick="loadSongTimesView('dashboard-index', '/ArtistDashboard/_SongsHours/', @ViewBag.SongId);">@song.DatePurchased.ToShortTimeString()</a>
+                    <a href="#" onclick="loadSongTimesView('dashboard-index', '/ArtistDashboard/_SongsHours/', @ViewBag.SongId);">@song.DatePurchased.ToString("HH:mm")</a>
                 </div>
             </td>
         </tr>
