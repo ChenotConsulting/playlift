@@ -1,0 +1,43 @@
+﻿@model List<DomainModel.Entities.PurchasedSong>
+
+<table id="songsDashboard" class="display">
+    <thead>
+        <tr class="songsDashboard-head">
+            <td class="left">
+                <div class="column-in">
+                    Play Date
+                </div>
+            </td>
+            <td class="right">
+                <div class="column-in">
+                    Play Time
+                </div>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var song in (List<DomainModel.Entities.PurchasedSong>)Model)
+            {
+                <tr class="songsDashboard-row">
+                    <td class="left">
+                        <div class="column-in">
+                            @song.DatePurchased.ToShortDateString()
+                        </div>
+                    </td>
+                    <td class="right">
+                        <div class="column-in">
+                            <a href="#">@song.DatePurchased.ToShortTimeString()</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        applySongTimesDataTableToDashboard('songsDashboard');
+    });
+</script>

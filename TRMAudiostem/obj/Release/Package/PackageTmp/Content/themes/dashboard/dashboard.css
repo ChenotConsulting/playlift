@@ -37,10 +37,14 @@ tr.songsDashboard-head {
     font-size: 12pt;
 }
 
-tr.songsDashboard-row img {
+tr.songsDashboard-row img.shadow {
     box-shadow: 3px 3px 7px #888888;    
     margin-right: 5px;
     border-radius: 30px;
+}
+
+tr.songsDashboard-row img.more-song:hover {
+    cursor: pointer;
 }
 
 tr.songsDashboard-row td.left, tr.songsDashboard-row td.right, tr.songsDashboard-row td.middle {

@@ -3,36 +3,40 @@
 <table id="venuesDashboard" class="display">
     <thead>
         <tr class="venuesDashboard-head">
-            <td></td>
+            <td>Location</td>
+            <td>Venues</td>
         </tr>
     </thead>
     <tbody>
         @{
-            var index = 1;
-            foreach (var venue in (List<DomainModel.Entities.BusinessUser>)Model)
-            {
-                <tr>
-                    <td>
-                        <h3>@index. @venue.BusinessName</h3>
-                        <div class="column-in">
-                            <img src="@Url.Content("~/Content/themes/dashboard/images/venue-icon.png")" width="24" alt="business type icon" align="left" />
-                            &nbsp;
-                            @venue.BusinessType.BusinessTypeName
-                        </div>
-                        <p>
-                            @venue.Address1, 
-                            @if (!string.IsNullOrEmpty(@venue.Address2))
-                            {
-                                @venue.Address2<text>,</text> 
-                            }
-                            
-                            @venue.City, @venue.PostCode, @venue.Country
-                        </p>
-                    </td>
-                </tr>
-                index++;
-            }
-        }
+    var index = 1;
+    foreach (var venue in (List<DomainModel.Entities.BusinessUser>)Model)
+    {
+        <tr class="venuesDashboard-row">
+            <td>
+                <h3>@index.</h3>
+            </td>
+            <td>
+                <h3>@venue.BusinessName</h3>
+                <div class="column-in">
+                    <img src="@Url.Content("~/Content/themes/dashboard/images/venue-icon.png")" width="24" alt="business type icon" align="left" />
+                    &nbsp;
+                    @venue.BusinessType.BusinessTypeName
+                </div>
+                <p>
+                    @venue.Address1,
+                    @if (!string.IsNullOrEmpty(@venue.Address2))
+                    {
+                        @venue.Address2<text>,</text>
+                    }
+
+                    @venue.City, @venue.PostCode, @venue.Country
+                </p>
+            </td>
+        </tr>
+                    index++;
+    }
+}
     </tbody>
 </table>
 

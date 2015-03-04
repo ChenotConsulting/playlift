@@ -1,0 +1,46 @@
+﻿@model List<DomainModel.Entities.PurchasedSong>
+
+<h3>@ViewBag.SongTitle</h3>
+<table id="timesDashboard" class="display">
+    <thead>
+        <tr class="timesDashboard-head">
+            <td class="left">
+                <div class="column-in">
+                    Play Date
+                </div>
+            </td>
+            <td class="right">
+                <div class="column-in">
+                    Play Time
+                </div>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+    foreach (var song in (List<DomainModel.Entities.PurchasedSong>)Model)
+    {
+        <tr class="timesDashboard-row">
+            <td class="left">
+                <div class="column-in">
+                    @song.DatePurchased.ToString("MM/dd/yyyy")
+                </div>
+            </td>
+            <td class="right">
+                <div class="column-in">
+                    <a href="#">@song.DatePurchased.ToShortTimeString()</a>
+                </div>
+            </td>
+        </tr>
+    }
+}
+    </tbody>
+</table>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.fn.dataTable.moment('MM/dd/yyyy');
+
+        applySongTimesDataTableToDashboard('timesDashboard');
+    });
+</script>

@@ -37,10 +37,14 @@ tr.songsDashboard-head {
     font-size: 12pt;
 }
 
-tr.songsDashboard-row img {
+tr.songsDashboard-row img.shadow {
     box-shadow: 3px 3px 7px #888888;    
     margin-right: 5px;
     border-radius: 30px;
+}
+
+tr.songsDashboard-row img.more-song:hover {
+    cursor: pointer;
 }
 
 tr.songsDashboard-row td.left, tr.songsDashboard-row td.right, tr.songsDashboard-row td.middle {
@@ -92,14 +96,8 @@ tr.venuesDashboard-head {
     font-size: 12pt;
 }
 
-tr.venuesDashboard-row img {
-    box-shadow: 3px 3px 7px #888888;    
-    margin-right: 5px;
-    border-radius: 5px;
-}
-
-tr.venuesDashboard-row td.left, tr.venuesDashboard-row td.right, tr.venuesDashboard-row td.middle {
-    border-bottom: 2px solid #e1e1e1;
+tr.venuesDashboard-row td {
+    vertical-align: top;
 }
 
 tr.venuesDashboard-head td.album-img {
@@ -129,6 +127,61 @@ table#venuesDashboard div.column-in {
 }
 
 /* End venues table section */
+
+/* Times table section */
+
+table#timesDashboard {
+    width: 100%;
+}
+
+tr.timesDashboard-head {
+    background-color: #8bc53f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+tr.timesDashboard-row img.shadow {
+    box-shadow: 3px 3px 7px #888888;    
+    margin-right: 5px;
+    border-radius: 30px;
+}
+
+tr.timesDashboard-row img.more-song:hover {
+    cursor: pointer;
+}
+
+tr.timesDashboard-row td.left, tr.timesDashboard-row td.right, tr.timesDashboard-row td.middle {
+    border-bottom: 2px solid #e1e1e1;
+}
+
+tr.timesDashboard-head td.album-img {
+    width: 10%;
+}
+
+tr.timesDashboard-head td.left, tr.timesDashboard-head td.middle {
+    width: 40%;
+}
+
+tr.timesDashboard-head td.right {
+    width: 10%;
+    text-align: center;
+}
+
+tr.timesDashboard-head td.left, tr.timesDashboard-row td.right {
+    text-align: center;
+}
+
+table#timesDashboard div.column-in {
+    margin: 0px;
+    padding: 10px;
+}
+
+#timesDashboard div.column-in img {
+    vertical-align: middle;
+}
+
+/* End Times table section */
 
 /* Map section */
 

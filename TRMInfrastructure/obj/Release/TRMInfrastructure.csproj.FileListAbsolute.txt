@@ -64,3 +64,9 @@ D:\Documents\Visual Studio 2013\Projects\MMD-11\TRMInfrastructure\bin\Release\TR
 D:\Documents\Visual Studio 2013\Projects\MMD-11\TRMInfrastructure\obj\Release\TRMInfrastructure.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2013\Projects\MMD-11\TRMInfrastructure\obj\Release\TRMInfrastructure.dll
 D:\Documents\Visual Studio 2013\Projects\MMD-11\TRMInfrastructure\obj\Release\TRMInfrastructure.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-10\TRMInfrastructure\bin\Release\TRMInfrastructure.dll.config
+D:\Documents\Visual Studio 2013\Projects\MMD-10\TRMInfrastructure\bin\Release\TRMInfrastructure.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-10\TRMInfrastructure\bin\Release\TRMInfrastructure.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-10\TRMInfrastructure\obj\Release\TRMInfrastructure.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\MMD-10\TRMInfrastructure\obj\Release\TRMInfrastructure.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-10\TRMInfrastructure\obj\Release\TRMInfrastructure.pdb

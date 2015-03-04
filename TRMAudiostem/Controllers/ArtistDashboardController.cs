@@ -24,7 +24,7 @@ namespace TRMAudiostem.Controllers
 
         public PartialViewResult _SongsPlayed()
         {
-            List<Song> songCountByArtist = this.trmservice.GetSongCountByArtist(WebSecurity.CurrentUserId);
+            List<Song> songCountByArtist = trmservice.GetSongCountByArtist(WebSecurity.CurrentUserId);
             IEnumerable<Song> songs = songCountByArtist.Distinct<Song>();
             List<DashboardSongModel> dashboardSongModelCollection = new List<DashboardSongModel>();
             foreach (var song in songs)
@@ -95,6 +95,14 @@ namespace TRMAudiostem.Controllers
             var venue = trmservice.GetBusiness(userId);
 
             return PartialView(venue);
+        }
+
+        public PartialViewResult _SongsTime(int songId)
+        {
+            ViewBag.SongTitle = trmservice.GetAllSongs().Where(x => x.SongId == songId).Select(x => x.SongTitle).FirstOrDefault();
+            var purchasedSongCollection = trmservice.GetPurchasedSongs(songId);
+
+            return PartialView(purchasedSongCollection);
         }
     }
 }
