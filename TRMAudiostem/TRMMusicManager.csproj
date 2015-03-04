@@ -813,6 +813,7 @@
     <Content Include="Views\ArtistDashboard\_VenueMap.cshtml" />
     <Content Include="Views\ArtistDashboard\_Venue.cshtml" />
     <Content Include="Views\ArtistDashboard\_SongsTime.cshtml" />
+    <Content Include="Views\ArtistDashboard\_SongsHours.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

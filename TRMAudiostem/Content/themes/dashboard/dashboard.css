@@ -139,6 +139,7 @@ tr.timesDashboard-head {
     color: #fff;
     font-weight: bold;
     font-size: 12pt;
+    text-align: center;
 }
 
 tr.timesDashboard-row img.shadow {
@@ -151,25 +152,21 @@ tr.timesDashboard-row img.more-song:hover {
     cursor: pointer;
 }
 
-tr.timesDashboard-row td.left, tr.timesDashboard-row td.right, tr.timesDashboard-row td.middle {
+tr.timesDashboard-row td.left, tr.timesDashboard-row td.right {
     border-bottom: 2px solid #e1e1e1;
+    text-align: center;
 }
 
 tr.timesDashboard-head td.album-img {
     width: 10%;
 }
 
-tr.timesDashboard-head td.left, tr.timesDashboard-head td.middle {
+tr.timesDashboard-head td.left {
     width: 40%;
 }
 
 tr.timesDashboard-head td.right {
     width: 10%;
-    text-align: center;
-}
-
-tr.timesDashboard-head td.left, tr.timesDashboard-row td.right {
-    text-align: center;
 }
 
 table#timesDashboard div.column-in {
