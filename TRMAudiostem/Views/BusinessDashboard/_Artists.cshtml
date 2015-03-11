@@ -1,0 +1,51 @@
+﻿@model List<DomainModel.Entities.Artist>
+
+<table id="artistsDashboard" class="display">
+    <thead>
+        <tr class="artistsDashboard-head">
+            <td class="left profile-img"></td>
+            <td class="middle">
+                <div class="column-in">
+                    Name
+                </div>
+            </td>
+            <td class="right">
+                <div class="column-in">
+                    Play Count
+                </div>
+            </td>
+            <td class="right"></td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var artist in (List<DomainModel.Entities.Artist>)Model)
+    {
+        <tr class="artistsDashboard-row">
+            <td class="left">
+                <div class="column-in">
+                    <img width="60" src="@TRMAudiostem.AudiostemBase.StreamingUrl@artist.ProfileImage"
+                         alt="@artist.ArtistName profile image" class="shadow" />
+                </div>
+            </td>
+            <td class="middle">
+                <div class="column-in">
+                    @artist.ArtistName
+                </div>
+            </td>
+            <td class="right">
+                <div class="column-in">
+                    0
+                </div>
+            </td>
+        </tr>
+    }
+}
+    </tbody>
+</table>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        applyDataTableToDashboard('artistsDashboard', false);
+    });
+</script>
