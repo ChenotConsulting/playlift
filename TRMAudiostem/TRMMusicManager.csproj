@@ -542,6 +542,7 @@
     <Content Include="Content\themes\trm\scripts\account.js" />
     <Content Include="Content\themes\trm\scripts\admin.js" />
     <Content Include="Content\themes\trm\scripts\album.js" />
+    <Content Include="Content\themes\trm\scripts\navigation.js" />
     <Content Include="Content\themes\trm\scripts\password.js" />
     <Content Include="Content\themes\trm\scripts\personaldetails.js" />
     <Content Include="Content\themes\trm\scripts\song.js" />
@@ -814,6 +815,7 @@
     <Content Include="Views\ArtistDashboard\_Venue.cshtml" />
     <Content Include="Views\ArtistDashboard\_SongsTime.cshtml" />
     <Content Include="Views\ArtistDashboard\_SongsHours.cshtml" />
+    <Content Include="Views\Account\_ArtistAccountNavigation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

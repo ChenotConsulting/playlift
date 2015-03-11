@@ -194,9 +194,15 @@ ul#menu {
             text-decoration: none;
         }
 
-        ul#menu li a:hover {
-            color: #333;
-            text-decoration: none;
+        ul#menu li a:hover, ul.navigation li a.selected, ul#dashboard-nav li a.selected {
+            color: #bc360a !important;
+            background-color: #e1e1e1 !important;
+            padding: 2px !important;
+        }
+
+        ul.navigation li a.selected:hover, , ul#dashboard-nav li a.selected:hover {
+            background: none;
+            color: #999;
         }
 
 

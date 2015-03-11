@@ -9,15 +9,7 @@
     <h1>@ViewBag.Title.</h1>
 </hgroup>
 
-<nav>
-    <ul id="menu">
-        <li><a href="#" onclick="loadView('artist-profile', '/ArtistDashboard/Index/');">Dashboard</a></li>
-        <li><a href="#" onclick="loadView('profilePlaceholder', '/Account/ArtistAlbums/');">Music</a></li>
-        <li><a href="#" onclick="loadView('profilePlaceholder', '/Account/ArtistDetails/');">Personal Details</a></li>
-        <li><a href="#" onclick="loadView('profilePlaceholder', '/Account/PasswordChange/');">Change Password</a></li>
-        <li><a href="#" onclick="loadView('artist-profile', '/Account/ArtistProfile/');">Profile</a></li>
-    </ul>
-</nav>
+@Html.Partial("_ArtistAccountNavigation")
 
 <section id="artist-profile" class="leftCol">
 
