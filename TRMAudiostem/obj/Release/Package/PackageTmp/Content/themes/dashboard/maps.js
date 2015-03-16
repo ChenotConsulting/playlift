@@ -36,6 +36,7 @@ function Geocode(index, businessName, postcode, address, address2, city, logo, c
 
             if (centerMap) {
                 map.setCenter(result.geometry.location);
+                showInfo(marker, businessName, address, address2, postcode, city, logo);
             }
 
             marker.setMap(map);

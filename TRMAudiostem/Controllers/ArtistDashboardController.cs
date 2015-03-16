@@ -24,7 +24,7 @@ namespace TRMAudiostem.Controllers
 
         public PartialViewResult _SongsPlayed()
         {
-            List<Song> songCountByArtist = this.trmservice.GetSongCountByArtist(WebSecurity.CurrentUserId);
+            List<Song> songCountByArtist = trmservice.GetSongCountByArtist(WebSecurity.CurrentUserId);
             IEnumerable<Song> songs = songCountByArtist.Distinct<Song>();
             List<DashboardSongModel> dashboardSongModelCollection = new List<DashboardSongModel>();
             foreach (var song in songs)
@@ -95,6 +95,38 @@ namespace TRMAudiostem.Controllers
             var venue = trmservice.GetBusiness(userId);
 
             return PartialView(venue);
+        }
+
+        public PartialViewResult _SongsTime(int songId)
+        {
+            ViewBag.SongTitle = trmservice.GetAllSongs().Where(x => x.SongId == songId).Select(x => x.SongTitle).FirstOrDefault();
+            ViewBag.SongId = songId;
+            var purchasedSongCollection = trmservice.GetPurchasedSongs(songId);
+
+            return PartialView(purchasedSongCollection);
+        }
+
+        public PartialViewResult _SongsHours(int songId)
+        {
+            ViewBag.SongTitle = trmservice.GetAllSongs().Where(x => x.SongId == songId).Select(x => x.SongTitle).FirstOrDefault();
+            ViewBag.SongId = songId;
+            var purchasedSongCollection = trmservice.GetPurchasedSongs(songId);
+            var purchasedSongCountCollection = purchasedSongCollection.Select(x => x.DatePurchased.ToString("HH"));
+            var purchasedSongCountModelCollection = new List<PurchasedSongCountModel>();
+            IEnumerable<string> purchasedSongs = purchasedSongCountCollection.Distinct<string>();
+
+            foreach (var purchasedSongCount in purchasedSongs)
+            {
+                purchasedSongCountModelCollection.Add(new PurchasedSongCountModel()
+                {
+                    HoursPurchased = int.Parse(purchasedSongCount),
+                    CountPerHour = (from x in purchasedSongCountCollection
+                            where x == purchasedSongCount
+                            select x).Count<string>()
+                });
+            }
+
+            return PartialView(purchasedSongCountModelCollection.ToList());
         }
     }
 }

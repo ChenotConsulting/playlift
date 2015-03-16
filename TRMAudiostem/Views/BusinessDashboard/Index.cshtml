@@ -1,0 +1,18 @@
+﻿
+<script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="@Url.Content("~/Content/themes/dashboard/dashboard.js")"></script>
+
+@Html.Partial("_DashboardNavigation")
+
+<div id="dashboard-index">
+    @Html.Action("_Artists")
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("ul#dashboard-nav > li > a").bind("click", function () {
+            $("ul#dashboard-nav > li > a").removeClass('selected');
+            $(this).addClass('selected');
+        });
+    });
+</script>

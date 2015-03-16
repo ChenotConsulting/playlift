@@ -218,6 +218,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ArtistDashboardController.cs" />
+    <Compile Include="Controllers\BusinessDashboardController.cs" />
     <Compile Include="Controllers\CloudPlayerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MobileController.cs" />
@@ -249,6 +250,7 @@
     <Content Include="Content\themes\cloudPlayer\images\removefromplaylist.png" />
     <Content Include="Content\themes\dashboard\dashboard.css" />
     <Content Include="Content\themes\dashboard\dashboard.js" />
+    <Content Include="Content\themes\dashboard\images\plus-icon.png" />
     <Content Include="Content\themes\dashboard\images\venue-icon.png" />
     <Content Include="Content\themes\dashboard\maps.js" />
     <Content Include="Content\themes\mobile\images\artist-profile.png" />
@@ -541,6 +543,7 @@
     <Content Include="Content\themes\trm\scripts\account.js" />
     <Content Include="Content\themes\trm\scripts\admin.js" />
     <Content Include="Content\themes\trm\scripts\album.js" />
+    <Content Include="Content\themes\trm\scripts\navigation.js" />
     <Content Include="Content\themes\trm\scripts\password.js" />
     <Content Include="Content\themes\trm\scripts\personaldetails.js" />
     <Content Include="Content\themes\trm\scripts\song.js" />
@@ -811,6 +814,13 @@
     <Content Include="Views\ArtistDashboard\_VenuesList.cshtml" />
     <Content Include="Views\ArtistDashboard\_VenueMap.cshtml" />
     <Content Include="Views\ArtistDashboard\_Venue.cshtml" />
+    <Content Include="Views\ArtistDashboard\_SongsTime.cshtml" />
+    <Content Include="Views\ArtistDashboard\_SongsHours.cshtml" />
+    <Content Include="Views\Account\_ArtistAccountNavigation.cshtml" />
+    <Content Include="Views\BusinessDashboard\Index.cshtml" />
+    <Content Include="Views\BusinessDashboard\_DashboardNavigation.cshtml" />
+    <Content Include="Views\BusinessDashboard\_Artists.cshtml" />
+    <Content Include="Views\BusinessDashboard\_Activity.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

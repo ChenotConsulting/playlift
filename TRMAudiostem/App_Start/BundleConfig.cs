@@ -61,7 +61,8 @@ namespace TRMAudiostem
                         "~/Content/themes/trm/scripts/song.js",
                         "~/Content/themes/trm/scripts/personaldetails.js",
                         "~/Content/themes/trm/scripts/password.js",
-                        "~/Content/themes/trm/scripts/admin.js"));
+                        "~/Content/themes/trm/scripts/admin.js",
+                        "~/Content/themes/trm/scripts/navigation.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/trm/new/scripts").Include(
                         "~/Content/themes/trm/reg_website/js/bootstrap.js"));

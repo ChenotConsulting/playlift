@@ -19,6 +19,7 @@
                     Play Count
                 </div>
             </td>
+            <td class="right"></td>
         </tr>
     </thead>
     <tbody>
@@ -29,7 +30,7 @@
                     <td class="left">
                         <div class="column-in">
                             <img width="60" src="@TRMAudiostem.AudiostemBase.StreamingUrl@song.AlbumCollection.FirstOrDefault().AlbumCover"
-                                 alt="@song.AlbumCollection.FirstOrDefault().AlbumTitle Album Cover" />
+                                 alt="@song.AlbumCollection.FirstOrDefault().AlbumTitle Album Cover" class="shadow" />
                         </div>
                     </td>
                     <td class="left">
@@ -47,6 +48,10 @@
                         <div class="column-in">
                             @song.TimesPurchased
                         </div>
+                    </td>
+                    <td class="right">
+                        <img class="more-song" src="@Url.Content("~/Content/themes/dashboard/images/plus-icon.png")" alt="More song play details"
+                             onclick="loadSongTimesView('dashboard-index', '/ArtistDashboard/_SongsTime/', @song.SongId);" />
                     </td>
                 </tr>
             }

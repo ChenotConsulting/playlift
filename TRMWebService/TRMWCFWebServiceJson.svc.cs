@@ -835,6 +835,14 @@ namespace TRMWebService
             return songCollection;
         }
 
+        [OperationContract]
+        public List<PurchasedSong> GetPurchasedSongs(int songId)
+        {
+            var purchasedSongCollection = GetAllPurchasedSongsByArtistAndSong(songId, WebSecurity.CurrentUserId);
+
+            return purchasedSongCollection;
+        }
+
         #endregion
 
         #region Genre operations
@@ -1597,6 +1605,31 @@ namespace TRMWebService
                 foreach (var albumSong in albumSongCollection)
                 {
                     var playlistSongCollection = SqlPlaylistSongRepository.PlaylistSong.Where(x => x.SongId == albumSong.SongId).ToList();
+                    foreach (var playlistSong in playlistSongCollection)
+                    {
+                        var purchasedSongCollection = SqlPurchasedSongRepository.GetPurchasedSongsByPlaylistSongId(playlistSong.PlaylistSongId);
+                        foreach (var purchasedSong in purchasedSongCollection)
+                        {
+                            purchasedSongs.Add(purchasedSong);
+                        }
+                    }
+                }
+            }
+
+            return purchasedSongs;
+        }
+
+        private List<PurchasedSong> GetAllPurchasedSongsByArtistAndSong(int songId, int userId)
+        {
+            var artistAlbumCollection = SqlArtistAlbumRepository.ArtistAlbum.Where(x => x.UserId == userId).ToList();
+            var purchasedSongs = new List<PurchasedSong>();
+
+            foreach (var artistAlbum in artistAlbumCollection)
+            {
+                var albumSongCollection = SqlAlbumSongRepository.AlbumSong.Where(x => x.AlbumId == artistAlbum.AlbumId).ToList();
+                foreach (var albumSong in albumSongCollection)
+                {
+                    var playlistSongCollection = SqlPlaylistSongRepository.PlaylistSong.Where(x => x.SongId == albumSong.SongId && x.SongId == songId).ToList();
                     foreach (var playlistSong in playlistSongCollection)
                     {
                         var purchasedSongCollection = SqlPurchasedSongRepository.GetPurchasedSongsByPlaylistSongId(playlistSong.PlaylistSongId);
