@@ -1,4 +1,4 @@
-﻿@model List<DomainModel.Entities.Artist>
+﻿@model List<TRMAudiostem.Models.DashboardArtistModel>
 
 <table id="artistsDashboard" class="display">
     <thead>
@@ -6,7 +6,7 @@
             <td class="left profile-img"></td>
             <td class="middle">
                 <div class="column-in">
-                    Name
+                    Artist
                 </div>
             </td>
             <td class="right">
@@ -19,7 +19,7 @@
     </thead>
     <tbody>
         @{
-            foreach (var artist in (List<DomainModel.Entities.Artist>)Model)
+            foreach (var artist in (List<TRMAudiostem.Models.DashboardArtistModel>)Model)
     {
         <tr class="artistsDashboard-row">
             <td class="left">
@@ -35,8 +35,12 @@
             </td>
             <td class="right">
                 <div class="column-in">
-                    0
+                    @artist.TimesPurchased
                 </div>
+            </td>
+            <td class="right">
+                <img class="more-artist" src="@Url.Content("~/Content/themes/dashboard/images/plus-icon.png")" alt="More artist play details"
+                     onclick="loadArtistPlaysView('dashboard-index', '/BusinessDashboard/_Activity/', @artist.UserId, '@artist.ArtistName');" />
             </td>
         </tr>
     }
@@ -46,6 +50,6 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-        applyDataTableToDashboard('artistsDashboard', false);
+        applyArtistPlaysDataTableToDashboard('artistsDashboard');
     });
 </script>

@@ -124,6 +124,15 @@ namespace TRMAudiostem.Models
         public List<Album> AlbumCollection { get; set; }
     }
 
+    public class DashboardArtistModel
+    {
+        public int ArtistId { get; set; }
+        public string ArtistName { get; set; }
+        public int UserId { get; set; }
+        public int TimesPurchased { get; set; }
+        public string ProfileImage { get; set; }
+    }
+
     public class PurchasedSongCountModel
     {
         public int HoursPurchased { get; set; }
