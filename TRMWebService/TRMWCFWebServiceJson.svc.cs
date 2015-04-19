@@ -836,11 +836,75 @@ namespace TRMWebService
         }
 
         [OperationContract]
+        public List<Song> GetSongCountByArtistAndVenue(int artistUserId, int venueUserId)
+        {
+            var venuePlaylistCollection = SqlUserPlaylistRepository.GetUserPlaylistsByUserId(venueUserId);
+            var songCollection = new List<Song>();
+            var purchasedSongCollection = GetAllPurchasedSongsByArtist(artistUserId);
+
+            foreach (var purchasedSong in purchasedSongCollection)
+            {
+                var playlistSongCollection = SqlPlaylistSongRepository.PlaylistSong.Where(x => x.PlaylistSongId == purchasedSong.PlaylistSongId).ToList();
+                foreach (var playlistSong in playlistSongCollection)
+                {
+                    if (venuePlaylistCollection.Any(x => x.PlaylistId == playlistSong.PlaylistId))
+                    {
+                        songCollection.Add(SqlSongRepository.Song.FirstOrDefault(x => x.SongId == playlistSong.SongId));
+                    }
+                }
+            }
+
+            foreach (var song in songCollection)
+            {
+                song.AlbumCollection = new List<Album>();
+                var albumSongCollection = SqlAlbumSongRepository.AlbumSong.Where(x => x.SongId == song.SongId).ToList();
+                var albumCollection = new List<Album>();
+
+                foreach (var albumSong in albumSongCollection)
+                {
+                    song.AlbumCollection.Add(SqlAlbumRepository.GetAlbumById(albumSong.AlbumId));
+                }
+            }
+
+            return songCollection;
+        }
+
+        [OperationContract]
         public List<PurchasedSong> GetPurchasedSongs(int songId)
         {
             var purchasedSongCollection = GetAllPurchasedSongsByArtistAndSong(songId, WebSecurity.CurrentUserId);
 
             return purchasedSongCollection;
+        }
+
+        [OperationContract]
+        public List<Artist> GetArtistsPlayedByVenue(int userId)
+        {
+            var venuePlaylistCollection = SqlUserPlaylistRepository.GetUserPlaylistsByUserId(userId);
+            var artistCollection = new List<Artist>();
+
+            foreach (var venuePlaylist in venuePlaylistCollection)
+            {
+                var playlistSongCollection = SqlPlaylistSongRepository.PlaylistSong.Where(x => x.PlaylistId == venuePlaylist.PlaylistId).ToList();
+                foreach (var playlistSong in playlistSongCollection)
+                {
+                    var albumSongCollection = SqlAlbumSongRepository.AlbumSong.Where(x => x.SongId == playlistSong.SongId).ToList();
+                    foreach (var albumSong in albumSongCollection)
+                    {
+                        var artistAlbumCollection = SqlArtistAlbumRepository.ArtistAlbum.Where(x => x.AlbumId == albumSong.AlbumId).ToList();
+                        foreach (var artistAlbum in artistAlbumCollection)
+                        {
+                            var artist = SqlArtistRepository.Artist.Where(x => x.UserId == artistAlbum.UserId).FirstOrDefault();
+                            if (!artistCollection.Contains(artist))
+                            {
+                                artistCollection.Add(artist);
+                            }
+                        }
+                    }
+                }
+            }
+
+            return artistCollection.Distinct<Artist>().ToList();
         }
 
         #endregion
@@ -1672,6 +1736,7 @@ namespace TRMWebService
 
             return purchasedSongs;
         }
+
         #endregion
 
         #region song private methods

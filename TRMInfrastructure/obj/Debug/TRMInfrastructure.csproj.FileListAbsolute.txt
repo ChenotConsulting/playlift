@@ -86,3 +86,9 @@ D:\Documents\Visual Studio 2013\Projects\MMD-10\TRMInfrastructure\bin\Debug\TRMI
 D:\Documents\Visual Studio 2013\Projects\MMD-10\TRMInfrastructure\obj\Debug\TRMInfrastructure.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2013\Projects\MMD-10\TRMInfrastructure\obj\Debug\TRMInfrastructure.dll
 D:\Documents\Visual Studio 2013\Projects\MMD-10\TRMInfrastructure\obj\Debug\TRMInfrastructure.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-13\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll.config
+D:\Documents\Visual Studio 2013\Projects\MMD-13\TRMInfrastructure\bin\Debug\TRMInfrastructure.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-13\TRMInfrastructure\bin\Debug\TRMInfrastructure.pdb
+D:\Documents\Visual Studio 2013\Projects\MMD-13\TRMInfrastructure\obj\Debug\TRMInfrastructure.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\MMD-13\TRMInfrastructure\obj\Debug\TRMInfrastructure.dll
+D:\Documents\Visual Studio 2013\Projects\MMD-13\TRMInfrastructure\obj\Debug\TRMInfrastructure.pdb

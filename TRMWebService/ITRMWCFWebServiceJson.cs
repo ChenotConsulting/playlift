@@ -272,6 +272,8 @@ namespace TRMWebService
         List<Song> GetSongCountByArtist(int userId);
         List<Song> GetSongCountByVenue(int userId, int artistId);
         List<PurchasedSong> GetPurchasedSongs(int songId);
+        List<Artist> GetArtistsPlayedByVenue(int userId);
+        List<Song> GetSongCountByArtistAndVenue(int artistUserId, int venueUserId);
 
         #endregion
 
