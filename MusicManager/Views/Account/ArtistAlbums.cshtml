@@ -1,0 +1,30 @@
+﻿@model PlayLift.Models.ArtistAlbumModel
+
+@{
+    ViewBag.Title = "Manage your albums";
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.ArtistName))
+{
+    <h3>
+        Albums
+        <img id="new-album" class="icon" src="~/Content/themes/trm/images/icons/add_32x32.png" alt="Add album" title="Add album" />
+    </h3>
+
+    @Html.Partial("ArtistAlbumList", (List<DomainModel.Entities.Album>)ViewBag.ArtistAlbums)
+}
+else
+{
+    <label>There are no albums.</label>
+}
+
+<div id="dialog-form">
+    @Html.Partial("EditAlbum")
+</div>
+
+@Scripts.Render("~/bundles/jqueryui")
+<script>
+    $(function () {
+        loadAlbumUploadForm();
+    });
+</script>

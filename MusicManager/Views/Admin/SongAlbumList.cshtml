@@ -1,0 +1,21 @@
+﻿
+<ul id="AlbumList">
+    @{
+        var trmservice = new WebService.WCFWebServiceJson();
+        var artist = trmservice.GetArtist((int)ViewBag.UserId);
+        var albums = trmservice.GetArtistAlbums(artist);
+
+        foreach (var album in albums)
+        {
+            var trmService = new WebService.WCFWebServiceJson();
+            var songList = trmService.GetAlbumSongs(album.AlbumId);
+            
+            <li>
+                @album.AlbumTitle
+                @{
+                    Html.RenderPartial("AlbumSongList", songList, new ViewDataDictionary { { "albumId", album.AlbumId } });
+                }
+            </li>   
+        }
+    }
+</ul>

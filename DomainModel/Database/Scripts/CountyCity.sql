@@ -1,4 +1,4 @@
-USE [TRM_Test]
+USE [_Test]
 GO
 
 /****** Object:  Table [dbo].[CountyCity]    Script Date: 04/11/2014 17:44:34 ******/

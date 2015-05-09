@@ -1,0 +1,4 @@
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\TRMWebHttpCors\bin\Debug\WebHttpCors.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\TRMWebHttpCors\bin\Debug\WebHttpCors.pdb
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\TRMWebHttpCors\obj\Debug\WebHttpCors.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\TRMWebHttpCors\obj\Debug\WebHttpCors.pdb

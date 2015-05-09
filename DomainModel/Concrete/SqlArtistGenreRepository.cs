@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DomainModel.Abstract;
 using DomainModel.Entities;
-using TRMInfrastructure.Utilities;
+using Infrastructure.Utilities;
 
 namespace DomainModel.Concrete
 {

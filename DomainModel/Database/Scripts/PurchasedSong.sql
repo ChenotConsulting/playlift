@@ -1,4 +1,4 @@
-USE [TRM_Test]
+USE [_Test]
 GO
 
 /****** Object:  Table [dbo].[PurchasedSong]    Script Date: 27/09/2014 14:45:20 ******/
