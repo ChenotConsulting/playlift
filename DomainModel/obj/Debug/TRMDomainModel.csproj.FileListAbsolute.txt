@@ -200,3 +200,17 @@ D:\Documents\Visual Studio 2013\Projects\MMD-13\DomainModel\bin\Debug\Newtonsoft
 D:\Documents\Visual Studio 2013\Projects\MMD-13\DomainModel\obj\Debug\TRMDomainModel.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2013\Projects\MMD-13\DomainModel\obj\Debug\TRMDomainModel.dll
 D:\Documents\Visual Studio 2013\Projects\MMD-13\DomainModel\obj\Debug\TRMDomainModel.pdb
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\TRMDomainModel.dll.config
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\TRMDomainModel.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\TRMDomainModel.pdb
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\EntityFramework.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\Newtonsoft.Json.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\TRMInfrastructure.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\SprightlySoftAWS.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\FFmpegController.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\TRMInfrastructure.pdb
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\EntityFramework.xml
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\Newtonsoft.Json.xml
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\obj\Debug\TRMDomainModel.csprojResolveAssemblyReference.cache
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\obj\Debug\TRMDomainModel.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\obj\Debug\TRMDomainModel.pdb

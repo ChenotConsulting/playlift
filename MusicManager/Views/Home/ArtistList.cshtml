@@ -1,0 +1,25 @@
+﻿@model DomainModel.Entities.Genre
+
+@{
+    var WebService = new WebService.WCFWebServiceJson();
+    foreach (var artist in WebService.GetAllArtists())
+    {
+        foreach(var genre in artist.GenreCollection)
+        {
+            if(genre.GenreId == Model.GenreId)
+            {
+                <li class="dot">
+                    <a href="#">@artist.ArtistName</a>
+                    <div class="mp-level">
+                        <h2>@artist.ArtistName</h2>
+                        <a class="mp-back" href="#"><i class="fa fa-arrow-left"></i>Back</a>
+                        <ul id="search-albums">
+                            @Html.Partial("ArtistAlbums", artist)
+                        </ul>
+                    </div>
+                </li>
+            }
+        }
+    }
+}
+

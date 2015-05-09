@@ -1,0 +1,17 @@
+﻿@model DomainModel.Entities.Album
+
+@{
+    var WebService = new WebService.WCFWebServiceJson();
+    var songs = WebService.GetAlbumSongs(Model.AlbumId);
+    var albumCoverUrl = PlayLift.PlayLiftBase.StreamingUrl + Model.AlbumCover;
+    
+    foreach (var song in songs)
+    {
+        var songUrl = PlayLift.PlayLiftBase.StreamingUrl + song.songMediaAsset.FirstOrDefault(x => x.MediaAssetFormat.MediaAssetFormatName.Equals("mp3") && x.MediaAssetLocation.Protocol.ProtocolName.Equals("S3")).MediaAssetLocation.Path;
+        
+        <li>
+            <a href="#" onclick="addSongToPlaylist(@song.SongId, '@albumCoverUrl', '@songUrl', '@song.SongTitle', '@song.SongComposer')">@song.SongTitle</a>
+        </li>
+    }
+}
+

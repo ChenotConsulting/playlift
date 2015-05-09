@@ -7,3 +7,17 @@ C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Se
 C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Debug\EntityFramework.xml
 C:\Users\Jean-Philippe\SkyDrive\Development\Projects\TotalResolutionMusic\Web Service\TRMWebService\DomainModel\bin\Debug\Newtonsoft.Json.xml
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\DomainModel.dll.config
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\DomainModel.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\DomainModel.pdb
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\EntityFramework.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\Newtonsoft.Json.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\SprightlySoftAWS.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\FFmpegController.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\EntityFramework.xml
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\Newtonsoft.Json.xml
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\obj\Debug\DomainModel.csprojResolveAssemblyReference.cache
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\obj\Debug\DomainModel.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\obj\Debug\DomainModel.pdb
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\Infrastructure.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\DomainModel\bin\Debug\Infrastructure.pdb

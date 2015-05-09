@@ -1,0 +1,47 @@
+﻿@model List<PlayLift.Models.PurchasedSongCountModel>
+
+<a href="#" onclick="loadSongTimesView('dashboard-index', '/ArtistDashboard/_SongsTime/', @ViewBag.SongId);"><< Back</a>
+<h3>@ViewBag.SongTitle</h3>
+<table id="timesDashboard" class="display">
+    <thead>
+        <tr class="timesDashboard-head">
+            <td class="left">
+                <div class="column-in">
+                    Hour
+                </div>
+            </td>
+            <td class="right">
+                <div class="column-in">
+                    Play Count
+                </div>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var purchasedSong in (List<PlayLift.Models.PurchasedSongCountModel>)Model)
+            {
+                <tr class="timesDashboard-row">
+                    <td class="left">
+                        <div class="column-in">
+                            @purchasedSong.HoursPurchased
+                        </div>
+                    </td>
+                    <td class="right">
+                        <div class="column-in">
+                            @purchasedSong.CountPerHour
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.fn.dataTable.moment('MM/dd/yyyy');
+
+        applySongTimesDataTableToDashboard('timesDashboard');
+    });
+</script>

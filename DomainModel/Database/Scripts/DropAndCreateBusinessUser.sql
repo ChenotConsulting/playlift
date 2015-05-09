@@ -1,4 +1,4 @@
-USE [TRM]
+USE []
 GO
 
 ALTER TABLE [dbo].[BusinessUser] DROP CONSTRAINT [FK_BusinessUser_BusinessType]

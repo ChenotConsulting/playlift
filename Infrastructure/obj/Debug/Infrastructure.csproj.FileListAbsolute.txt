@@ -1,0 +1,5 @@
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\TRMInfrastructure\bin\Debug\Infrastructure.dll.config
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\TRMInfrastructure\bin\Debug\Infrastructure.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\TRMInfrastructure\bin\Debug\Infrastructure.pdb
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\TRMInfrastructure\obj\Debug\Infrastructure.dll
+D:\Creative Cloud Files\PlayLift\Music Manager\#1\TRMInfrastructure\obj\Debug\Infrastructure.pdb

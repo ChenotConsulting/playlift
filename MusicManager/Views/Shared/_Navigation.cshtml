@@ -1,0 +1,23 @@
+﻿<nav>
+    <ul id="menu" class="navigation">
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        @{ if (User.IsInRole("Admin"))
+         {
+            <li>@Html.ActionLink("Dashboard", "Index", "Admin")</li>
+         }
+         else if (User.IsInRole("Admin") || User.IsInRole("Business"))
+         {
+            <li>@Html.ActionLink("Music Player", "Index", "CloudPlayer")</li>
+         }
+         else
+         {
+            <li>@Html.ActionLink("About PlayLift", "About", "Home")</li>
+         }
+        }
+        <li><a href="http://blog.audiostem.co.uk" target="_blank">PlayLift Blog</a></li>
+        <li>@Html.ActionLink("Artist/Band", "Artist", "Home")</li>
+        @*<li>@Html.ActionLink("Business", "Business", "Home")</li>
+            <li>@Html.ActionLink("Personal User", "User", "Home")</li>*@
+    </ul>
+
+</nav>

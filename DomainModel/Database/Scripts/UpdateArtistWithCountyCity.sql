@@ -1,4 +1,4 @@
-USE [TRM_Test]
+USE [_Test]
 GO
 
 UPDATE [dbo].[Artist]

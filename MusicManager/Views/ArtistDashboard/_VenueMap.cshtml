@@ -1,0 +1,14 @@
+﻿@model DomainModel.Entities.BusinessUser
+@{
+    var venue = (DomainModel.Entities.BusinessUser)Model;
+}
+
+<div id="googleMap"></div>
+@Html.Partial("_Venue", Model)
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        initialize("googleMap", 12, 51.508742, -0.120850);
+        Geocode(1, '@venue.BusinessName', '@venue.PostCode', '@venue.Address1', '@venue.Address2', '@venue.City', '@PlayLift.PlayLiftBase.CloudfrontMasterUrl@venue.Logo', true);
+    });
+</script>

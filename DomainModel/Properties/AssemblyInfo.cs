@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TRMDomainModel")]
+[assembly: AssemblyTitle("DomainModel")]
 [assembly: AssemblyDescription("Data classes used to update and query the database.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Total Resolution Music Ltd")]
+[assembly: AssemblyCompany("PlayLift Ltd")]
 [assembly: AssemblyProduct("Domain Model")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]

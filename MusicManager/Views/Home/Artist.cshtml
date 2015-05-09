@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <h3>I'm a musician/band. How do I upload my music?</h3>
+    <p>
+        First @Html.ActionLink("create a FREE profile", "RegisterArtist", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })
+        and from there upload your music directly onto PlayLift under the terms of the
+        <a href="http://creativecommons.org/licenses/by/4.0/legalcode" target="_blank">Creative Commons Licence</a> or even if you are registered with PRS for music.
+        You can easily register with your <strong>Facebook and Google</strong> account.
+        We will review the music to ensure that it is suitable for public broadcast and that it is of the correct sound quality.
+        Once your music has been cleared for use we will send you a notification to let you know your music has become active on PlayLift.
+    </p>
+    <p>
+        What we will <strong>not</strong> do is exploit your music and tell you what you should and shouldn't upload, within reason. At ,
+        we believe that artists should be free to express themselves, and this is something we abide by no matter what.
+        <strong>Your content will always be your content</strong>; you are merely allowing us
+        to use it for promotional and commercial purposes according to the
+        @Html.ActionLink("Terms and Conditions", "TermsAndConditions", "Home", null, new { target = "_blank" })
+        set out by us, and approved by you.
+    </p>
+    <h3>What is the required bit rate when uploading music?</h3>
+    <p>
+        We require a bit rate equal to or superior to 128Kbps
+    </p>
+    <h3>What does PlayLift offer?</h3>
+    <p>
+        At the moment, you can upload whole albums and songs, that you can then listen back on our platform. Very soon you will be able to
+        download your songs in a variety of popular formats such as mp3 or aac, at varying audio bit rates.
+    </p>
+    <p>
+        Ultimately you will be able to have a complete profile with bio, concert dates, ability to link and share all your social pages.
+        PlayLift will be your complete asset management system. And the best thing is that it will always be <b>FREE TO ALL ARTISTS</b>.
+    </p>
+    <p>
+        We are still working on it, but the artist <strong>dashboard</strong> will enable you to manage everything about your music in one
+        simple page:
+    </p>
+    <ul>
+        <li>your albums</li>
+        <li>your songs</li>
+        <li>your social Media</li>
+        <li>your concerts</li>
+        <li>you account, including where is your music played, how many times it is downloaded and how much money you have earned through audiostem.</li>
+    </ul>
+    <h3>How do I get paid for my music?</h3>
+    <p>
+        When one of your songs is requested through the PlayLift app in a retail space, we will redistribute 20% of the subscriptions paid by
+        businesses based on a ratio of your songs played. This only applies if you are not registered with PRS for Music. This is why we
+        recommend that you cancel your PRS licence and register for a Creative Commons Licence instead.
+    </p>
+    <p>
+        Our system is more accurate, and the built-in dashboard allows you to stay on top of where your music is played, and how much money
+        you are making through our system.
+    </p>
+    <p>
+        So the more your music is played, the more money you will receive.
+    </p>
+    <p>
+        When your music is downloaded, you will receive 70% of the fee (coming soon). We are working toward the artist getting 100%, but we are a way away from
+
+        that at the moment. All in good time.
+    </p>
+    <h3>What happens when I get a major record deal and need to join a royalties collection agency?</h3>
+    <p>
+        Congratulations! You've hit the big time! We'll be first in line to pat you on the back and
+
+        pop the champagne with you. Of course we'll need to review our arrangement at this
+
+        point. We manage our clients music catalogue on a quarterly basis so we would ask to
+
+        have access to your current catalogue on the system until the end of the current quarter.
+
+        This will give us time to manage our clients expectations and re-configure the system.
+    </p>
+</article>
+
+<div class="clear">
+    <!-- -->
+</div>
